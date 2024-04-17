@@ -1,0 +1,9 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'mythesis.blg'
+[76] biber:322> INFO - === Sa Feb 24, 2024, 18:46:43
+[88] Biber.pm:415> INFO - Reading 'mythesis.bcf'
+[155] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[161] Utils.pm:293> WARN - The file 'mythesis.bcf' does not contain any citations!
+[169] bbl.pm:652> INFO - Writing 'mythesis.bbl' with encoding 'UTF-8'
+[169] bbl.pm:755> INFO - Output to mythesis.bbl
+[169] Biber.pm:128> INFO - WARNINGS: 1
