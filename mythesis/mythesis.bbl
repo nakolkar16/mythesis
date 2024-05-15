@@ -16,5 +16,38 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Haffner:1621894}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bf3833c5a09c86d3a1c082a182b87272}{%
+           family={Haffner},
+           familyi={H\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf3833c5a09c86d3a1c082a182b87272}
+      \strng{fullhash}{bf3833c5a09c86d3a1c082a182b87272}
+      \strng{bibnamehash}{bf3833c5a09c86d3a1c082a182b87272}
+      \strng{authorbibnamehash}{bf3833c5a09c86d3a1c082a182b87272}
+      \strng{authornamehash}{bf3833c5a09c86d3a1c082a182b87272}
+      \strng{authorfullhash}{bf3833c5a09c86d3a1c082a182b87272}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{General Photo}
+      \field{title}{{The CERN accelerator complex. Complexe des accélérateurs du CERN}}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/1621894
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/1621894
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
