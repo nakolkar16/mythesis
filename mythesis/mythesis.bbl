@@ -19,6 +19,48 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{LyndonEvans_2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=29a80b4592e6086f593501c4decfbdee}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Lyndon},
+           giveni={L\bibinitperiod}}}%
+        {{hash=41f2644da40bcd4713a96eaebb76449c}{%
+           family={Bryant},
+           familyi={B\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{fullhash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{bibnamehash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{authorbibnamehash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{authornamehash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{authorfullhash}{7f72fc335ecb8657f6c5536563996deb}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Large Hadron Collider (LHC) at CERN near Geneva is the world's newest and most powerful tool for Particle Physics research. It is designed to collide proton beams with a centre-of-mass energy of 14 TeV and an unprecedented luminosity of 1034 cm−2 s−1. It can also collide heavy (Pb) ions with an energy of 2.8 TeV per nucleon and a peak luminosity of 1027 cm−2 s−1. In this paper, the machine design is described.}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{8}
+      \field{number}{08}
+      \field{title}{LHC Machine}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{S08001}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/3/08/S08001
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1748-0221/3/08/S08001
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1748-0221/3/08/S08001
+      \endverb
+    \endentry
     \entry{Haffner:1621894}{article}{}
       \name{author}{1}{}{%
         {{hash=bf3833c5a09c86d3a1c082a182b87272}{%
@@ -33,8 +75,8 @@
       \strng{authorbibnamehash}{bf3833c5a09c86d3a1c082a182b87272}
       \strng{authornamehash}{bf3833c5a09c86d3a1c082a182b87272}
       \strng{authorfullhash}{bf3833c5a09c86d3a1c082a182b87272}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{General Photo}
@@ -45,6 +87,157 @@
       \endverb
       \verb{url}
       \verb https://cds.cern.ch/record/1621894
+      \endverb
+    \endentry
+    \entry{TheATLASCollaboration_2008}{article}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ATLAS detector as installed in its experimental cavern at point 1 at CERN is described in this paper. A brief overview of the expected performance of the detector when the Large Hadron Collider begins operation is also presented.}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{8}
+      \field{number}{08}
+      \field{title}{The ATLAS Experiment at the CERN Large Hadron Collider}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{S08003}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/3/08/S08003
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1748-0221/3/08/S08003
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1748-0221/3/08/S08003
+      \endverb
+    \endentry
+    \entry{TheCMSCollaboration_2008}{article}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Compact Muon Solenoid (CMS) detector is described. The detector operates at the Large Hadron Collider (LHC) at CERN. It was conceived to study proton-proton (and lead-lead) collisions at a centre-of-mass energy of 14 TeV (5.5 TeV nucleon-nucleon) and at luminosities up to 1034 cm−2 s−1 (1027 cm−2 s−1). At the core of the CMS detector sits a high-magnetic-field and large-bore superconducting solenoid surrounding an all-silicon pixel and strip tracker, a lead-tungstate scintillating-crystals electromagnetic calorimeter, and a brass-scintillator sampling hadron calorimeter. The iron yoke of the flux-return is instrumented with four stations of muon detectors covering most of the 4π solid angle. Forward sampling calorimeters extend the pseudorapidity coverage to high values (|η| ⩽ 5) assuring very good hermeticity. The overall dimensions of the CMS detector are a length of 21.6 m, a diameter of 14.6 m and a total weight of 12500 t.}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{8}
+      \field{number}{08}
+      \field{title}{The CMS experiment at the CERN LHC}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{S08004}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/3/08/S08004
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1748-0221/3/08/S08004
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1748-0221/3/08/S08004
+      \endverb
+    \endentry
+    \entry{TheLHCbCollaboration_2008}{article}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The LHCb experiment is dedicated to precision measurements of CP violation and rare decays of B hadrons at the Large Hadron Collider (LHC) at CERN (Geneva). The initial configuration and expected performance of the detector and associated systems, as established by test beam measurements and simulation studies, is described.}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{8}
+      \field{number}{08}
+      \field{title}{The LHCb Detector at the LHC}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{S08005}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/3/08/S08005
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1748-0221/3/08/S08005
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1748-0221/3/08/S08005
+      \endverb
+    \endentry
+    \entry{TheALICECollaboration_2008}{article}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{8}
+      \field{number}{08}
+      \field{title}{The ALICE experiment at the CERN LHC}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{S08002}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/3/08/S08002
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1748-0221/3/08/S08002
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1748-0221/3/08/S08002
+      \endverb
+    \endentry
+    \entry{BARBERIS2000331}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b44bc4bf8a32442b689d888ccbefd863}{%
+           family={Barberis},
+           familyi={B\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b44bc4bf8a32442b689d888ccbefd863}
+      \strng{fullhash}{b44bc4bf8a32442b689d888ccbefd863}
+      \strng{bibnamehash}{b44bc4bf8a32442b689d888ccbefd863}
+      \strng{authorbibnamehash}{b44bc4bf8a32442b689d888ccbefd863}
+      \strng{authornamehash}{b44bc4bf8a32442b689d888ccbefd863}
+      \strng{authorfullhash}{b44bc4bf8a32442b689d888ccbefd863}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ATLAS Inner Detector consists of three layers of silicon pixel detectors, four double layers of silicon microstrip detectors and a straw tube based Transition Radiation Tracker. The good performance of the track and vertex reconstruction algorithms is a direct consequence of the small radius (4.3, 10.1 and 13.2 cm), fine pitch (50×300μm) and low occupancy (<3×10−4 at design luminosity) of the pixel detectors, and of the good tracking capabilities of the silicon microstrip detector system and the transition radiation tracker. The full detector simulation is used to evaluate the performance of the detector and of the reconstruction algorithms. Results are presented on track and vertex reconstruction efficiencies and resolutions, and on the separation between b-jets and jets produced by light quarks.}
+      \field{issn}{0168-9002}
+      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+      \field{number}{1}
+      \field{title}{ATLAS Inner Detector developments}
+      \field{volume}{446}
+      \field{year}{2000}
+      \field{pages}{331\bibrangedash 337}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0168-9002(00)00041-3
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168900200000413
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168900200000413
+      \endverb
+    \endentry
+    \entry{Aaboud_2017}{article}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ATLAS inner detector comprises three different sub-detectors: the pixel detector, the silicon strip tracker, and the transition-radiation drift-tube tracker. The Insertable B-Layer, a new innermost pixel layer, was installed during the shutdown period in 2014, together with modifications to the layout of the cables and support structures of the existing pixel detector. The material in the inner detector is studied with several methods, using a low-luminosity √s=13 TeV pp collision sample corresponding to around 2.0 nb−1 collected in 2015 with the ATLAS experiment at the LHC. In this paper, the material within the innermost barrel region is studied using reconstructed hadronic interaction and photon conversion vertices. For the forward rapidity region, the material is probed by a measurement of the efficiency with which single tracks reconstructed from pixel detector hits alone can be extended with hits on the track in the strip layers. The results of these studies have been taken into account in an improved description of the material in the ATLAS inner detector simulation, resulting in a reduction in the uncertainties associated with the charged-particle reconstruction efficiency determined from simulation.}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Study of the material of the ATLAS inner detector for Run 2 of the LHC}
+      \field{volume}{12}
+      \field{year}{2017}
+      \field{pages}{P12009}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/12/12/P12009
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1748-0221/12/12/P12009
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1748-0221/12/12/P12009
       \endverb
     \endentry
   \enddatalist

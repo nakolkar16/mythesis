@@ -2348,8 +2348,17 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bib/standard_refs-biber.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Haffner:1621894</bcf:citekey>
+    <bcf:citekey order="1">LyndonEvans_2008</bcf:citekey>
     <bcf:citekey order="2">Haffner:1621894</bcf:citekey>
+    <bcf:citekey order="3">Haffner:1621894</bcf:citekey>
+    <bcf:citekey order="4">TheATLASCollaboration_2008</bcf:citekey>
+    <bcf:citekey order="5">TheCMSCollaboration_2008</bcf:citekey>
+    <bcf:citekey order="6">TheLHCbCollaboration_2008</bcf:citekey>
+    <bcf:citekey order="7">TheALICECollaboration_2008</bcf:citekey>
+    <bcf:citekey order="8">Haffner:1621894</bcf:citekey>
+    <bcf:citekey order="9">Haffner:1621894</bcf:citekey>
+    <bcf:citekey order="10">BARBERIS2000331</bcf:citekey>
+    <bcf:citekey order="11">Aaboud_2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
