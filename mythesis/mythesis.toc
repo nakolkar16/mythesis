@@ -12,6 +12,8 @@
 \contentsline {section}{\numberline {3.1}The Large Hadron Collider}{5}{section.3.1}%
 \contentsline {section}{\numberline {3.2}The ATLAS detector}{6}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}The Inner Detector}{7}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Calorimeters}{7}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Muon spectrometers}{8}{subsection.3.2.3}%
 \contentsline {chapter}{\numberline {A}Useful information}{3}{appendix.A}%
 \contentsline {chapter}{\nonumberline Bibliography}{5}{chapter*.4}%
 \contentsline {chapter}{\nonumberline List of Figures}{7}{chapter*.5}%
