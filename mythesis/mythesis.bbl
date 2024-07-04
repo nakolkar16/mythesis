@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.1 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -39,7 +39,7 @@
       \strng{authornamehash}{7f72fc335ecb8657f6c5536563996deb}
       \strng{authorfullhash}{7f72fc335ecb8657f6c5536563996deb}
       \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Large Hadron Collider (LHC) at CERN near Geneva is the world's newest and most powerful tool for Particle Physics research. It is designed to collide proton beams with a centre-of-mass energy of 14 TeV and an unprecedented luminosity of 1034 cm−2 s−1. It can also collide heavy (Pb) ions with an energy of 2.8 TeV per nucleon and a peak luminosity of 1027 cm−2 s−1. In this paper, the machine design is described.}
@@ -76,7 +76,7 @@
       \strng{authornamehash}{bf3833c5a09c86d3a1c082a182b87272}
       \strng{authorfullhash}{bf3833c5a09c86d3a1c082a182b87272}
       \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{General Photo}
@@ -91,7 +91,7 @@
     \endentry
     \entry{TheATLASCollaboration_2008}{article}{}
       \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{abstract}{The ATLAS detector as installed in its experimental cavern at point 1 at CERN is described in this paper. A brief overview of the expected performance of the detector when the Large Hadron Collider begins operation is also presented.}
       \field{journaltitle}{Journal of Instrumentation}
@@ -114,7 +114,7 @@
     \endentry
     \entry{TheCMSCollaboration_2008}{article}{}
       \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{abstract}{The Compact Muon Solenoid (CMS) detector is described. The detector operates at the Large Hadron Collider (LHC) at CERN. It was conceived to study proton-proton (and lead-lead) collisions at a centre-of-mass energy of 14 TeV (5.5 TeV nucleon-nucleon) and at luminosities up to 1034 cm−2 s−1 (1027 cm−2 s−1). At the core of the CMS detector sits a high-magnetic-field and large-bore superconducting solenoid surrounding an all-silicon pixel and strip tracker, a lead-tungstate scintillating-crystals electromagnetic calorimeter, and a brass-scintillator sampling hadron calorimeter. The iron yoke of the flux-return is instrumented with four stations of muon detectors covering most of the 4π solid angle. Forward sampling calorimeters extend the pseudorapidity coverage to high values (|η| ⩽ 5) assuring very good hermeticity. The overall dimensions of the CMS detector are a length of 21.6 m, a diameter of 14.6 m and a total weight of 12500 t.}
       \field{journaltitle}{Journal of Instrumentation}
@@ -137,7 +137,7 @@
     \endentry
     \entry{TheLHCbCollaboration_2008}{article}{}
       \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{abstract}{The LHCb experiment is dedicated to precision measurements of CP violation and rare decays of B hadrons at the Large Hadron Collider (LHC) at CERN (Geneva). The initial configuration and expected performance of the detector and associated systems, as established by test beam measurements and simulation studies, is described.}
       \field{journaltitle}{Journal of Instrumentation}
@@ -160,7 +160,7 @@
     \endentry
     \entry{TheALICECollaboration_2008}{article}{}
       \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Instrumentation}
       \field{month}{8}
@@ -195,7 +195,7 @@
       \strng{authornamehash}{b44bc4bf8a32442b689d888ccbefd863}
       \strng{authorfullhash}{b44bc4bf8a32442b689d888ccbefd863}
       \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The ATLAS Inner Detector consists of three layers of silicon pixel detectors, four double layers of silicon microstrip detectors and a straw tube based Transition Radiation Tracker. The good performance of the track and vertex reconstruction algorithms is a direct consequence of the small radius (4.3, 10.1 and 13.2 cm), fine pitch (50×300μm) and low occupancy (<3×10−4 at design luminosity) of the pixel detectors, and of the good tracking capabilities of the silicon microstrip detector system and the transition radiation tracker. The full detector simulation is used to evaluate the performance of the detector and of the reconstruction algorithms. Results are presented on track and vertex reconstruction efficiencies and resolutions, and on the separation between b-jets and jets produced by light quarks.}
@@ -219,7 +219,7 @@
     \endentry
     \entry{Aaboud_2017}{article}{}
       \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{abstract}{The ATLAS inner detector comprises three different sub-detectors: the pixel detector, the silicon strip tracker, and the transition-radiation drift-tube tracker. The Insertable B-Layer, a new innermost pixel layer, was installed during the shutdown period in 2014, together with modifications to the layout of the cables and support structures of the existing pixel detector. The material in the inner detector is studied with several methods, using a low-luminosity √s=13 TeV pp collision sample corresponding to around 2.0 nb−1 collected in 2015 with the ATLAS experiment at the LHC. In this paper, the material within the innermost barrel region is studied using reconstructed hadronic interaction and photon conversion vertices. For the forward rapidity region, the material is probed by a measurement of the efficiency with which single tracks reconstructed from pixel detector hits alone can be extended with hits on the track in the strip layers. The results of these studies have been taken into account in an improved description of the material in the ATLAS inner detector simulation, resulting in a reduction in the uncertainties associated with the charged-particle reconstruction efficiency determined from simulation.}
       \field{journaltitle}{Journal of Instrumentation}
@@ -239,6 +239,51 @@
       \verb{url}
       \verb https://dx.doi.org/10.1088/1748-0221/12/12/P12009
       \endverb
+    \endentry
+    \entry{CERN-LHCC-2017-018}{report}{}
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{{ATLAS Liquid Argon Calorimeter Phase-II Upgrade: Technical Design Report}}
+      \field{type}{techreport}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.17181/CERN.6QIO.YGHO
+      \endverb
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2285582
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2285582
+      \endverb
+    \endentry
+    \entry{Palestini:2003noa}{article}{}
+      \name{author}{1}{}{%
+        {{hash=18b9943926ae82c45b4319741b653543}{%
+           family={Palestini},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{18b9943926ae82c45b4319741b653543}
+      \strng{fullhash}{18b9943926ae82c45b4319741b653543}
+      \strng{bibnamehash}{18b9943926ae82c45b4319741b653543}
+      \strng{authorbibnamehash}{18b9943926ae82c45b4319741b653543}
+      \strng{authornamehash}{18b9943926ae82c45b4319741b653543}
+      \strng{authorfullhash}{18b9943926ae82c45b4319741b653543}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{{The muon spectrometer of the ATLAS experiment (talk presented at the ''8th Topical Seminar on Innovative Particle and Radiation Detectors'', 21-24 Oct. 2002, Siena, Italy)}}
+      \field{year}{2003}
     \endentry
   \enddatalist
 \endrefsection
