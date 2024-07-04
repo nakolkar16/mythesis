@@ -42,7 +42,16 @@ analyses the $Pb-Pb$ collisions at the LHC.
 
 
 \section{The ATLAS detector}
-The ATLAS detector is one of the general purpose detectors at the LHC. It has various sub components constructed around the beam pipe in an onion-shaped structure.
+The ATLAS detector is one of the general purpose detectors at the LHC. It has various sub components constructed around the beam pipe in an onion-shaped structure as shown
+in \cref{fig:atlas}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\figwidth]{atlas_layout.jpg}
+    \caption[Overview of the ATLAS detector]{An overview of the ATLAS detector\cite{Pequenao:1095924}.}%
+    \label{fig:atlas}
+\end{figure}
+
 ATLAS uses a conventional coordinate system in which the point where collisions occur, called the Interaction Point (IP), is treated as the origin. The 
 $z$-axis is along the beam direction, $x$-axis is directed to the center of the LHC ring and the $y$-axis is pointing upwards. The azimuthal angle ($\phi$) 
 is the angle with the $x$-axis (around the beam pipe) and the polar angle ($\theta$) is the angle from the $z$-axis (from the beam pipe). A sketch of the coordinate
@@ -66,7 +75,7 @@ defined as:
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\figwidth]{coordinate_system.pdf}
-    \caption[Sketch of the CERN accelerator complex]{Sketch of the LHC ring along with the machines in the CERN accelerator complex\cite{Haffner:1621894}.}%
+    \caption[Sketch of the ATLAS coordinate system]{Sketch of the ATLAS coordinate system. Based on \cite{coordinatesys}.}%
     \label{fig:coordinatesys}
 \end{figure}
 
@@ -91,16 +100,31 @@ results into a shower of particles which is contained inside the calorimeter and
 sufficient depth is also an important parameter for calorimeters. In order to contain the showers, calorimeters at ATLAS are designed such that they cover a 
 full $\phi$-range and $|\eta|<4.9$.  
 
-The electromagnetic calorimeter (ECAL) is a lead-liquid-argon calorimeter split into a barrel component ($|\eta|<1.475$) and two end-cap components 
+\subsection*{Electromagnetic Calorimeter (ECAL)}
+The Electromagnetic Calorimeter (ECAL) is a lead-liquid-argon calorimeter split into a barrel component ($|\eta|<1.475$) and two end-cap components 
 ($1.375 < |\eta| < 3.2$)~\cite{TheATLASCollaboration_2008}. Over the precision physics $\eta$ region, essentially the region coinciding with the inner detector, contains highly granular
 detectors which are capable of accurately measuring electron energies. The ones outside this range are coarser but still adequate for jets and missing transverse energy measurements.
 The ECAL is sampling detector in which the liquid argon (active material) and lead absorbers are placed alternatively in an accordian geometry. This geometry allows for a full 
-$\phi$-coverage. The incoming particles encounter the absorber, this produces charged particles which ionise the argon atoms. The resulting electrons travel towards the electrodes and 
+$\phi$-coverage. 
+
+The incoming particles encounter the absorber, this produces charged particles which ionise the argon atoms. The resulting electrons travel towards the electrodes and 
 signal is recorded. The depth of ECAL is decided as per the radiation length. The radiation length $X_0$ is a characteristic of a material which is defined as 
 the length at which the energy of a particle traversing the material, is reduced by a factor of $1/e$. The thickness of ECAL is $> 22 X_0$ in the barrel and $> 26 X_0$ in the end-cap
 regions. The energy resolution of the ECAL is $\sigma_E/E = 10\%/\sqrt{E} \oplus 0.7\%$~\cite{CERN-LHCC-2017-018}.
 
-The hadronic calorimeter (HCAL) 
+\subsection*{Hadronic Calorimeter (HCAL)}
+The Hadronic Calorimeter (HCAL) consists of the tile calorimeter, the Hadronic End-Cap calorimeter (HEC) and the Forward Calorimeter (FCal). The tile calorimeter~\cite{Francavilla_2012} is a sampling
+calorimeter covering a range $|\eta|<1.7$. The active material consists of iron and plastic, absorbers are made of steel and wavelength shifting fibers are used for readout.
+Readout cells are defined by grouping certain number of fibers onto the same PMT. 
+
+Overlapping some $\eta$ region of the tile calorimeter, there is the HEC which occupies
+$1.5 < |\eta| < 3.2$. It is a copper-liquid-argon sampling calorimeter and it consists of two independent wheels per end-cap situated right behind the end-cap electromagnetic
+calorimeters. The detector responsible for detecting large $|\eta|$ objects is the FCal which has a coverage of $3.1 < \eta < 4.9$. The active material (liquid-argon) is 
+placed in smaller gaps between the electrodes compared to those in the ECAL. The reason is to avoid ion build-up probelms caused by the heavy particle flux 
+encountered by the FCal. Forward calorimetery is essential to increase the detection of high momentum jets that would otherwise escape detection at low 
+$\eta$~\cite{J-P-Archambault_2008}. It allows hermetic calorimetry that leads to good missing $\text{E}_\text{T}$ measurements. The resolution of the tile 
+calorimeter and HEC is $\sigma_E/E = 50\%/\sqrt{E} \oplus 3\%$ while the FCal has a resolution of $\sigma_E/E = 100\%/\sqrt{E} \oplus 10\%$~\cite{A-Artamonov_2008}.
+ 
 
 
 \subsection{Muon spectrometers}
@@ -111,11 +135,46 @@ field in the range 1 to 2 T~\cite{Palestini:2003noa}.
 
 The hunting of muon candidates from the collided particles is done by the ATLAS muon trigger. It comprises of the Level-1 muon trigger and the High-Level muon trigger implemented with 
 different detectors. The Resistive Plate Chambers (RPCs) are placed in the Barrel region and the Thin Gap Chambers (TGCs) are placed in the End-Cap region. Different types of 
-detectors are used in Barrel and End-Cap because the muon flux encountered by these regions is different. The RPCs and TGCs form the Level-1 muon trigger, it selects muon
+detectors are used in Barrel and End-Cap because the muon flux encountered by these regions is different. 
+
+The RPCs and TGCs form the Level-1 muon trigger, it selects muon
 candidates with high $p_T$ by reconstructing tracks that point directly towards the interaction point. The precision tracking 
 chambers house the Monitored Drift Tubes (MDT) that perfrom the precision measurement of muon momentum. Each chamber
 contains two layers, each formed by three or four layers of drift tubes. The drift tubes are made up of aluminium and are filled with $\text{Ar}-\text{CO}_2$ gas mixture.
 The MDTs along with Cathode Strip Chambers (CSCs) form the High-Level muon trigger. In Run-2, for high-$p_T$ the threshold was 20 GeV for Level-1 muon trigger and 26 GeV 
 for High-Level muon trigger.  
 
+\subsection{Magnet system}
+The ATLAS detector is exposed to large ﬂux of decay products during its operation. A strong magnetic
+ﬁeld is required to bend the paths of charged particles for momentum measurements. For this purpose,
+a highly eﬃcient magnet system including a central solenoid, barrel toroidal and two end cap toroidal
+magnets. The central solenoid magnet, operating with a current of 7.6 kA, is wrapped around the beam
+axis and provides a 2 T magnetic ﬁeld to the Inner Detector. The barrel and end cap toroidal magnets
+operate at 20.5 kA and provide a magnetic ﬁeld ranging from 0.5 to 1 T in the muon chambers. The
+barrel toroidal magnet is built from eight coils and kept equi-spaced to form a toroid-shaped magnet.
+The end cap magnets are placed inside the barrel toroidal magnet at both ends of the central solenoid
+magnet.
 
+\subsection{Trigger and Data Acquisition System}
+The Trigger and Data Acquisition system (TDAQ) has two components, the data acquisition system which reads data
+from the detector subsystems and the trigger system which decides which data to retain.
+ 
+ATLAS uses a two-staged trigger system formed by the Level-1 (L1) trigger and the High-Level Trigger (HLT)~\cite{The-ATLAS-collaboration_2020}. The
+L1 trigger is a hardware based trigger that selects meaningful signal from the detector components and passes on 
+to the HLT which then performs sophisticated algorithms to only retain interesting physics objects 
+that are stored for offline analysis. The event rate reduces from 40 MHz to 100 kHz after the L1 trigger and 
+it further reduces to 1 kHz after the HLT.
+
+The L1 trigger is composed of L1Calo, L1Muon, L1Topo and Central Trigger Processors (CTPs). The L1Calo processes
+signals from the calorimeters whereas L1Muon processes signals from the RPCs and TGCs in the muon spectrometers. 
+In order to avoid particles not originating from the interaction point, L1Muon follows coincidence requirements 
+based on the inner detector and the calorimeter signals. L1Topo which was an upgrade introduced in Run-2, calculates
+event topological quantities of L1 objects, such as sum of transverse momenta of jets~\cite{Nakahama_2015}. The final decision of 
+whether to keep an event or discard it is made by the CTP in $2.5 \mu s$. It also determines Regions of Interest (RoIs)
+to be investigated by the HLT.
+
+The HLT is a software based trigger that applies a typical reconstruction algorithm at a preliminary stage 
+followed by more advanced, CPU-intensive algorithms to trigger on events. A farm of CPUs are running several
+algorithms in parallel to process signals based on selection criteria similar to offline requirements~\cite{C-Gabaldon_2012}.   
+
+\section{Physics objects reconstruction}

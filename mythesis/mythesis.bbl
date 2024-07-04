@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.1 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -39,7 +39,7 @@
       \strng{authornamehash}{7f72fc335ecb8657f6c5536563996deb}
       \strng{authorfullhash}{7f72fc335ecb8657f6c5536563996deb}
       \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Large Hadron Collider (LHC) at CERN near Geneva is the world's newest and most powerful tool for Particle Physics research. It is designed to collide proton beams with a centre-of-mass energy of 14 TeV and an unprecedented luminosity of 1034 cm−2 s−1. It can also collide heavy (Pb) ions with an energy of 2.8 TeV per nucleon and a peak luminosity of 1027 cm−2 s−1. In this paper, the machine design is described.}
@@ -76,7 +76,7 @@
       \strng{authornamehash}{bf3833c5a09c86d3a1c082a182b87272}
       \strng{authorfullhash}{bf3833c5a09c86d3a1c082a182b87272}
       \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{General Photo}
@@ -91,7 +91,7 @@
     \endentry
     \entry{TheATLASCollaboration_2008}{article}{}
       \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{abstract}{The ATLAS detector as installed in its experimental cavern at point 1 at CERN is described in this paper. A brief overview of the expected performance of the detector when the Large Hadron Collider begins operation is also presented.}
       \field{journaltitle}{Journal of Instrumentation}
@@ -114,7 +114,7 @@
     \endentry
     \entry{TheCMSCollaboration_2008}{article}{}
       \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labeltitlesource}{title}
       \field{abstract}{The Compact Muon Solenoid (CMS) detector is described. The detector operates at the Large Hadron Collider (LHC) at CERN. It was conceived to study proton-proton (and lead-lead) collisions at a centre-of-mass energy of 14 TeV (5.5 TeV nucleon-nucleon) and at luminosities up to 1034 cm−2 s−1 (1027 cm−2 s−1). At the core of the CMS detector sits a high-magnetic-field and large-bore superconducting solenoid surrounding an all-silicon pixel and strip tracker, a lead-tungstate scintillating-crystals electromagnetic calorimeter, and a brass-scintillator sampling hadron calorimeter. The iron yoke of the flux-return is instrumented with four stations of muon detectors covering most of the 4π solid angle. Forward sampling calorimeters extend the pseudorapidity coverage to high values (|η| ⩽ 5) assuring very good hermeticity. The overall dimensions of the CMS detector are a length of 21.6 m, a diameter of 14.6 m and a total weight of 12500 t.}
       \field{journaltitle}{Journal of Instrumentation}
@@ -137,7 +137,7 @@
     \endentry
     \entry{TheLHCbCollaboration_2008}{article}{}
       \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labeltitlesource}{title}
       \field{abstract}{The LHCb experiment is dedicated to precision measurements of CP violation and rare decays of B hadrons at the Large Hadron Collider (LHC) at CERN (Geneva). The initial configuration and expected performance of the detector and associated systems, as established by test beam measurements and simulation studies, is described.}
       \field{journaltitle}{Journal of Instrumentation}
@@ -160,7 +160,7 @@
     \endentry
     \entry{TheALICECollaboration_2008}{article}{}
       \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Instrumentation}
       \field{month}{8}
@@ -180,6 +180,59 @@
       \verb https://dx.doi.org/10.1088/1748-0221/3/08/S08002
       \endverb
     \endentry
+    \entry{Pequenao:1095924}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=09e214119185ac51997b4face21351a1}{%
+           family={Pequenao},
+           familyi={P\bibinitperiod},
+           given={Joao},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{09e214119185ac51997b4face21351a1}
+      \strng{fullhash}{09e214119185ac51997b4face21351a1}
+      \strng{bibnamehash}{09e214119185ac51997b4face21351a1}
+      \strng{authorbibnamehash}{09e214119185ac51997b4face21351a1}
+      \strng{authornamehash}{09e214119185ac51997b4face21351a1}
+      \strng{authorfullhash}{09e214119185ac51997b4face21351a1}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Computer generated image of the whole ATLAS detector}}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/1095924
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/1095924
+      \endverb
+    \endentry
+    \entry{coordinatesys}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=5633d6d7b9e8ceec9e0bbcb816c46dbb}{%
+           family={Neutelings},
+           familyi={N\bibinitperiod},
+           given={Izaak},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{5633d6d7b9e8ceec9e0bbcb816c46dbb}
+      \strng{fullhash}{5633d6d7b9e8ceec9e0bbcb816c46dbb}
+      \strng{bibnamehash}{5633d6d7b9e8ceec9e0bbcb816c46dbb}
+      \strng{authorbibnamehash}{5633d6d7b9e8ceec9e0bbcb816c46dbb}
+      \strng{authornamehash}{5633d6d7b9e8ceec9e0bbcb816c46dbb}
+      \strng{authorfullhash}{5633d6d7b9e8ceec9e0bbcb816c46dbb}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{CMS coordinate system}}
+      \verb{urlraw}
+      \verb https://tikz.net/axis3d_cms/
+      \endverb
+      \verb{url}
+      \verb https://tikz.net/axis3d_cms/
+      \endverb
+    \endentry
     \entry{BARBERIS2000331}{article}{}
       \name{author}{1}{}{%
         {{hash=b44bc4bf8a32442b689d888ccbefd863}{%
@@ -195,7 +248,7 @@
       \strng{authornamehash}{b44bc4bf8a32442b689d888ccbefd863}
       \strng{authorfullhash}{b44bc4bf8a32442b689d888ccbefd863}
       \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The ATLAS Inner Detector consists of three layers of silicon pixel detectors, four double layers of silicon microstrip detectors and a straw tube based Transition Radiation Tracker. The good performance of the track and vertex reconstruction algorithms is a direct consequence of the small radius (4.3, 10.1 and 13.2 cm), fine pitch (50×300μm) and low occupancy (<3×10−4 at design luminosity) of the pixel detectors, and of the good tracking capabilities of the silicon microstrip detector system and the transition radiation tracker. The full detector simulation is used to evaluate the performance of the detector and of the reconstruction algorithms. Results are presented on track and vertex reconstruction efficiencies and resolutions, and on the separation between b-jets and jets produced by light quarks.}
@@ -219,7 +272,7 @@
     \endentry
     \entry{Aaboud_2017}{article}{}
       \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{abstract}{The ATLAS inner detector comprises three different sub-detectors: the pixel detector, the silicon strip tracker, and the transition-radiation drift-tube tracker. The Insertable B-Layer, a new innermost pixel layer, was installed during the shutdown period in 2014, together with modifications to the layout of the cables and support structures of the existing pixel detector. The material in the inner detector is studied with several methods, using a low-luminosity √s=13 TeV pp collision sample corresponding to around 2.0 nb−1 collected in 2015 with the ATLAS experiment at the LHC. In this paper, the material within the innermost barrel region is studied using reconstructed hadronic interaction and photon conversion vertices. For the forward rapidity region, the material is probed by a measurement of the efficiency with which single tracks reconstructed from pixel detector hits alone can be extended with hits on the track in the strip layers. The results of these studies have been taken into account in an improved description of the material in the ATLAS inner detector simulation, resulting in a reduction in the uncertainties associated with the charged-particle reconstruction efficiency determined from simulation.}
       \field{journaltitle}{Journal of Instrumentation}
@@ -248,7 +301,7 @@
         {Geneva}%
       }
       \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{title}{{ATLAS Liquid Argon Calorimeter Phase-II Upgrade: Technical Design Report}}
       \field{type}{techreport}
@@ -261,6 +314,364 @@
       \endverb
       \verb{url}
       \verb https://cds.cern.ch/record/2285582
+      \endverb
+    \endentry
+    \entry{Francavilla_2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=76c01fc68edd41841edf94fc650276a8}{%
+           family={Francavilla},
+           familyi={F\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b5225beefc28be20a506266a7ffdcc29}{%
+           family={ATLAS\bibnamedelima Collaboration)},
+           familyi={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={On},
+           giveni={O\bibinitperiod},
+           prefix={behalf\bibnamedelimb of\bibnamedelima the},
+           prefixi={b\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
+      }
+      \strng{namehash}{fedfda10be4c0c8d4654a55bd1058c69}
+      \strng{fullhash}{fedfda10be4c0c8d4654a55bd1058c69}
+      \strng{bibnamehash}{fedfda10be4c0c8d4654a55bd1058c69}
+      \strng{authorbibnamehash}{fedfda10be4c0c8d4654a55bd1058c69}
+      \strng{authornamehash}{fedfda10be4c0c8d4654a55bd1058c69}
+      \strng{authorfullhash}{fedfda10be4c0c8d4654a55bd1058c69}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Tile Calorimeter (TileCal), the central section of the hadronic calorimeter of the ATLAS experiment, is a key detector component to detect hadrons, jets and taus and to measure the missing transverse energy. Due to the very good muon signal to noise ratio it assists the spectrometer in the identification and reconstruction of muons. TileCal is built of steel and scintillating tiles coupled to optical fibers and read out by photomultipliers. The calorimeter is equipped with systems that allow to monitor and to calibrate each stage of the read-out exploiting different signal sources: laser light, charge injection, a radioactive source and the signal produced by minimum bias events. The performance of the calorimeter has been measured and monitored using calibration data, random triggered data, cosmic muons, splash events and most importantly the large sample of pp collision events. Results that are discussed demonstrate how the calorimeter is operated, how it is monitored and what performance has been obtained. These results also show that the Tile Calorimeter is performing well within the design requirements and is giving essential input to the physics results.}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{The ATLAS Tile Hadronic Calorimeter performance at the LHC}
+      \field{volume}{404}
+      \field{year}{2012}
+      \field{pages}{012007}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/404/1/012007
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1742-6596/404/1/012007
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1742-6596/404/1/012007
+      \endverb
+    \endentry
+    \entry{J-P-Archambault_2008}{article}{}
+      \name{author}{21}{}{%
+        {{hash=068e9e227a477104a0a4735608e7216d}{%
+           family={Archambault},
+           familyi={A\bibinitperiod},
+           given={J\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=88d4a66f8b9b335b2776285c7fa06ca6}{%
+           family={Artamonov},
+           familyi={A\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4463e2906599fb5e45b5cf217379a698}{%
+           family={Cadabeschi},
+           familyi={C\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2486b3c293fb732b76a1b135de8e7c48}{%
+           family={Epshteyn},
+           familyi={E\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d64915a9c87c82837be91a557b7fe23a}{%
+           family={Galt},
+           familyi={G\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=320a68581dc7742a982ba195e5b3df6c}{%
+           family={Gorbounov},
+           familyi={G\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5424457913778aca1465762a8ca88e28}{%
+           family={Heelan},
+           familyi={H\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8b3ea46e0ec117a31514e089567c1bbf}{%
+           family={Khakzad},
+           familyi={K\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e5935242bb35303d54b4d7a70ceca88b}{%
+           family={Khovanskiy},
+           familyi={K\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1f23869497aeadae482a8ec884902bef}{%
+           family={Krieger},
+           familyi={K\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e6fa385df1f3ba09206fc6cef18872f0}{%
+           family={Loch},
+           familyi={L\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9cd8c97d2d3bfe11504ea5b5a80bbf34}{%
+           family={Oakham},
+           familyi={O\bibinitperiod},
+           given={F\bibnamedelima G},
+           giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=a2ba63f9b738a2b28beabe68b1b1a2eb}{%
+           family={Orr},
+           familyi={O\bibinitperiod},
+           given={R\bibnamedelima S},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5e729fbfcba60bab3a227a62331cc443}{%
+           family={Rutherfoord},
+           familyi={R\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=58622cb5391ea0833d7627ed7c9a7614}{%
+           family={Savine},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4b08f7b4b8cc8c506b1d80a2ce4b59b2}{%
+           family={Schram},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8333f50dd0441ff40cd3408bb83b29c7}{%
+           family={Shatalov},
+           familyi={S\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b3e5f43ec34f3574921c352dbb07d048}{%
+           family={Shaver},
+           familyi={S\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ec97a5ba1d3e28bb39062147cd66fc45}{%
+           family={Shupe},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=81242c4302f72f696fb9493999afe49e}{%
+           family={Strickland},
+           familyi={S\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=19a12b57f1c3ed8d1dbcc82a6cedef93}{%
+           family={Tsukerman},
+           familyi={T\bibinitperiod},
+           given={I},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c07fc7d26553f79dd4a9307583da4f8}
+      \strng{fullhash}{b44f54711bcc9a6f909378efddf3c44a}
+      \strng{bibnamehash}{6c07fc7d26553f79dd4a9307583da4f8}
+      \strng{authorbibnamehash}{6c07fc7d26553f79dd4a9307583da4f8}
+      \strng{authornamehash}{6c07fc7d26553f79dd4a9307583da4f8}
+      \strng{authorfullhash}{b44f54711bcc9a6f909378efddf3c44a}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{One of the two ATLAS Forward Calorimeters (FCal), consisting of three modules, one behind the other, was exposed to particle beams of known energies in order to obtain the energy calibration. The data were taken in the H6 beamline at CERN in the summer of 2003, using electron and hadron beams with energies from 10 to 200 GeV. The beam test setup and collected data samples are described in detail. Using data samples taken with a minimal amount of material upstream of the calorimeter, the FCal response to electrons and pions, as measured by the linearity and resolution as a function of energy, is extracted and compared to ATLAS performance requirements.}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{2}
+      \field{number}{02}
+      \field{title}{Energy calibration of the ATLAS Liquid Argon Forward Calorimeter}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{P02002}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/3/02/P02002
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1748-0221/3/02/P02002
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1748-0221/3/02/P02002
+      \endverb
+    \endentry
+    \entry{A-Artamonov_2008}{article}{}
+      \name{author}{29}{}{%
+        {{hash=88d4a66f8b9b335b2776285c7fa06ca6}{%
+           family={Artamonov},
+           familyi={A\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e2b0e7f8ba23371bed04e487a96cd028}{%
+           family={Bailey},
+           familyi={B\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=efc1863d65e1be72dc4a86b4199b8f28}{%
+           family={Belanger},
+           familyi={B\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4463e2906599fb5e45b5cf217379a698}{%
+           family={Cadabeschi},
+           familyi={C\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1cb5a09923b5d82dccf5d76758af294d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={T\bibnamedelima -Y},
+           giveni={T\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
+        {{hash=2486b3c293fb732b76a1b135de8e7c48}{%
+           family={Epshteyn},
+           familyi={E\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=320a68581dc7742a982ba195e5b3df6c}{%
+           family={Gorbounov},
+           familyi={G\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e757fcb146c02aa57c63758be0d6f994}{%
+           family={Joo},
+           familyi={J\bibinitperiod},
+           given={K\bibnamedelima K},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=8b3ea46e0ec117a31514e089567c1bbf}{%
+           family={Khakzad},
+           familyi={K\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e5935242bb35303d54b4d7a70ceca88b}{%
+           family={Khovanskiy},
+           familyi={K\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1f23869497aeadae482a8ec884902bef}{%
+           family={Krieger},
+           familyi={K\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e6fa385df1f3ba09206fc6cef18872f0}{%
+           family={Loch},
+           familyi={L\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d4c2283cb7afe3493d29cc136400ec55}{%
+           family={Mayer},
+           familyi={M\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=39e21a688199476438b4ce5f34d26537}{%
+           family={Neuheimer},
+           familyi={N\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9cd8c97d2d3bfe11504ea5b5a80bbf34}{%
+           family={Oakham},
+           familyi={O\bibinitperiod},
+           given={F\bibnamedelima G},
+           giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=b4c0cc3fbf98612f220f31f7929a4a7a}{%
+           family={O'Neill},
+           familyi={O\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a2ba63f9b738a2b28beabe68b1b1a2eb}{%
+           family={Orr},
+           familyi={O\bibinitperiod},
+           given={R\bibnamedelima S},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=04b92b718fa6dd3d049a4314bcf71057}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5e729fbfcba60bab3a227a62331cc443}{%
+           family={Rutherfoord},
+           familyi={R\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=58622cb5391ea0833d7627ed7c9a7614}{%
+           family={Savine},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4b08f7b4b8cc8c506b1d80a2ce4b59b2}{%
+           family={Schram},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8333f50dd0441ff40cd3408bb83b29c7}{%
+           family={Shatalov},
+           familyi={S\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b3e5f43ec34f3574921c352dbb07d048}{%
+           family={Shaver},
+           familyi={S\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ec97a5ba1d3e28bb39062147cd66fc45}{%
+           family={Shupe},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=87c4e681762e13a14354eef485e7cb73}{%
+           family={Stairs},
+           familyi={S\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=81242c4302f72f696fb9493999afe49e}{%
+           family={Strickland},
+           familyi={S\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=af43a8e03a27ad8fa03689e2122b5486}{%
+           family={Tompkins},
+           familyi={T\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=19a12b57f1c3ed8d1dbcc82a6cedef93}{%
+           family={Tsukerman},
+           familyi={T\bibinitperiod},
+           given={I},
+           giveni={I\bibinitperiod}}}%
+        {{hash=2984d7045ff9f9bdd019ed4bc71cfd57}{%
+           family={Vincent},
+           familyi={V\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{08227d5bf64b109c64d826628a32bd6c}
+      \strng{fullhash}{82d7a34013b4cfb660bb02206d22b557}
+      \strng{bibnamehash}{08227d5bf64b109c64d826628a32bd6c}
+      \strng{authorbibnamehash}{08227d5bf64b109c64d826628a32bd6c}
+      \strng{authornamehash}{08227d5bf64b109c64d826628a32bd6c}
+      \strng{authorfullhash}{82d7a34013b4cfb660bb02206d22b557}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Forward calorimeters, located near the incident beams, complete the nearly 4π coverage for high pT particles resulting from proton-proton collisions in the ATLAS detector at the Large Hadron Collider at CERN. Both the technology and the deployment of the forward calorimeters in ATLAS are novel. The liquid argon rod/tube electrode structure for the forward calorimeters was invented specifically for applications in high rate environments. The placement of the forward calorimeters adjacent to the other calorimeters relatively close to the interaction point provides several advantages including nearly seamless calorimetry and natural shielding for the muon system. The forward calorimeter performance requirements are driven by events with missing ET and tagging jets.}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{2}
+      \field{number}{02}
+      \field{title}{The ATLAS Forward Calorimeter}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{P02010}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/3/02/P02010
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1748-0221/3/02/P02010
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1748-0221/3/02/P02010
       \endverb
     \endentry
     \entry{Palestini:2003noa}{article}{}
@@ -278,12 +689,131 @@
       \strng{authornamehash}{18b9943926ae82c45b4319741b653543}
       \strng{authorfullhash}{18b9943926ae82c45b4319741b653543}
       \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{2}
       \field{title}{{The muon spectrometer of the ATLAS experiment (talk presented at the ''8th Topical Seminar on Innovative Particle and Radiation Detectors'', 21-24 Oct. 2002, Siena, Italy)}}
       \field{year}{2003}
+    \endentry
+    \entry{The-ATLAS-collaboration_2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=646a9328a021ab4d59673555b4bfc5ed}{%
+           family={collaboration},
+           familyi={c\bibinitperiod},
+           given={The\bibnamedelima ATLAS},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{646a9328a021ab4d59673555b4bfc5ed}
+      \strng{fullhash}{646a9328a021ab4d59673555b4bfc5ed}
+      \strng{bibnamehash}{646a9328a021ab4d59673555b4bfc5ed}
+      \strng{authorbibnamehash}{646a9328a021ab4d59673555b4bfc5ed}
+      \strng{authornamehash}{646a9328a021ab4d59673555b4bfc5ed}
+      \strng{authorfullhash}{646a9328a021ab4d59673555b4bfc5ed}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ATLAS experiment at the Large Hadron Collider employs a two-level trigger system to record data at an average rate of 1 kHz from physics collisions, starting from an initial bunch crossing rate of 40 MHz. During the LHC Run 2 (2015–2018), the ATLAS trigger system operated successfully with excellent performance and flexibility by adapting to the various run conditions encountered and has been vital for the ATLAS Run-2 physics programme. For proton-proton running, approximately 1500 individual event selections were included in a trigger menu which specified the physics signatures and selection algorithms used for the data-taking, and the allocated event rate and bandwidth. The trigger menu must reflect the physics goals for a given data collection period, taking into account the instantaneous luminosity of the LHC and limitations from the ATLAS detector readout, online processing farm, and offline storage. This document discusses the operation of the ATLAS trigger system during the nominal proton-proton data collection in Run 2 with examples of special data-taking runs. Aspects of software validation, evolution of the trigger selection algorithms during Run 2, monitoring of the trigger system and data quality as well as trigger configuration are presented.}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Operation of the ATLAS trigger system in Run 2}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{pages}{P10004}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/15/10/P10004
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1748-0221/15/10/P10004
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1748-0221/15/10/P10004
+      \endverb
+    \endentry
+    \entry{Nakahama_2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5e9e6e669ba16028c34d14ebbb2ee394}{%
+           family={Nakahama},
+           familyi={N\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8dde729c404b4f8adf1fb76f37dd169c}{%
+           family={ATLAS\bibnamedelima Collaboration},
+           familyi={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           prefix={on\bibnamedelima behalf\bibnamedelimb of\bibnamedelima the},
+           prefixi={o\bibinitperiod\bibinitdelim b\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{40c854dd7ec2b7bde5a7f886c0195ae6}
+      \strng{fullhash}{40c854dd7ec2b7bde5a7f886c0195ae6}
+      \strng{bibnamehash}{40c854dd7ec2b7bde5a7f886c0195ae6}
+      \strng{authorbibnamehash}{40c854dd7ec2b7bde5a7f886c0195ae6}
+      \strng{authornamehash}{40c854dd7ec2b7bde5a7f886c0195ae6}
+      \strng{authorfullhash}{40c854dd7ec2b7bde5a7f886c0195ae6}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ATLAS trigger system has been used very successfully for the online event selection during the LHC's first run (Run-1) between 2009 and 2013 at centre-of-mass energies (√s) between 900 GeV and 8 TeV. The trigger system consists of a hardware Level-1 (L1) and a software-based high-level trigger (HLT) that reduces the event rate from the design bunch-crossing rate of 40 MHz to an average recording rate of a few hundred Hz. During the next data-taking period (Run-2) starting in early 2015, the LHC will operate at √s = 13 TeV, resulting in roughly five times higher trigger rates. We will review the upgrades to the ATLAS trigger system that have been implemented during the long shutdown and that will allow us to cope with these increased trigger rates while maintaining or even improving our efficiencies to select relevant physics processes. These include changes to the L1 calorimeter trigger, the introduction of new L1 topological trigger modules, improvements in the L1 muon system and the merging of the previous two-level HLT system into a single event-filter farm. Finally, we will summarize the commissioning status of the trigger system in view of the imminent restart of data-taking.}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{month}{12}
+      \field{number}{8}
+      \field{title}{The ATLAS Trigger System: Ready for Run-2}
+      \field{volume}{664}
+      \field{year}{2015}
+      \field{pages}{082037}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/664/8/082037
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1742-6596/664/8/082037
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1742-6596/664/8/082037
+      \endverb
+    \endentry
+    \entry{C-Gabaldon_2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=572fff029288d264ab75377987c223e4}{%
+           family={Gabaldon},
+           familyi={G\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{572fff029288d264ab75377987c223e4}
+      \strng{fullhash}{572fff029288d264ab75377987c223e4}
+      \strng{bibnamehash}{572fff029288d264ab75377987c223e4}
+      \strng{authorbibnamehash}{572fff029288d264ab75377987c223e4}
+      \strng{authornamehash}{572fff029288d264ab75377987c223e4}
+      \strng{authorfullhash}{572fff029288d264ab75377987c223e4}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ATLAS Trigger System reduces the event rate from the bunch-crossing rate of 40MHz to an average recording rate of 200Hz by selecting primarily high-pT events. The ATLAS Trigger is composed of three levels. The first level (L1) is implemented in custom-built electronics, the two-stage High Level Trigger (HLT) is implemented in software executed on large computing farms. The L1 consists of calorimeter, muon and forward triggers to identify electron, photon, jet and muon candidates, as well as event features such as missing transverse energy. These inputs are used by the L1 Central Trigger to generate an L1 Accept (L1A) decision. L1A and timing information is sent to all sub-detectors and summary information is sent to the subsequent levels of the Trigger System. In this paper the performance of the ATLAS Trigger System in 2010 and 2011 is presented.}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{1}
+      \field{number}{01}
+      \field{title}{Performance of the ATLAS Trigger System}
+      \field{volume}{7}
+      \field{year}{2012}
+      \field{pages}{C01092}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/7/01/C01092
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1748-0221/7/01/C01092
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1748-0221/7/01/C01092
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
