@@ -16,6 +16,8 @@
 \contentsline {subsection}{\numberline {3.2.4}Magnet system}{9}{subsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.2.5}Trigger and Data Acquisition System}{10}{subsection.3.2.5}%
 \contentsline {section}{\numberline {3.3}Physics objects reconstruction}{10}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Tracking}{10}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Vertexing}{11}{subsection.3.3.2}%
 \contentsline {chapter}{\numberline {A}Useful information}{3}{appendix.A}%
 \contentsline {chapter}{\nonumberline Bibliography}{5}{chapter*.7}%
 \contentsline {chapter}{\nonumberline List of Figures}{7}{chapter*.8}%

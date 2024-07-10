@@ -1975,10 +1975,10 @@ INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qhvb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntx-Regular-tlf-ot1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txmiaX.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1r.tfm
-INPUT ./thesis_appendix.tex
-INPUT ./thesis_appendix.tex
-INPUT ./thesis_appendix.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
+INPUT ./thesis_appendix.tex
+INPUT ./thesis_appendix.tex
+INPUT ./thesis_appendix.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-sc-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtt.fd

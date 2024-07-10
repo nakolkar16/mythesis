@@ -815,6 +815,68 @@
       \verb https://dx.doi.org/10.1088/1748-0221/7/01/C01092
       \endverb
     \endentry
+    \entry{T_Cornelissen_2008}{article}{}
+      \name{author}{6}{}{%
+        {{hash=5c9ea8927adcb504146c0e71dc5a0a76}{%
+           family={Cornelissen},
+           familyi={C\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=419c369760dd9dfd1eee84b37c333e21}{%
+           family={Elsing},
+           familyi={E\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f930e9082ae98e0bf928613c72e54a39}{%
+           family={Gavrilenko},
+           familyi={G\bibinitperiod},
+           given={I},
+           giveni={I\bibinitperiod}}}%
+        {{hash=96266c0c6c8f4d8ccf31e389b9da1fe0}{%
+           family={Liebig},
+           familyi={L\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+        {{hash=3efdec65543778c5361133e575eb989e}{%
+           family={Moyse},
+           familyi={M\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=cad00076abf999ad4d3bbc6a55623da0}{%
+           family={Salzburger},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f4a0cb14c278f5cf5f0842cf67404de}
+      \strng{fullhash}{eca0b68a8c4837b5a6082033e459f6c4}
+      \strng{bibnamehash}{6f4a0cb14c278f5cf5f0842cf67404de}
+      \strng{authorbibnamehash}{6f4a0cb14c278f5cf5f0842cf67404de}
+      \strng{authornamehash}{6f4a0cb14c278f5cf5f0842cf67404de}
+      \strng{authorfullhash}{eca0b68a8c4837b5a6082033e459f6c4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The track reconstruction of modern high energy physics experiments is a very complex task that puts stringent requirements onto the software realisation. The ATLAS track reconstruction software has been in the past dominated by a collection of individual packages, each of which incorporating a different intrinsic event data model, different data flow sequences and calibration data. Recently, the ATLAS track reconstruction has undergone a major design revolution to ensure maintainability during the long lifetime of the ATLAS experiment and the flexibility needed for the startup phase. The entire software chain has been re-organised in modular components and a common event data model has been deployed. A complete new track reconstruction that concentrates on common tools aimed to be used by both ATLAS tracking devices, the Inner Detector and the Muon System, has been established. It has been already used during many large scale tests with data from Monte Carlo simulation and from detector commissioning projects such as the combined test beam 2004 and cosmic ray events. This document concentrates on the technical and conceptual details of the newly developed track reconstruction.}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{The new ATLAS track reconstruction (NEWT)}
+      \field{volume}{119}
+      \field{year}{2008}
+      \field{pages}{032014}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/119/3/032014
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1742-6596/119/3/032014
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1742-6596/119/3/032014
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

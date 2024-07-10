@@ -179,3 +179,28 @@ followed by more advanced, CPU-intensive algorithms to trigger on events. A farm
 algorithms in parallel to process signals based on selection criteria similar to offline physics requirements~\cite{C-Gabaldon_2012}.   
 
 \section{Physics objects reconstruction}
+
+\subsection{Tracking}
+The signals collected from the tracking detectors, the inner detector and muon spectrometers, are used to reconstruct charged-particle tracks. The primary-tracking
+reconstruction from the SCT and pixel detector is performed in three steps: clusterisation, iterative combinatorial track finding and ambiguity solving~\cite{Aaboud_2017}. 
+
+In the first step, energy deposits which are above the predefined threshold are collected from the pixels and strip detectors. These clusters are used to create
+three-dimensional space points that indicate the coordinates of the charged particle's trajectory. A linear approximation tenchique is used to find the intersection
+point of a particle on the pixel sensor. In a crowded environment, it may happen that the reconstructed cluster has energies from multiple particles. Therefore,
+it is essential for the algorithms to identify such clusters. 
+
+Track seeds are formed using a group of space points. These preliminary track seeds pass through a number of selection criteria to ensure purity. For instance, there should be atleast one 
+additonal space point compatible with the track trajectory estimated from the seed. The task of combining the filtered track seeds to construct track candidates is performed by 
+the Kalman filter. In principle, it searches for additonal space points from other layers of pixels that are suitable with the track seed. If the filter finds more than one suitable space 
+point on the same layer then it creates multiples track candidates per seed. The Kalman filter is also effective in reducing the amount of track candidates from random space points. 
+
+Once all the track candidates are ready, the ambiguity solver is employed. It is required to rectify cases where space points might overlap or have been incorrectly assigned. 
+The ambiguity solver processes track candidates individually based on their scores. Each track gets a score based on how likely it is to be a primary reconstructed track. 
+It also resolves issues where a cluster is assigned to multiple track candidates. Moreover, track caandidates are rejected if they fail to meet basic track quality requirements based on
+minimum transverse momentum, mimimum $|\eta|$ and number of pixels contributing to the cluster formation.
+
+The track candidates that pass the ambiguity solver are used as input to find suitable TRT measurements. The so-called space points in TRT are expressed in $r-\phi$
+and $r-z$ coordinates in the barrel and end-cap region respectively. These space points or \textit{hits} are employed by the extension algorithm which performs
+a line fit to find hits suitable with the input track candidates. In this way, the chosen hits form the TRT further extend the track candidate~\cite{T_Cornelissen_2008}.
+
+\subsection{Vertexing}

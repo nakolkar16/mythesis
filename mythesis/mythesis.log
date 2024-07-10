@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.6.18)  9 JUL 2024 08:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.6.18)  10 JUL 2024 14:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1730,7 +1730,7 @@ chapter 2.
 
 ]
 chapter 3.
-<figs//Poster-2013-377.jpg, id=84, 3379.827pt x 2389.728pt>
+<figs//Poster-2013-377.jpg, id=88, 3379.827pt x 2389.728pt>
 File: figs//Poster-2013-377.jpg Graphic file (type jpg)
 <use figs//Poster-2013-377.jpg>
 Package pdftex.def Info: figs//Poster-2013-377.jpg  used on input line 20.
@@ -1738,7 +1738,7 @@ Package pdftex.def Info: figs//Poster-2013-377.jpg  used on input line 20.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 21.
 [5]
-<figs//atlas_layout.jpg, id=99, 563.10374pt x 363.3575pt>
+<figs//atlas_layout.jpg, id=103, 563.10374pt x 363.3575pt>
 File: figs//atlas_layout.jpg Graphic file (type jpg)
 <use figs//atlas_layout.jpg>
 Package pdftex.def Info: figs//atlas_layout.jpg  used on input line 50.
@@ -1748,7 +1748,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.1pt on input line 63.
  [6 <./figs//Poster-2013-377.jpg>]
-<figs//coordinate_system.pdf, id=118, 377.76031pt x 183.09705pt>
+<figs//coordinate_system.pdf, id=122, 377.76031pt x 183.09705pt>
 File: figs//coordinate_system.pdf Graphic file (type pdf)
 <use figs//coordinate_system.pdf>
 Package pdftex.def Info: figs//coordinate_system.pdf  used on input line 78.
@@ -1758,7 +1758,10 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
  [7 <./figs//atlas_layout.jpg> <./figs//coordinate_system.pdf>]
 Underfull \vbox (badness 4036) has occurred while \output is active []
 
- [8] [9]) [10]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+ [8] [9] [10]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 203.
+) [11]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.181 \printbibliography[heading=bibintoc]
@@ -1770,8 +1773,6 @@ l.181 \printbibliography[heading=bibintoc]
 
 ]
 chapter without number
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 181.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 10.95pt on input line 181.
 Package microtype Info: Character `029' is missing
@@ -1851,20 +1852,20 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51347 strings out of 480171
- 1032518 string characters out of 5894489
- 1939755 words of memory out of 5000000
- 68198 multiletter control sequences out of 15000+600000
- 589755 words of font info for 293 fonts, out of 8000000 for 9000
+ 51361 strings out of 480171
+ 1032860 string characters out of 5894489
+ 1940880 words of memory out of 5000000
+ 68206 multiletter control sequences out of 15000+600000
+ 589841 words of font info for 294 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
  108i,20n,147p,10634b,4023s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{appendix.A} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on mythesis.pdf (21 pages, 4558744 bytes).
+Output written on mythesis.pdf (22 pages, 4563670 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
- 55 named destinations out of 1000 (max. 500000)
- 80524 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 400 PDF objects out of 1000 (max. 8388607)
+ 334 compressed objects within 4 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 80540 words of extra memory for PDF output out of 89155 (max. 10000000)
 
