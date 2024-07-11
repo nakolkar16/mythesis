@@ -178,10 +178,26 @@ The HLT is a software based trigger that applies a typical reconstruction algori
 followed by more advanced, CPU-intensive algorithms to trigger on events. A farm of CPUs are running several
 algorithms in parallel to process signals based on selection criteria similar to offline physics requirements~\cite{C-Gabaldon_2012}.   
 
+
+
 \section{Physics objects reconstruction}
 
+The various decay products from the proton-proton collisions travel through the detector volume leaving
+behind characteristic trails. Physicists follow the trails and try to reconstruct objects which would represent
+characteristics of particles.
+
+At the LHC protons are injected in \mynote{bunches}{how many?} which are 25 ns apart. The average number of interactions
+recorded per bunch crossing is called pileup. It includes the collision of interest as well as other collisions.
+Sources of pileup are categorized into in-time and out-of-time pileup. In-time pile up is due to collisions
+occurring in the same bunch-crossing and out-of-time pile-up is contributed by the collisions from previous
+or later bunches. Some of the sub-detectors have sensitivity windows longer than the interval between
+bunch crossings. This eventually affects the recorded number of interactions per bunch. The accurate
+detection of objects under study becomes difficult due to pile-up events.
+
+\mynote[inline]{}{Add info about general reconstruction and connect it with the above pileup info}
+
 \subsection{Tracking}
-The signals collected from the tracking detectors, the inner detector and muon spectrometers, are used to reconstruct charged-particle tracks. The primary-tracking
+The signals collected from the tracking detectors, the inner detector and muon spectrometers, are used to reconstruct charged-particle trajectories called tracks. The primary-tracking
 reconstruction from the SCT and pixel detector is performed in three steps: clusterisation, iterative combinatorial track finding and ambiguity solving~\cite{Aaboud_2017}. 
 
 In the first step, energy deposits which are above the predefined threshold are collected from the pixels and strip detectors. These clusters are used to create
@@ -204,3 +220,50 @@ and $r-z$ coordinates in the barrel and end-cap region respectively. These space
 a line fit to find hits suitable with the input track candidates. In this way, the chosen hits form the TRT further extend the track candidate~\cite{T_Cornelissen_2008}.
 
 \subsection{Vertexing}
+Vertexing is the process of identifying primary vertices, which are the locations in the detector where proton-proton hard scattering occurs. It is crucial for the vertexing 
+technique to accurately reconstruct the primary vertex of the interaction of interest, especially given the presence of additional interactions caused by pileup.
+
+The vertex reconstruction algorithm takes tracks estimated from the Inner Detector (ID) as input. These tracks are filtered based on certain quality requirements to ensure 
+they are suitable for vertex reconstruction. The algorithm operates in two steps: vertex finding and vertex fitting. Initially, a seed position is determined from the set of 
+filtered tracks. Then, the seed and the filtered tracks are used to fit the best vertex position. This process is iterative, starting with equal weights for all tracks. As iterations 
+progress, the weights of more compatible tracks increase, while those of less compatible tracks decrease. Eventually, the less compatible tracks are returned to the pool for potential 
+use in other vertex reconstructions. A vertex candidate must have at least two associated tracks. This procedure is repeated until there are no unassociated tracks left or no more 
+vertices can be found from the remaining tracks. The vertex reconstruction algorithm produces a set of three-dimensional vertex positions and their covariance 
+matrices~\cite{F_Meloni_vertex}.
+
+
+\subsection{Topo clusters}
+Topological clusters
+or topoclusters are seeded by calorimeter cells containing deposited electromagnetic energy of more than
+four times its noise threshold. These topo clusters are then expanded by adding cells with electromagnetic
+energy of more than twice their noise threshold. This expansion procedure is followed across all the layers
+of electromagnetic and hadronic calorimeters. It is finally stopped when cells no longer satisfy the energy
+threshold requirement
+
+\subsection{Particle Flow}
+The momentum and energy measurements from the inner detector and calorimeter,respectively, are prone
+to overlaps of certain events. For instance, an event in which an electron leaves a track in the ID and also
+deposits energy in the calorimeter. If information from these sub detectors is used individually, there is a
+possibility of double counting this event. In order to remove such overlaps and to utilize the sub detectors to
+the best of their potential, Particle Flow has been developed. The idea of particle flow is to reconstruct an
+event by combining measurements from the inner detector and calorimeters. The ID is pileup resilient and
+has a better resolution especially at low pT whereas the calorimeter can detect neutral particles. Particle
+Flow puts both these advantages into yielding more reliable measurements.
+
+In Particle Flow (PFlow) algorithm, one of the inputs is the set of reconstructed tracks that are extrapolated
+in the direction of calorimeter energy deposits. The algorithm evaluates the probablility of the particle
+energy to be depoisted in more than one topocluster. Accordingly it either stores single topocluster energy
+or sums up energy of multiple topoclusters to constitute the full energy profile of the particle that created the
+track. The expected energy deposited by the particle that created the track is subtracted from the matched
+topoclusters. The remaining topocluster energy is assigned as the energy from neutral particles [7]. In the
+end, the reconstructed tracks known as the charged PFlow objects and remaining topoclusters termed as
+neutral PFlow objects, define the complete reconstruction of the event. A schematic diagram of PFlow
+algorithm is \mynote{shown in}{Add the pflow figure} 
+
+\subsection{MET}
+
+\subsection{Charged particles}
+\subsection*{Electron}
+\subsection*{Muons}
+\subsection*{Jets}
+Also write about bjet

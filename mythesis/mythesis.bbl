@@ -877,6 +877,35 @@
       \verb https://dx.doi.org/10.1088/1742-6596/119/3/032014
       \endverb
     \endentry
+    \entry{F_Meloni_vertex}{article}{}
+      \name{author}{1}{}{%
+        {{hash=02c5fd57ae19fbb1ff5191880a069da2}{%
+           family={Meloni},
+           familyi={M\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{02c5fd57ae19fbb1ff5191880a069da2}
+      \strng{fullhash}{02c5fd57ae19fbb1ff5191880a069da2}
+      \strng{bibnamehash}{02c5fd57ae19fbb1ff5191880a069da2}
+      \strng{authorbibnamehash}{02c5fd57ae19fbb1ff5191880a069da2}
+      \strng{authornamehash}{02c5fd57ae19fbb1ff5191880a069da2}
+      \strng{authorfullhash}{02c5fd57ae19fbb1ff5191880a069da2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Prepared for submission to JINST}
+      \field{month}{9}
+      \field{title}{Primary vertex reconstruction with the ATLAS detector}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2222390/files/ATL-PHYS-PROC-2016-163.pdf
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2222390/files/ATL-PHYS-PROC-2016-163.pdf
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
