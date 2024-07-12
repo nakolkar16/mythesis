@@ -233,12 +233,21 @@ matrices~\cite{F_Meloni_vertex}.
 
 
 \subsection{Topo clusters}
-Topological clusters
-or topoclusters are seeded by calorimeter cells containing deposited electromagnetic energy of more than
-four times its noise threshold. These topo clusters are then expanded by adding cells with electromagnetic
-energy of more than twice their noise threshold. This expansion procedure is followed across all the layers
-of electromagnetic and hadronic calorimeters. It is finally stopped when cells no longer satisfy the energy
-threshold requirement
+Topoclusters, as the name suggests, are topological energy clusters produced inside the calorimeter cells caused by particle showers. 
+The technique of collecting calorimeter signals from topologically connected cells and grouping them into clusters is an effective way to extract signal in 
+highly granular calorimeters such as the one in ATLAS. It is important to suppress the signals from background noise and pileup contributions and therefore, 
+a quantity called signal significance is used to decide which signals contribute to cluster formation~\cite{Aad:2138166}. It is defined as the ratio of the cell signal to the average 
+expected noise in this cell. Both these quantities are defined at the electromagnetic scale (EM). The significance is described in \cref{eq:toposigni}.
+
+\begin{equation}
+    \varsigma_{\text{cell}}^{\text{EM}} = \frac{E_{\text{cell}}^{\text{EM}}}{\sigma_{\text{noise,cell}}^{\text{EM}}}
+    \label{eq:toposigni}
+\end{equation}
+
+The topo clusters are seeded and expanded on the basis of some threshold requirements of $\varsigma_{\text{cell}}^{\text{EM}}$. 
+The calorimeter cells having $\varsigma_{\text{cell}}^{\text{EM}}>4$ are chosen to be the seeds for topoclusters. Then, the 
+neighboruring cells satisfying the requirement of $\varsigma_{\text{cell}}^{\text{EM}}>2$ are added to the seeds and eventually the
+cluster grows.
 
 \subsection{Particle Flow}
 The momentum and energy measurements from the inner detector and calorimeter,respectively, are prone
@@ -258,12 +267,22 @@ track. The expected energy deposited by the particle that created the track is s
 topoclusters. The remaining topocluster energy is assigned as the energy from neutral particles [7]. In the
 end, the reconstructed tracks known as the charged PFlow objects and remaining topoclusters termed as
 neutral PFlow objects, define the complete reconstruction of the event. A schematic diagram of PFlow
-algorithm is \mynote{shown in}{Add the pflow figure} 
+algorithm is shown in \cref{fig:pflow}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\figwidth]{pflow.png}
+    \caption[Particle flow overview]{A chart representing the Particle Flow algorithm~\cite{Aaboud:2257597}}%
+    \label{fig:pflow}
+\end{figure}
+
 
 \subsection{MET}
 
 \subsection{Charged particles}
 \subsection*{Electron}
+The topoclusters are used as
+the preliminary signal definition to be used to reconstruct ...
 \subsection*{Muons}
 \subsection*{Jets}
 Also write about bjet

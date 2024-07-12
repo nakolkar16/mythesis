@@ -1997,6 +1997,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntx-Regular-tlf-ot1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txmiaX.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
+INPUT ./figs//pflow.png
+INPUT ./figs//pflow.png
+INPUT figs//pflow.png
+INPUT ./figs//pflow.png
+INPUT ./figs//pflow.png
 INPUT ./thesis_appendix.tex
 INPUT ./thesis_appendix.tex
 INPUT ./thesis_appendix.tex

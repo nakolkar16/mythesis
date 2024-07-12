@@ -906,6 +906,57 @@
       \verb https://cds.cern.ch/record/2222390/files/ATL-PHYS-PROC-2016-163.pdf
       \endverb
     \endentry
+    \entry{Aad:2138166}{article}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J. C}
+      \field{note}{Comments: 64 pages plus author list + cover page (87 pages in total), 41 figures, 3 tables, submitted to EPJC. All figures including auxiliary figures are available at http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/PERF-2014-07/}
+      \field{title}{{Topological cell clustering in the ATLAS calorimeters and its performance in LHC Run 1}}
+      \field{volume}{77}
+      \field{year}{2017}
+      \field{pages}{490}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-017-5004-5
+      \endverb
+      \verb{eprint}
+      \verb 1603.02934
+      \endverb
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2138166
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2138166
+      \endverb
+    \endentry
+    \entry{Aaboud:2257597}{article}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J. C}
+      \field{note}{67 pages in total, author list starting page 51, 37 figures, 1 table, final version published in Eur. Phys. J C, all figures including auxiliary figures are available at http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/PERF-2015-09/}
+      \field{number}{7}
+      \field{title}{{Jet reconstruction and performance using particle flow with the ATLAS Detector}}
+      \field{volume}{77}
+      \field{year}{2017}
+      \field{pages}{466}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-017-5031-2
+      \endverb
+      \verb{eprint}
+      \verb 1703.10485
+      \endverb
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2257597
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2257597
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
