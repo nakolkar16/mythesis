@@ -2002,6 +2002,11 @@ INPUT ./figs//pflow.png
 INPUT figs//pflow.png
 INPUT ./figs//pflow.png
 INPUT ./figs//pflow.png
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxbmi.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/NewTXBMI.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxsy7.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
 INPUT ./thesis_appendix.tex
 INPUT ./thesis_appendix.tex
 INPUT ./thesis_appendix.tex

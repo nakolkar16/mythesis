@@ -220,8 +220,9 @@ and $r-z$ coordinates in the barrel and end-cap region respectively. These space
 a line fit to find hits suitable with the input track candidates. In this way, the chosen hits form the TRT further extend the track candidate~\cite{T_Cornelissen_2008}.
 
 \subsection{Vertexing}
-Vertexing is the process of identifying primary vertices, which are the locations in the detector where proton-proton hard scattering occurs. It is crucial for the vertexing 
-technique to accurately reconstruct the primary vertex of the interaction of interest, especially given the presence of additional interactions caused by pileup.
+Vertexing is the process of identifying primary vertices, which are the locations in the detector where proton-proton hard scattering occurs. \mynote{It is crucial for the vertexing 
+technique to accurately reconstruct the primary vertex of the interaction of interest, especially given the presence of additional interactions caused by pileup}{rephrase because 
+the job is to reconstruct all primary vertices}.
 
 The vertex reconstruction algorithm takes tracks estimated from the Inner Detector (ID) as input. These tracks are filtered based on certain quality requirements to ensure 
 they are suitable for vertex reconstruction. The algorithm operates in two steps: vertex finding and vertex fitting. Initially, a seed position is determined from the set of 
@@ -276,9 +277,6 @@ algorithm is shown in \cref{fig:pflow}.
     \label{fig:pflow}
 \end{figure}
 
-
-\subsection{MET}
-
 \subsection{Charged particles}
 \subsection*{Electron}
 The topoclusters are used as
@@ -286,3 +284,55 @@ the preliminary signal definition to be used to reconstruct ...
 \subsection*{Muons}
 \subsection*{Jets}
 Also write about bjet
+
+\subsection{Missing Transverse Energy (MET)}
+Reconstruction of particles crossing the detector volume is crucial to understand what particles
+are produced as a result of proton-proton collisions. The reconstruction algorithms heavily rely on the
+signs or traces these particles leave inside the detector. However, some particles leave no traces
+behind but are still relevant for the analysis. Such particles mostly include SM neutrinos or some unknown dark matter
+particles. The energy corresponding to these "invisible" particles is called missing transverse energy ($E_{\text{T}}^{\text{miss}}$).
+or MET (used in ATLAS software).
+
+The underlying physics is the law of conservation of momentum. The total momentum in the transverse place is zero before the collision because 
+the initial protons are boosted along the $z$-axis. Therefore, the total sum of momenta of particles in the transverse plane after the collisions must be zero. 
+The missing transverse momentum algorithm computes two quantities: $p_{\text{T}}^{hard}$ and $p_{\text{T}}^{soft}$. The first quantity $p_{\text{T}}^{hard}$ 
+is the sum of transverse momenta of hard signals including reconstructed electrons, photons,muons, jets and $\tau$-leptons whereas $p_{\text{T}}^{soft}$ includes
+soft signals from charged particle tracks that are associated with a hard event vertex but not associated with any hard object~\cite{ATLAS:2024cmj}. 
+
+The missing energy reconstruction algorithm builds two quantities: missing transverse momentum vector $\boldsymbol{p}_{\text{T}}^{\text{miss}} = (p_x^{\text{miss}},p_y^{\text{miss}})$ 
+given by \cref{eq:etmissvec} and the scalar sum of all transverse momenta that enter the computation of MET
+given by \cref{eq:etmisssum}. The magnitude of $\boldsymbol{p}_{\text{T}}^{\text{miss}}$ is the missing transverse momentum ($p_{\text{T}}^{\text{miss}}$) or
+MET. 
+
+\begin{equation}
+    \boldsymbol{p}_\text{T}^{\text{miss}} = - \left( 
+    \sum_{\substack{\mathrm{selected} \\ \mathrm{electrons}}} \boldsymbol{p}_\text{T}^e + 
+    \sum_{\substack{\mathrm{accepted} \\ \mathrm{photons}}} \boldsymbol{p}_\text{T}^\gamma + 
+    \sum_{\substack{\mathrm{accepted} \\ \tau \mathrm{-leptons}}} \boldsymbol{p}_\text{T}^\tau + 
+    \sum_{\substack{\mathrm{selected} \\ \mu}} \boldsymbol{p}_\text{T}^\mu + 
+    \sum_{\substack{\mathrm{accepted} \\ \mathrm{jets}}} \boldsymbol{p}_\text{T}^{\text{jet}} + 
+    \sum_{\substack{\mathrm{unused} \\ \mathrm{tracks}}} \boldsymbol{p}_\text{T}^{\mathrm{track}} \right)
+    \label{eq:etmissvec}    
+\end{equation}
+
+\begin{equation}
+    \sum p_\text{T} = 
+    \sum_{\substack{\mathrm{selected} \\ \mathrm{electrons}}} p_\text{T}^e + 
+    \sum_{\substack{\mathrm{accepted} \\ \mathrm{photons}}} p_\text{T}^\gamma + 
+    \sum_{\substack{\mathrm{accepted} \\ \tau \mathrm{-leptons}}} p_\text{T}^\tau + 
+    \sum_{\substack{\mathrm{selected} \\ \mu}} p_\text{T}^\mu + 
+    \sum_{\substack{\mathrm{accepted} \\ \mathrm{jets}}} p_\text{T}^{\text{jet}} + 
+    \sum_{\substack{\mathrm{unused} \\ \mathrm{tracks}}} p_\text{T}^{\mathrm{track}}
+    \label{eq:etmisssum}    
+\end{equation}
+
+The objects that participate in the MET calculation is decided by the event selection of the anlaysis. The MET reconstruction algorithm is depended on already reconstructed
+objects and this is performed by independent algorithms. Due to this fact, there are chances that some calorimeter signals are used for reconstruction by more than one
+objects. In order to rectify this and avoid double counting of signals, a dedicated signal ambiguity resolution is implemented. 
+A detailed description of the signal ambiguity resoltuion is given in ~\cite{ATLAS:2024cmj}.
+Ultimately, exclusive detector signals are used to compute MET. The term \textit{selected} in \cref{eq:etmissvec} and \cref{eq:etmisssum} suggests 
+that these objects are selected based on analysis requirements while \textit{accepted} 
+is for such objects that may be modified after the signal ambiguity resolution. 
+
+
+
