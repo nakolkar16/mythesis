@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {3.2}The ATLAS detector}{6}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}The Inner Detector}{7}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Calorimeters}{8}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Muon spectrometers}{9}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Muon spectrometers (MS)}{9}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Magnet system}{9}{subsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.2.5}Trigger and Data Acquisition System}{10}{subsection.3.2.5}%
 \contentsline {section}{\numberline {3.3}Physics objects reconstruction}{10}{section.3.3}%
@@ -21,9 +21,9 @@
 \contentsline {subsection}{\numberline {3.3.3}Topo clusters}{12}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Particle Flow}{12}{subsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.3.5}Charged particles}{13}{subsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.3.6}Missing Transverse Energy (MET)}{13}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.6}Missing Transverse Energy (MET)}{14}{subsection.3.3.6}%
 \contentsline {chapter}{\numberline {A}Useful information}{3}{appendix.A}%
 \contentsline {chapter}{\nonumberline Bibliography}{5}{chapter*.15}%
-\contentsline {chapter}{\nonumberline List of Figures}{7}{chapter*.16}%
-\contentsline {chapter}{\nonumberline List of Tables}{9}{chapter*.17}%
+\contentsline {chapter}{\nonumberline List of Figures}{9}{chapter*.16}%
+\contentsline {chapter}{\nonumberline List of Tables}{11}{chapter*.17}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

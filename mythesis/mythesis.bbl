@@ -957,6 +957,31 @@
       \verb https://cds.cern.ch/record/2257597
       \endverb
     \endentry
+    \entry{Aaboud_2019}{article}{}
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Electron reconstruction and identification in the ATLAS experiment using the 2015 and 2016 LHC proton–proton collision data at $$\sqrt{s} = 13$$ $$\text {TeV}$$}
+      \field{volume}{79}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-019-7140-6
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-019-7140-6
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-019-7140-6
+      \endverb
+    \endentry
     \entry{ATLAS:2024cmj}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -973,8 +998,8 @@
       \strng{authorbibnamehash}{f0806a61a21762c45bb17c53a0517ffd}
       \strng{authornamehash}{f0806a61a21762c45bb17c53a0517ffd}
       \strng{authorfullhash}{f0806a61a21762c45bb17c53a0517ffd}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}

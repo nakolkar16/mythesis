@@ -128,7 +128,7 @@ calorimeter and HEC is $\sigma_E/E = 50\%/\sqrt{E} \oplus 3\%$ while the FCal ha
  
 
 
-\subsection{Muon spectrometers}
+\subsection{Muon spectrometers (MS)}
 The muon spectrometers play a significant role in accurate measurements of high energy muons. The structure is made up of three superconducting toroids, 
 precision tracking chambers and the trigger system. The Barrel toroid is made of eight superconducting coils, having a coil area of $5 \times 26 \text{m}^2$ each 
 providing a magnetic field in the range of 0.5 to 2 T. In the end-cap region, eight superconducting coils are situated inside an insulation vessel, providing magnetic 
@@ -278,10 +278,53 @@ algorithm is shown in \cref{fig:pflow}.
 \end{figure}
 
 \subsection{Charged particles}
-\subsection*{Electron}
-The topoclusters are used as
-the preliminary signal definition to be used to reconstruct ...
+\subsection*{Electrons}
+The topoclusters from the electromagnetic calorimeter and the charged particle tracks from the inner
+detector are used to reconstruct an electron candidate. The procedure is divided into three steps:
+\begin{itemize}
+    \item A sliding-window algorithm is used to identify seed clusters that exceed a transverse
+    energy of 2.5 GeV. The algorithm scans the area in either $\eta$ or $\phi$ to locate seed clusters. 
+    \item The reconstructed tracks in the inner detector that loosely match with the seed clusters
+    are selected and a fitting procedure is applied. The separation of the cluster-center and the 
+    track must fulfill $|\eta_{\text{cluster}} - \eta_{\text{track}}|<0.05$
+    \item A tight matching of fitted tracks and seed clusters is performed. The requirements are based
+    on the proximity criteria such as the track matching in $\phi$ is allowed to be $-0.10< \Delta\phi <0.05$.
+\end{itemize}
+
+If multiple tracks fulfill the matching criteria, additional requirements are imposed to select the 
+primary electron track. One of these requirements is that the chosen track should not have any association with 
+a vertex from a photon conversion~\cite{Aaboud_2019}. 
+
 \subsection*{Muons}
+There are two types of muon reconstruction algorithms: stand-alone reconstruction from the MS and global
+reconstruction based on signals from the MS and the ID. 
+
+Under the stand-alone method, track segments are identified from different MS stations using Hough transform.
+By combining these segments, basic track candidates are constructed. Then a global-$\chi^2$ fit of the 
+muon trajectory through the magnetic filed is performed and based on the fit results, unsuitable hits are
+removed. Moreover, hits that were not considered before are now added and the fit is re-performed. 
+In the ambiguity resolution step, tracks that share a large number of high-quality hits. 
+
+The global reconstruction of muons is performed based on the information from the ID and the MS, along
+with energy loss inside the calorimeters. There are five different strategies leading to different
+muon types:
+\begin{itemize}
+    \item Combined muon (CB): Here a combined track fit is performed on the hits extracted from both
+    the tracking sub detectors. Moreover, calorimeter energy loss is also considered. 
+    \item inside-out muon (IO): The ID tracks are extrapolated to the ID and at least three loosely
+    alligning MS hits are obtained. After that, a combined fit is performed on the ID tracks, MS hits
+    and calorimeter energy loss. 
+    \item Muon-extrapolated (ME): The muons tracks that do not match with any ID tracks are defined for
+    a ME muon. These muons are outside the acceptance range of the ID but still in the acceptance range of the
+    MS. 
+    \item Segment-tagged (ST): The ID tracks are required to match at least one MS segment by fulfilling
+    tight angular matching. The ID tracks matched in this way are considered for a muon candidate.
+    \item Calorimeter-tagged (CT): Here the ID tracks are extrapolated to the calorimeters to find
+    clusters consistent with a minimum-ionising particle. The matched ID track is considered for a 
+    muon candidate. 
+\end{itemize}
+
+
 \subsection*{Jets}
 Also write about bjet
 
