@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.6.18)  14 JUL 2024 20:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.6.18)  26 JUL 2024 16:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1434,7 +1434,7 @@ Package babel Info: Importing basic data for ngerman
 ))
 Package babel Info: Hyphen rules for 'ngerman' set to \l@english
 (babel)             (\language0). Reported on input line 26.
- (./thesis_acknowledge.aux) (./thesis_intro.aux) (./chapter1.aux) (./chapter2.aux) (./thesis_appendix.aux))
+ (./thesis_acknowledge.aux) (./chapter2.aux) (./thesis_appendix.aux))
 \openout1 = `mythesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 138.
@@ -1705,93 +1705,96 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 
 
 ]
-\openout2 = `thesis_intro.aux'.
+\openout2 = `chapter2.aux'.
 
- (./thesis_intro.tex
+ (./chapter2.tex
 chapter 1.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 13.53603pt on input line 4.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 23.38725pt on input line 4.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 17.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 8.0pt on input line 17.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 6.1pt on input line 17.
-) [1
-
-
-
-]
-\openout2 = `chapter1.aux'.
-
- (./chapter1.tex [2
-
-
-
-
-
-]
-chapter 2.
-) [3]
-\openout2 = `chapter2.aux'.
-
- (./chapter2.tex [4
-
-
-
-
-
-]
-chapter 3.
-<figs//Poster-2013-377.jpg, id=111, 3379.827pt x 2389.728pt>
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 8.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 8.
+<figs//Poster-2013-377.jpg, id=89, 3379.827pt x 2389.728pt>
 File: figs//Poster-2013-377.jpg Graphic file (type jpg)
 <use figs//Poster-2013-377.jpg>
-Package pdftex.def Info: figs//Poster-2013-377.jpg  used on input line 20.
+Package pdftex.def Info: figs//Poster-2013-377.jpg  used on input line 25.
 (pdftex.def)             Requested size: 349.97028pt x 247.4465pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 21.
-[5]
-<figs//atlas_layout.jpg, id=126, 563.10374pt x 363.3575pt>
+(Font)              scaled to size 10.0pt on input line 26.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 11.28003pt on input line 30.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 39.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.8pt on input line 39.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 6.6pt on input line 39.
+[1
+
+
+
+]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 47.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 69.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 8.0pt on input line 69.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 6.1pt on input line 69.
+ [2 <./figs//Poster-2013-377.jpg>]
+<figs//atlas_layout.jpg, id=118, 563.10374pt x 363.3575pt>
 File: figs//atlas_layout.jpg Graphic file (type jpg)
 <use figs//atlas_layout.jpg>
-Package pdftex.def Info: figs//atlas_layout.jpg  used on input line 50.
+Package pdftex.def Info: figs//atlas_layout.jpg  used on input line 80.
 (pdftex.def)             Requested size: 349.97028pt x 225.8282pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 63.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 63.
- [6 <./figs//Poster-2013-377.jpg>]
-<figs//coordinate_system.pdf, id=146, 377.76031pt x 183.09705pt>
+(Font)              scaled to size 6.1pt on input line 94.
+ [3 <./figs//atlas_layout.jpg>]
+<figs//coordinate_system.pdf, id=135, 377.76031pt x 183.09705pt>
 File: figs//coordinate_system.pdf Graphic file (type pdf)
 <use figs//coordinate_system.pdf>
-Package pdftex.def Info: figs//coordinate_system.pdf  used on input line 78.
+Package pdftex.def Info: figs//coordinate_system.pdf  used on input line 109.
 (pdftex.def)             Requested size: 349.97028pt x 169.63031pt.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 11.28003pt on input line 83.
- [7 <./figs//atlas_layout.jpg> <./figs//coordinate_system.pdf>]
-Underfull \vbox (badness 4036) has occurred while \output is active []
 
- [8] [9]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 189.
- [10]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 219.
- [11]
-<figs//pflow.png, id=224, 958.58125pt x 168.63pt>
+Underfull \vbox (badness 5316) has occurred while \output is active []
+
+ [4 <./figs//coordinate_system.pdf>] [5] [6] [7] [8]
+<figs//pflow.png, id=214, 958.58125pt x 168.63pt>
 File: figs//pflow.png Graphic file (type png)
 <use figs//pflow.png>
-Package pdftex.def Info: figs//pflow.png  used on input line 275.
+Package pdftex.def Info: figs//pflow.png  used on input line 313.
 (pdftex.def)             Requested size: 349.97028pt x 61.56615pt.
- [12]
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 285.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./figs//pflow.png>]
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 323.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 285.
- [13 <./figs//pflow.png>] [14]) [15]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+(Font)              scaled to size 10.95pt on input line 323.
+ [10]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 386.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 386.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 386.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.5pt on input line 386.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 9.0pt on input line 386.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 7.3pt on input line 386.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 5.5pt on input line 386.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 386.
+ [11]) [12]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.183 \printbibliography[heading=bibintoc]
@@ -1884,7 +1887,7 @@ l.217 \end{document}
 Package cleveref Info: loaded `ngerman' language definitions on input line 26.
 Package cleveref Info: loaded `ngerman' language definitions on input line 29.
 Package cleveref Info: loaded `ngerman' language definitions on input line 31.
- (./thesis_acknowledge.aux) (./thesis_intro.aux) (./chapter1.aux) (./chapter2.aux) (./thesis_appendix.aux))
+ (./thesis_acknowledge.aux) (./chapter2.aux) (./thesis_appendix.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1896,20 +1899,20 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51885 strings out of 480171
- 1045451 string characters out of 5894489
- 1950399 words of memory out of 5000000
- 68665 multiletter control sequences out of 15000+600000
- 597696 words of font info for 310 fonts, out of 8000000 for 9000
+ 51936 strings out of 480171
+ 1046183 string characters out of 5894489
+ 1942740 words of memory out of 5000000
+ 68682 multiletter control sequences out of 15000+600000
+ 631658 words of font info for 387 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
  122i,20n,147p,10634b,4023s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{appendix.A} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on mythesis.pdf (30 pages, 4640422 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on mythesis.pdf (27 pages, 4643607 bytes).
 PDF statistics:
- 516 PDF objects out of 1000 (max. 8388607)
- 436 compressed objects within 5 object streams
- 85 named destinations out of 1000 (max. 500000)
- 86721 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 518 PDF objects out of 1000 (max. 8388607)
+ 441 compressed objects within 5 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 109241 words of extra memory for PDF output out of 128383 (max. 10000000)
 

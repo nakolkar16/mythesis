@@ -5,11 +5,16 @@
 \label{sec:LHCATLAS}
 %==============================================================================
 
+\mynote[inline]{}{Write about what the chapter has to offer}
+
+
 \section{The Large Hadron Collider}
 The Large Hadron Collider (LHC)\cite{LyndonEvans_2008} is a two-ring proton-proton collider situated near Geneva across the Swiss-French border. It is built in 
 the 26.7 km long tunnel that previously housed the Large Electron-Positron (LEP) collider. The two proton beams are accelerated in opposite directions and 
 brought into collision at four points where the four detectors are located. The LHC has two transfer tunnels of 2.5 km each that connects to the CERN accelerator
-complex as shown in \cref{fig:acc_complex}. The CERN accelerator complex is a set of subsystems that contribute to the acceleration of protons. The process 
+complex as shown in \cref{fig:acc_complex}. 
+
+The CERN accelerator complex is a set of subsystems that contribute to the acceleration of protons. The process 
 starts with negative Hydrogen ions that are accelerated in LINAC4 which is the first system in the CERN accelerator complex. Electrons are stripped off from 
 Hydrogen ions during injection from LINAC4 to Proton Synchrotron Booster (PBS) which increases the proton energy further. Eventually the protons are fed into 
 the Super Proton Synchrotron (SPS). At this point the proton energy is 450 GeV and then they are finally injected into two opposing beams of the LHC. Here each beam 
@@ -22,7 +27,7 @@ attains a path-breaking energy of 6.5 TeV.
     \label{fig:acc_complex}
 \end{figure}
 
-
+\subsection*{Superconducting magnets}
 One of the major challenges at the LHC is the directing of proton beams along the circular structure. To achieve the destined center of mass energy, 
 given the circumference and charge of proton, approximately 8 T magnetic field is required. This is outside the limit of conventional magnets which is why 
 superconducting magnets are engaged. Due to the limited available area in the LHC tunnel, a single magnet system is shared by both the beam pipes. The 
@@ -31,14 +36,39 @@ obstacles here is the synchrotron radiation. The protons radiate photons when th
 inside the magnet system. To fix this problem, beam screens are placed between the beam pipe and the magnet system which reflects or absorbs these radiated photons,
 preserving the superconductivity. 
 
-Luminosity ($L$) defines the number of a certain type of reaction in collisions. The number of reactions can be determined as $L\sigma$ where $\sigma$ is the 
-probability of a certain reaction and it is called the cross-section. For a particle collider, beam energy and luminosity are two important figures of merit. 
-High energy allows the production of new heavy particles and high luminosity allows more flux of particles contributing to high number of collisions. The outcomes
-of these collisions hold interesting physics and it is studied with the help of particle detectors. The LHC houses four main detectors at the four collision
+\subsection*{Luminosity and cross-section ($\sigma$)}
+The quantity that measures the ability of a collider to produce particle interactions is called
+instantaneous luminosity ($\mathcal{L}$). The instantaneous luminosity integrated over the lifetime
+of collider operation is called integrated luminosity ($L$).
+
+In order to define the event rate for interesting processes, along with luminosity, we require
+another quantity called the cross-section. At the subatomic scale, the particle interactions 
+are governed by laws of quantum physics. Therefore, a theory can predict 
+the \textit{probablility} of certain outcomes of collisions. The probablity that a certain
+process will take place is called its cross-section ($\sigma$). Finally, the number of event rate of
+specific interactions is defined as the product of integrated luminosity and the cross-section (\cref{eq:lumi}).
+\begin{equation}
+    R = \sigma \cdot \int_{dt} \mathcal{L}(t)
+    \label{eq:lumi}
+\end{equation}
+
+For a particle collider, beam energies and the luminosity are two important figures of merit. 
+High energy allows the production of new heavy particles and high luminosity allows more flux 
+of particles contributing to high number of collisions. 
+
+At the LHC, the incoming protons see each other as a bunch of partons instead of a single 
+proton. The proton is composed of two $u$- and one $d$- quark called valence quarks. At high 
+energies, these quarks can exchange gluons and in turn produce more gluons and quarks. In a way,
+the proton looks like a \textit{sea} of gluons and quarks that altogether are called partons. 
+Here the net flavour of a proton is the same as that of valence quarks. These partons interact 
+at collision points and give rise to different SM processes.
+
+The outcomes of these collisions hold interesting physics and it is studied with the help of particle detectors. The LHC houses four main detectors at the four collision
 points. The two general purpose detectors are ATLAS (\textbf{A} \textbf{T}oroidal \textbf{L}HC \textbf{A}pparatu\textbf{S})\cite{TheATLASCollaboration_2008} and
 CMS (\textbf{C}ompact \textbf{M}uon \textbf{S}olenoid)\cite{TheCMSCollaboration_2008}. The LHCb experiment\cite{TheLHCbCollaboration_2008} is dedicated to 
 studies based on \PB-hadron and its decays whereas ALICE(\textbf{A} \textbf{L}arge \textbf{I}on \textbf{C}ollider \textbf{E}xperiment)\cite{TheALICECollaboration_2008}
-analyses the $Pb-Pb$ collisions at the LHC. 
+analyses the $Pb$-$Pb$ collisions at the LHC. This analysis uses data from the ATLAS detector
+which is described in the next section. 
 
 
 \section{The ATLAS detector}
@@ -52,6 +82,7 @@ in \cref{fig:atlas}.
     \label{fig:atlas}
 \end{figure}
 
+\subsection{Coordinate system}
 ATLAS uses a conventional coordinate system in which the point where collisions occur, called the Interaction Point (IP), is treated as the origin. The 
 $z$-axis is along the beam direction, $x$-axis is directed to the center of the LHC ring and the $y$-axis is pointing upwards. The azimuthal angle ($\phi$) 
 is the angle with the $x$-axis (around the beam pipe) and the polar angle ($\theta$) is the angle from the $z$-axis (from the beam pipe). A sketch of the coordinate
@@ -186,16 +217,18 @@ The various decay products from the proton-proton collisions travel through the 
 behind characteristic trails. Physicists follow the trails and try to reconstruct objects which would represent
 characteristics of particles.
 
-At the LHC protons are injected in \mynote{bunches}{how many?} which are 25 ns apart. The average number of interactions
-recorded per bunch crossing is called pileup. It includes the collision of interest as well as other collisions.
-Sources of pileup are categorized into in-time and out-of-time pileup. In-time pile up is due to collisions
+At the LHC 2808 bunches of protons are injected which are 25 ns apart. This results into 
+$1.2 \times 10^{11}$ protons ber bunch giving rise to many different particle interactions. The 
+primary hard scatter collisions, that are of interest, are contaminated by soft interactions 
+called pileup. It is defined by the average number of interactions
+recorded per bunch crossing. Sources of pileup are categorized into in-time and out-of-time pileup. In-time pile up is due to collisions
 occurring in the same bunch-crossing and out-of-time pile-up is contributed by the collisions from previous
 or later bunches. Some of the sub-detectors have sensitivity windows longer than the interval between
 bunch crossings. This eventually affects the recorded number of interactions per bunch. The accurate
-detection of objects under study becomes difficult due to pile-up events.
-
-\mynote[inline]{}{Add info about general reconstruction and connect it with the above pileup info}
-
+detection of objects under study becomes difficult due to pile-up events. The higher the 
+luminosity, more the pileup. The object reconstruction algorithms have dedicated procedures 
+to mitigate pileup.
+\mynote[inline]{}{Pileup info can be polished}
 \subsection{Tracking}
 The signals collected from the tracking detectors, the inner detector and muon spectrometers, are used to reconstruct charged-particle trajectories called tracks. The primary-tracking
 reconstruction from the SCT and pixel detector is performed in three steps: clusterisation, iterative combinatorial track finding and ambiguity solving~\cite{Aaboud_2017}. 
@@ -220,9 +253,9 @@ and $r-z$ coordinates in the barrel and end-cap region respectively. These space
 a line fit to find hits suitable with the input track candidates. In this way, the chosen hits form the TRT further extend the track candidate~\cite{T_Cornelissen_2008}.
 
 \subsection{Vertexing}
-Vertexing is the process of identifying primary vertices, which are the locations in the detector where proton-proton hard scattering occurs. \mynote{It is crucial for the vertexing 
-technique to accurately reconstruct the primary vertex of the interaction of interest, especially given the presence of additional interactions caused by pileup}{rephrase because 
-the job is to reconstruct all primary vertices}.
+Vertexing is the process of identifying vertices, which are the locations in the detector where proton-proton hard scattering occurs.
+Primary vertex is the position where the initial interaction took place whereas secondary vertices
+are positions where particles produced in the initial interaction decay.
 
 The vertex reconstruction algorithm takes tracks estimated from the Inner Detector (ID) as input. These tracks are filtered based on certain quality requirements to ensure 
 they are suitable for vertex reconstruction. The algorithm operates in two steps: vertex finding and vertex fitting. Initially, a seed position is determined from the set of 
@@ -232,6 +265,9 @@ use in other vertex reconstructions. A vertex candidate must have at least two a
 vertices can be found from the remaining tracks. The vertex reconstruction algorithm produces a set of three-dimensional vertex positions and their covariance 
 matrices~\cite{F_Meloni_vertex}.
 
+The ATLAS reconstruction defines the hard-scatter primary vertex as the primary vertex with the
+largest $\sum p_{\text{T}}^2$ of the associated tracks. The other primary vertices are associated
+with pileup contribution. 
 
 \subsection{Topo clusters}
 Topoclusters, as the name suggests, are topological energy clusters produced inside the calorimeter cells caused by particle showers. 
@@ -251,6 +287,7 @@ neighboruring cells satisfying the requirement of $\varsigma_{\text{cell}}^{\tex
 cluster grows.
 
 \subsection{Particle Flow}
+\label{sec:pflow}
 The momentum and energy measurements from the inner detector and calorimeter,respectively, are prone
 to overlaps of certain events. For instance, an event in which an electron leaves a track in the ID and also
 deposits energy in the calorimeter. If information from these sub detectors is used individually, there is a
@@ -260,15 +297,16 @@ event by combining measurements from the inner detector and calorimeters. The ID
 has a better resolution especially at low pT whereas the calorimeter can detect neutral particles. Particle
 Flow puts both these advantages into yielding more reliable measurements.
 
-In Particle Flow (PFlow) algorithm, one of the inputs is the set of reconstructed tracks that are extrapolated
+In the Particle Flow (PFlow) algorithm, one of the inputs is the set of reconstructed tracks that are extrapolated
 in the direction of calorimeter energy deposits. The algorithm evaluates the probablility of the particle
 energy to be depoisted in more than one topocluster. Accordingly it either stores single topocluster energy
 or sums up energy of multiple topoclusters to constitute the full energy profile of the particle that created the
 track. The expected energy deposited by the particle that created the track is subtracted from the matched
-topoclusters. The remaining topocluster energy is assigned as the energy from neutral particles [7]. In the
-end, the reconstructed tracks known as the charged PFlow objects and remaining topoclusters termed as
-neutral PFlow objects, define the complete reconstruction of the event. A schematic diagram of PFlow
-algorithm is shown in \cref{fig:pflow}.
+topoclusters. The remaining energy after subtraction is compared to a threshold value. If the energy is below the 
+threshold, it is removed as it may be due to shower fluctuations. Conversely, if the energy exceeds the threshold, 
+it is retained as it may originate from multiple particles. At the end, a set of selected tracks and remaining
+topoclusters in the calorimeters represent the reconstructed event with no double counting of signatures. A schematic 
+diagram of PFlow algorithm is shown in \cref{fig:pflow}.
 
 \begin{figure}[htbp]
     \centering
@@ -326,7 +364,30 @@ muon types:
 
 
 \subsection*{Jets}
-Also write about bjet
+Jet reconstruction inputs are obtained from the Particle Flow algorithm described in \cref{sec:pflow}. The
+matched charged particle tracks and the remaining topoclusters, after the subtraction step, are 
+filtered based on their compatibility with the hard-scatter primary vertex. Charged particle 
+tracks matching this vertex are retained. This is done by requiring $|z_0 sin\theta|<2$ mm, 
+where $z_0$ is the distance of closest approach of the track to the hard-scatter primary vertex 
+along the $z$-axis~\cite{Aaboud:2257597}. Moreover, the position coordinates of the topoclusters are recalculated 
+relative to the hard-scatter primary vertex. Particle Flow jets are reconstructed using the 
+anti-$k_t$ algorithm with a radius parameter of 0.4. Details about the anti-$k_t$ algorithm 
+can be found in \cite{Cacciari:2008gp}.
+
+\subsection*{$b$-jets}
+The procedure of identifying a hadronic jet originating from a $b$-quark is called $b$-tagging.
+The $b$-tagging algorithms are designed to exploit the characteristics of a $b$-hadron, for instance,
+its high mass and longer lifetime. The lifetime of a $b$-hadron is of the order of 1.5 ps and 
+therefore, it can travel a significant distance before decay. Technically, the vertex at which 
+it decays is displaced from the primary vertex where it is produced. Moreover, the decay 
+multiplicity is also higher given the fact that $b$-hadrons are massive. The algorithms at ATLAS
+employ a two-staged approach: Firstly, it exploits the large impact 
+parameters\footnote{Impact parameter is the distance of closest approach
+of the track to the collision point.} of the tracks associated with hadronic jets
+and their compatibility with the primary vertex. Then, it explicitly reconstructs displaced vertices.
+Secondly, multivariate classifiers are used to discriminate $b$-jets compared to $c$-jets or other
+light flavour jets~\cite{Aad:2682119}. 
+
 
 \subsection{Missing Transverse Energy (MET)}
 Reconstruction of particles crossing the detector volume is crucial to understand what particles
