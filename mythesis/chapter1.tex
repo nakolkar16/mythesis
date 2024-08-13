@@ -4,3 +4,151 @@
 \chapter{The Standard Model}
 \label{sec:SM}
 %==============================================================================
+
+Since many years, physical phenomena occuring around us has shaped our understanding about nature.
+The Standard Model (SM) of particle physics is a theory that explains almost everything
+that nature has to offer. It is based on fundamental particles and their interactions
+being governed by Quantum Field Theories (QFTs). 
+
+The Standard Model is divided into spin-1 fermions and spin-0 bosons. The fermions are
+further divided into leptons and quarks as shown in \mynote{FIGURE}{Add figure}. Another
+classification of fermions is into generations. The first generation consstitutes
+\Pup, \Pdown, \Pelectron and \Pnue which give rise to matter around us. The second
+and third generation particles are high energy \textit{siblings} of the first generation
+particles. These are observed at high energies such as colliders. The SM also considers
+anti-particles which are clones of particles with opposite quantum numbers.
+
+These fermions interact with each other via exchanging bosons which are also called 
+\textit{force-carrier} particles. The massless neutral photon (\Pphoton) is the 
+messenger of the electromagnetic (EM) force which is experienced by charged particles.
+The underlying QFT is called Quantum Electrodynamices (QED). The electrostatic 
+attraction between charged particles is the low-energy manifestation of QED. Among 
+the SM, all fermions except neutrinos are sensitive to the EM force. The underlying symmetry
+is the U(1) symmetry. 
+
+The strong interaction, mediated by massless gluons, is experienced by particles 
+carrying the so-called colour charge. The physics behind the strong interaction is 
+explained in Quantum Chromodynamics (QCD). Only the quarks can interact via the 
+strong interaction. A peculiar thing in QCD is that the gluons themselves also carry 
+colour charge. 
+
+The weak force carriers are \PWpm and \PZ, which unlike \Pphoton and 
+gluons, are massive and charged in case of \PWpm. The weak interaction manifests
+itself in phenomena such as, $\beta$-decay and fusion processes inside the sun. All the
+SM particles, including the neutrinoes, can feel the weak force. 
+Before discussing the elecroweak unification, let's dive into the weak interaction. 
+The interaction mediated by \PWpm and \PZ is called charged-current weak interaction and
+neutral-current weak interaction, respectively. The famous Wu experiment proved that the charged
+current weak interaction violates parity. The parity violating nature of the weak interaction
+suggests that the interaction vertex must be different from that of QED and QCD. The weak 
+interaction is described using a $V-A$ vertex and this fact imples that only left-handed
+chiral particle states and right-handed chiral antiparticle states can participate in 
+charged-current weak interaction. 
+
+The last piece of the SM puzzle is the Higgs boson which is a spin-0 boson. All the
+particles gain their mass by Higgs mechanism. 
+
+\subsection{Feynman diagrams}
+
+Interactions between the SM particles can give rise to various processes. In order to
+visualise it, a tool called Feynman diagrams is widely used. These diagrams are 
+pictorial representations of the interactions which makes use of straight lines with 
+arrows to show particles and anti-particles. Moreover, curly lines are used to show
+the boson exchanged between them. The Feynman diagrams are symbolic and have no 
+physical meaning. \mynote[inline]{}{Add and explain an example feynman diagram}
+
+\section{The Strong interaction}
+
+\section{The Electroweak theory}
+In the 1960s, physicists were trying to formulate a gauge theory for weak interactions
+similar to QED. A theory can be a gauge theory if it has an underlying mathematical symmetry
+and it is renormalisable\footnote{A quantum field theory is renormalisable if...}. Glashow,
+Salam and Weinberg discovered such a gauge theory by unifying electromagnetic force and 
+the weak force.
+
+The electroweak (EW) theory is a unification of QED and the thoery of weak interactions. 
+It is described by the symmetry group $SU(2)_L \otimes U(1)_Y$. The corresponding
+charges of the electroweak theory are the weak isospin $I,I_3$ and the weak hypercharge $Y$.
+The weak hypercharge $Y$ determines the interaction under the $U(1)$ transformations.
+The weak isospin of particles determines their transformation under $SU(2)$ and therefore, it is
+used to make multiplets of particles. The left-handed leptons ($\Plepton_L$) will form doublets
+as shown in \mynote{EQUATION}{fix the format and label reference} because they transform into each other under the influence of weak force. 
+This is due to to the $V-A$ vertex form of the weak interaction. On the other hand, the right-handed 
+particles are singlets($\Plepton_R$). 
+
+\begin{align*}
+    \Plepton_R = \Pelectron_R, \Pmuon_R, \Ptau_R \\
+    \Plepton_L = \begin{pmatrix} \Pnue \\ \Pelectron \end{pmatrix}_L , \begin{pmatrix} \Pnum \\ \Pmuon \end{pmatrix}_L , \begin{pmatrix} \Pnut \\ \Ptau \end{pmatrix}_L 
+\end{align*}
+
+The Lagrangian of the EW model introduces three bosons $\PW_\mu^{(1,2,3)}$ corresponding
+to $SU(2)$ and one $B_\mu$ corresponding to $U(1)$. Th experimentally observed $\PWpm$
+are combination of $\PW_\mu^{(1)}$ and $\PW_\mu^{(2)}$ whereas photon ($A$) and the Z-boson are linear
+combinations of $\PW_\mu^{(3)}$ and $B_\mu$ based on the weak mixing angle ($\theta_W$)
+as given below:
+
+\begin{align*}
+A_\mu = +B_\mu \text{cos} \theta_W + W_\mu^{(3)}\text{sin} \theta_W \\
+Z_\mu = -B_\mu \text{sin} \theta_W + W_\mu^{(3)}\text{cos} \theta_W \\
+\end{align*}
+
+The weak interaction for the quark sector can be explained by creating similar
+$SU(2)$ doublets(Q).
+
+\begin{align*}
+    Q = \begin{pmatrix} u \\ d' \end{pmatrix}, \begin{pmatrix} c \\ s' \end{pmatrix}, \begin{pmatrix} t \\ b' \end{pmatrix}
+\end{align*}
+
+The strength of the weak interactions for quarks is determined experimentally by studying
+nuclear $\beta$-decay. It is observed that the vertices corresponding to different quark
+flavours have different coupling strengths. The reason for this is given by the Cabibo
+hypothesis which states that, the flavour eigen states that participate in the weak interactions
+are a mixture of the mass eigen states. The relation between them is given by the 
+Cabibo-Kobayashi-Maskawa (CKM) matrix. 
+
+\begin{align*}
+    \begin{pmatrix} d' \\ s' \\ b'\end{pmatrix}
+     = \begin{pmatrix} V_{ud} & V_{us} & V_{ub} \\
+                       V_{cd} & V_{cs} & V_{cb} \\
+                       V_{td} & V_{ts} & V_{tb}
+    \end{pmatrix} \begin{pmatrix} d \\ s \\ b\end{pmatrix}
+\end{align*}
+
+The values of the CKM matrix elements can be found in \cite{pdg2024}. The diagonal
+of the matrix is close to unity, suggesting that the weak interaction is stronger within
+the same generation of quarks. 
+
+\subsection{The \PZ-boson}
+The experiments at the Gargamelle bubble chamber in 1973 hinted the evidence of a neutral
+massive boson responsible for the observed neutrino interactions~\cite{HASERT1973138}. In 1983, the \PZ-boson
+was directly discovered at the Super-Proton Synchrotron at CERN. The electroweak theory
+was verified by this pathbreaking discovery. The properties of the \PZ-boson were
+studied at the Large Electron-Positron (LEP) collider at CERN. The discovery of \PZ and \PW 
+bosons are among the crucial tests of the Standard Model. 
+
+
+
+
+
+
+\section{The Higgs mechanism}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

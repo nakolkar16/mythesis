@@ -1,30 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'mythesis.blg'
-[44] biber:340> INFO - === Fr Jul 26, 2024, 15:03:41
-[52] Biber.pm:418> INFO - Reading 'mythesis.bcf'
-[87] Biber.pm:972> INFO - Found 26 citekeys in bib section 0
-[94] Biber.pm:4383> INFO - Processing section 0
-[100] Biber.pm:4574> INFO - Looking for bibtex file 'bib/thesis_refs.bib' for section 0
-[101] bibtex.pm:1713> INFO - LaTeX decoding ...
-[120] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/thesis_refs.bib'
-[211] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[211] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[211] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
-[211] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-UK'
-[221] bbl.pm:654> INFO - Writing 'mythesis.bbl' with encoding 'UTF-8'
-[234] bbl.pm:757> INFO - Output to mythesis.bbl
-[234] Biber.pm:130> WARN - legacy month field 'aug' in entry 'LyndonEvans_2008' is not an integer - this will probably not sort properly.
-[234] Biber.pm:130> WARN - legacy month field 'aug' in entry 'TheATLASCollaboration_2008' is not an integer - this will probably not sort properly.
-[234] Biber.pm:130> WARN - legacy month field 'aug' in entry 'TheCMSCollaboration_2008' is not an integer - this will probably not sort properly.
-[234] Biber.pm:130> WARN - legacy month field 'aug' in entry 'TheLHCbCollaboration_2008' is not an integer - this will probably not sort properly.
-[234] Biber.pm:130> WARN - legacy month field 'aug' in entry 'TheALICECollaboration_2008' is not an integer - this will probably not sort properly.
-[234] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Aaboud_2017' is not an integer - this will probably not sort properly.
-[234] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Francavilla_2012' is not an integer - this will probably not sort properly.
-[234] Biber.pm:130> WARN - legacy month field 'feb' in entry 'J-P-Archambault_2008' is not an integer - this will probably not sort properly.
-[234] Biber.pm:130> WARN - legacy month field 'feb' in entry 'A-Artamonov_2008' is not an integer - this will probably not sort properly.
-[234] Biber.pm:130> WARN - legacy month field 'oct' in entry 'The-ATLAS-collaboration_2020' is not an integer - this will probably not sort properly.
-[234] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Nakahama_2015' is not an integer - this will probably not sort properly.
-[234] Biber.pm:130> WARN - legacy month field 'jan' in entry 'C-Gabaldon_2012' is not an integer - this will probably not sort properly.
-[234] Biber.pm:130> WARN - legacy month field 'jul' in entry 'T_Cornelissen_2008' is not an integer - this will probably not sort properly.
-[234] Biber.pm:130> WARN - legacy month field 'September' in entry 'F_Meloni_vertex' is not an integer - this will probably not sort properly.
-[234] Biber.pm:132> INFO - WARNINGS: 14
+[42] biber:340> INFO - === Di Aug  6, 2024, 17:49:32
+[50] Biber.pm:418> INFO - Reading 'mythesis.bcf'
+[83] Biber.pm:972> INFO - Found 2 citekeys in bib section 0
+[90] Biber.pm:4383> INFO - Processing section 0
+[96] Biber.pm:4574> INFO - Looking for bibtex file 'bib/thesis_refs.bib' for section 0
+[98] bibtex.pm:1713> INFO - LaTeX decoding ...
+[118] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/thesis_refs.bib'
+[166] Biber.pm:4574> INFO - Looking for bibtex file 'bib/standard_refs-biber.bib' for section 0
+[166] bibtex.pm:1713> INFO - LaTeX decoding ...
+[172] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/standard_refs-biber.bib'
+[179] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[180] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[180] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
+[180] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-UK'
+[183] bbl.pm:654> INFO - Writing 'mythesis.bbl' with encoding 'UTF-8'
+[197] bbl.pm:757> INFO - Output to mythesis.bbl
