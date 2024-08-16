@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.1 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -36,7 +36,7 @@
       \strng{authornamehash}{2a6121319f8f1d2d056522256e1d1090}
       \strng{authorfullhash}{2a6121319f8f1d2d056522256e1d1090}
       \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{journaltitle}{Phys. Rev. D 110, 030001}
       \field{year}{2024}
@@ -332,7 +332,7 @@
       \strng{authornamehash}{7071aac92bf32e6194c6509b9944be31}
       \strng{authorfullhash}{2e8c566eb48ba3d8cf6913a0683e526c}
       \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Events induced by neutral particles and producing hadrons, but no muon or electron, have been observed in the CERN neutrino experiment. These events behave as expected if they arise from neutral current induced processes. The rates relative to the corresponding charged current processes are evaluated.}

@@ -6,31 +6,36 @@
 %==============================================================================
 
 The proton-proton collisions occurring at high energies at the LHC allow 
-multiple processes that produce heavy particles. One of these
+multiple processes to occur. One of the
 processes is the electroweak production of the \Ptop-quark and the 
-\PZ-boson. As shown in \cref{fig:tZqfeyna}, 
-
-In this analysis, this production
-is referred to as the \tZq production described by Feynman diagrams in 
-\cref{fig:tZqfeyn}. 
+\PZ-boson. The LO $t$-channel Feynman diagrams are shown in \cref{fig:tZqfeyn} where
+a \PZ-boson can be radiated from any one of the incoming or outgoing quarks (\cref{fig:tZqfeyna})
+or from the exchanged \PW-boson (\cref{fig:tZqfeynb}). In addition to these
+resonant contributions, there is also a small non-resonant contribution 
+in the form of $tl^+l^-q$ (\cref{fig:tZqfeync}) which is also accounted for. 
+In this analysis, this process
+is referred to as the \tZq production. 
 
 \begin{figure}[htbp]
     \centering
-    \begin{subfigure}{0.35\figwidth}
-      \centering
-         \includegraphics[width=\textwidth]{tZq_Zfromb.pdf}
-         \label{fig:tZqfeyna}
-    \end{subfigure}
-    \qquad
+    % \begin{subfigure}{0.35\figwidth}
+    %   \centering
+    %      \includegraphics[width=\textwidth]{tZq_Zfromb.pdf}
+    %      \caption{}
+    %      \label{fig:tZqfeyna}
+    % \end{subfigure}
+    % \qquad
     \begin{subfigure}{0.35\figwidth}
       \centering
       \includegraphics[width=\textwidth]{tZq_Zfromtop.pdf}
-      \label{fig:tZqfeyn(b)}
+      \caption{}
+      \label{fig:tZqfeyna}
     \end{subfigure}
     \begin{subfigure}{0.35\figwidth}
       \centering
-      \includegraphics[width=\textwidth]{tZq_Zfromd.pdf}
-      \label{fig:tZqfeyn(c)}
+      \includegraphics[width=\textwidth]{tZq_ZfromWW.pdf}
+      \caption{}
+      \label{fig:tZqfeynb}
     \end{subfigure}
   
   
@@ -39,64 +44,90 @@ is referred to as the \tZq production described by Feynman diagrams in
   
   \begin{subfigure}{0.35\figwidth}
       \centering
-      \includegraphics[width=\textwidth]{tZq_Zfromu.pdf}
+      \includegraphics[width=\textwidth]{tZq_nonres.pdf}
+      \caption{}
+         \label{fig:tZqfeync}
     \end{subfigure}
-    \begin{subfigure}{0.35\figwidth}
-      \centering
-      \includegraphics[width=\textwidth]{tZq_ZfromWW.pdf}
-    \end{subfigure}
-    \begin{subfigure}{0.35\figwidth}
-        \centering
-        \includegraphics[width=\textwidth]{tZq_nonres.pdf}
-      \end{subfigure}
+    % \begin{subfigure}{0.35\figwidth}
+    %   \centering
+    %   \includegraphics[width=\textwidth]{tZq_ZfromWW.pdf}
+    %   \caption{}
+    %      \label{fig:tZqfeyne}
+    % \end{subfigure}
+    % \begin{subfigure}{0.35\figwidth}
+    %     \centering
+    %     \includegraphics[width=\textwidth]{tZq_nonres.pdf}
+    %     \caption{}
+    %      \label{fig:tZqfeynf}
+    %   \end{subfigure}
   
-  \caption[Feynman diagrams at LO for the \tZq-process]{Feynman diagrams at 
-  LO for the \tZq-process. The \PZ is radiated either from incoming or 
-  outgoing quarks or from the exchanged W boson. }
+  \caption[Feynman diagrams at LO for the \tZq-production]{Feynman diagrams at 
+  LO for the \tZq-production. The \PZ is radiated either from one of the
+  quarks or from the exchanged W boson. }
   \label{fig:tZqfeyn}
   \end{figure}
 
-\mynote[inline]{}{The s-channel t-channel resonance non-resonance diagram 
-explanation.}
-
 The \tZq production is interesting to study because it probes the coupling
-of fermion-fermion and fermion-boson simultaneously. Moreover, it can provide
-a solid basis to study the even rarer $tHq$ process. It is important to note 
+of a fermion to a fermion and a fermion to a boson in the same interaction. Moreover, 
+it can provide a solid basis to study $tHq$ process. It is important to note 
 that the particles involved in this production are quite heavy and therefore,
-the only way to spot them is by reconstructing their decay products. 
-Conventionally, the decay products are divided into several \textit{channels}
-based on certain combination of leptons and jets. This analysis is based on
+the only way to spot them is from their reconstructed decay products. 
+Conventionally, the final states are divided into several \textit{channels}
+based on certain combination of leptons and jets. This analysis focuses on
 the so-called trilepton channel.
 
 \section{The \tZqsec Trilepton Channel}
 As the name suggests, the trilepton decay channel of the \tZq production 
-contains mainly three leptons. The probability of having three leptons in 
-the final state is very small. However, the leptons allow for a clean signature
-of this channel and therefore, \tZq is studied in the trilepton channel. This
-will be referred to as the signal.
+contains final states with three charged leptons, the probability of which
+is very small. However, the charged leptons allow for a clean signature
+of this final state and therefore, \tZq is studied in the trilepton channel. This
+is referred to as our signal.
 
-The list of objects belonging to this decay channel can be obtained from its
-Feynman diagram as shown in FIGURE. It also helps in generating certain
-criteria to extract these objects from the entire reconstructed data.
-This procedure is called event selection. For this specific channel, the
-event selection consists of three leptons that must originate either 
-from \PZ or from \PW which is decaying from \Ptop. Moreover, 
-there should be at least one \Pbottom-jet from \Ptop along with
-missing transverse energy. In addition, the spectator quark should 
-also be considered through a condition on number of jets. 
-The event selection is summarised in TABLE. Along with the number of leptons
-and jets, requirements are also placed on their kinematic properties in the
-form of cuts on their transverse momenta and eta. 
+\begin{figure}
+  \centering
+      \includegraphics[width=0.5\textwidth]{tZq_Zfromtop_decay.pdf}
+      \caption{The \tZq trilepton final state}
+         \label{fig:tZqtrilep}
+\end{figure}
 
-It is important to note here that, these requirements are chosen to 
-maximise the probablility of selecting signal events
-but in reality there are background processes that mimic the \tZq signature
-and therefore, contaminate the selected signal data. 
+In order to reconstruct the trilepton final state, as shown in \cref{fig:tZqtrilep}, certain 
+requirements are imposed on the recorded detector data, specifically on leptons, jets and
+\mynote{missing transverse energy}{What cut?}. The collection of these requirements is called the event selection
+which in this scenario, is geared to selecting events containing \tZq trilepton 
+signatures. It is summarised in \cref{tab:selection:srcr}.
 
+Primary requirements are as follows:
+
+\begin{itemize}
+  \item \textbf{Leptons}
+    \begin{itemize}
+      \item Exactly three leptons (\Pelectron or \Pmu)
+      \footnote{\Ptau is considered if it decays into leptons}. These leptons are 
+      sorted by their \pT which is required to be at least 27,15 and 10 GeV, respectively.
+      
+      \item At least 1 Opposite Sign Same Flavour (OSSF) lepton pair with a minimum
+      difference between its invariant mass ($m_{ll}$) and $m_Z$. This is to identify 
+      which out of the selected leptons originate from \PZ.
+
+      \item A cut on minimum accepted invariant mass, in order to suppress backgrounds 
+      not containing a \PZ.
+
+      \item \mynote{mTw, MET?}{Reason?}
+  \end{itemize}
+  \item \textbf{Jets}
+  \begin{itemize}
+    \item Number of jets are required to be between 2 and 5, with \pT more than \qty{25}{GeV}
+    and $|\eta|$ more than 4.5.
+    \item Number of \Pbottom-jets are required to be 1 or 2, reconstructed at $85\%$ working 
+    point with $|\eta|$ more than 2.5. Events with 2 jets, both \Pbottom-tagged are nor considered.
+  \end{itemize}
+
+
+\end{itemize}
 
 \begin{table}[!htbp]
     \footnotesize
-    \caption{Definition of the signal and control regions.}
+    \caption{Event selection}
     \label{tab:selection:srcr}
     \renewcommand{\arraystretch}{1.3}
     \centering
@@ -107,17 +138,22 @@ and therefore, contaminate the selected signal data.
         $N_\ell~\left(\ell=e,\mu\right)$ & \multicolumn{3}{c}{$=3$}\\
         & \multicolumn{3}{c}{$\ge 1$ OSSF lepton pair}\\
         $\pT\left(\ell_1,\ell_2,\ell_3\right)$ & \multicolumn{3}{c}{$>$ 27,~15, \qty{10}{\GeV}}\\
-        Sum of lepton charges & \multicolumn{3}{c}{$\pm 1$}\\
         $\min(m_{\ell\ell})$ & \multicolumn{3}{c}{$>$ \qty{20}{\GeV}} \\
         $|m_{\ell\ell} - m_{Z}|$ & \multicolumn{3}{c}{$<$ \qty{10}{\GeV}} \\
         \mtw & \multicolumn{3}{c}{$>$ \qty{30}{\GeV}} \\
-        \midrule
-        & SR & \CRttZ & \CRVV \\
-        $N_\text{jets}\left(\pT>25~\mathrm{GeV}\right)$ & 2-5 & $\ge 6$ & 2-5 \\
-        $N_{b-\text{jets}} @ 85\%$ & 1-2 (no $2j2b$) & $\ge 1$ & 0 \\
+        $N_\text{jets}\left(\pT>25~\mathrm{GeV}\right)$ & \multicolumn{3}{c}{2-5} \\
+        $N_{b-\text{jets}} @ 85\%$ & \multicolumn{3}{c}{1-2 (no $2j2b$)} \\
+        % & SR & \CRttZ & \CRVV \\
+        % $N_\text{jets}\left(\pT>25~\mathrm{GeV}\right)$ & 2-5 & $\ge 6$ & 2-5 \\
+        % $N_{b-\text{jets}} @ 85\%$ & 1-2 (no $2j2b$) & $\ge 1$ & 0 \\
         \bottomrule
     \end{tabular}
     \end{table}
 
+
+It is important to note here that these requirements are chosen to 
+maximise the probability of selecting signal events
+but in reality there are background processes that mimic the \tZq signature
+and therefore, contaminate the selected signal events. 
 
 \section{Background processes}
