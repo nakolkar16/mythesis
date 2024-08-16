@@ -1,0 +1,82 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usepackage{pgfplots}
+\usetikzlibrary{positioning,shapes,arrows}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
+
+\begin{document}
+	\tikzset{
+		particle/.style={thick, postaction={decorate},
+			decoration={markings, mark=at position 0.6 with {\arrow{triangle 45}}}},
+		photon/.style={decorate, draw=black,
+			decoration={coil, aspect=0}},
+		gluon/.style={decorate, draw=black,
+			decoration={coil, segment length=5pt, amplitude=4pt}}
+	}
+
+
+\begin{tikzpicture}[node distance=1cm and 1.5cm]
+
+\coordinate[label=left:$g$] (g1);
+% Definition of all vertices
+\coordinate[below right=of g1] (aux1); % gtt
+\coordinate[right=2cm of aux1] (aux2); % tW+b
+\coordinate[above right=1cm of aux2] (aux3); %W+ l+nu
+\coordinate[below=1.5cm of aux1] (aux7); % ttZ
+\coordinate[right=3cm of aux7] (aux8); % Zll
+\coordinate[below=1.5cm of aux7] (aux4); % g tbar bbar
+\coordinate[right=2cm of aux4] (aux5); % tbar bbar W-
+\coordinate[below right=1cm of aux5] (aux6); %W- l-nu
+
+% Definition of boson labels
+\coordinate[below left=of aux4,label=left:$g$] (g2);
+
+% Definition of quark labels
+\coordinate[right=2cm of aux2,label=right:$b$] (b1);
+\coordinate[right=2cm of aux5,label=right:$\bar{b}$] (b2);
+
+\coordinate[right=1cm of aux6,label=right:$q$] (q1);
+\coordinate[below right=1cm of aux6,label=right:$\bar{q}'$] (q2);
+
+% Definition of lepton labels
+\coordinate[right=1cm of aux3,label=right:$l^+$] (l1);
+\coordinate[above right=1cm of aux3,label=right:$\nu$] (nu1);
+
+\coordinate[above right=1cm of aux8,label=right:$l^+$] (l2);
+\coordinate[below right=1cm of aux8,label=right:$l^-$] (l3);
+
+% -------------------------------------------------------------------------
+
+% Draw quark lines
+\draw[gluon] (g1)   -- (aux1);
+\draw[gluon] (g2)   -- (aux4);
+
+% Draw W boson lines
+\draw[photon] (aux2) -- node[label=above:$W^+$] {} (aux3);
+\draw[photon] (aux5) -- node[label=below:$W^-$] {} (aux6);
+\draw[photon] (aux7) -- node[label=below:$Z$] {} (aux8);
+
+
+% Draw quark lines
+\draw[particle] (aux1) -- node[label=above:$t$] {} (aux2);
+\draw[particle] (aux7) -- (aux1);
+\draw[particle] (aux4) -- (aux7);
+\draw[particle] (aux5) -- node[label=below:$\bar{t}$] {} (aux4);
+\draw[particle] (b2) -- (aux5);
+\draw[particle] (aux2) -- (b1);
+\draw[particle] (aux6) -- (q1);	% Originating from W boson
+\draw[particle] (q2) -- (aux6); % Originating from W boson
+
+
+% Draw lepton lines
+\draw[particle] (aux3) -- (nu1);
+\draw[particle] (l1) -- (aux3);
+
+\draw[particle] (l2) -- (aux8);
+\draw[particle] (aux8) -- (l3);
+\end{tikzpicture}
+
+\end{document}

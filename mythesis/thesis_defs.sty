@@ -26,7 +26,166 @@
 
 % Kinematics
 \newcommand*{\pTmiss}{\ensuremath{p_{\text{T}}^{\text{miss}}}\xspace}
+\newcommand*{\pT}{\ensuremath{p_{\text{T}}}\xspace}
+\newcommand*{\MET}{\ensuremath{E_{\text{T}}^{\text{miss}}}\xspace}
+% Code related macros
+\newcommand*{\sgtopvers}{\num{34}\xspace}
+\newcommand*{\anabasevers}{\texttt{AnalysisBase-21.2.272}\xspace}
+\newcommand*{\thqloop}{\texttt{tHqLoop}\xspace}
+\newcommand*{\trexfitter}{TRExFitter\xspace}
+\newcommand*{\eftrexfitter}{EFTRExFitter\xspace}
 
+% Basic tZq-related macros
+\newcommand*{\tZq}{\Pqt{}\PZ{}\Pq}
+\newcommand*{\tllq}{\Pqt{}\ell\ell\Pq}
+\newcommand*{\tZqt}{\Pqt{}\PZ{}\Pq{}(\Pqt)\xspace}
+\newcommand*{\tZqtbar}{\Pqt{}\PZ{}\Pq{}(\Paqt)\xspace}
+\newcommand*{\mutZq}{\ensuremath{\mu(\tZq)}\xspace}
+\newcommand*{\mutZqt}{\ensuremath{\mu(\tZqt)}\xspace}
+\newcommand*{\mutZqtbar}{\ensuremath{\mu(\tZqtbar)}\xspace}
+\newcommand*{\tZqsec}{\texorpdfstring{\Pqt{}\PZ{}\Pq}{tHq}}
+\newcommand*{\Rt}{\ensuremath{R_{\Pqt}}}
+
+% Standard error bar phrases
+\newcommand*{\ErrStatSys}{The uncertainty band includes both statistical and systematic uncertainties.\xspace}
+\newcommand*{\ErrStat}{The uncertainty band includes only statistical uncertainties.\xspace}
+
+\newcommand*{\ErrStatSysTab}{The uncertainties include both statistical and systematic uncertainties.\xspace}
+\newcommand*{\ErrStatTab}{The uncertainties include only statistical uncertainties.\xspace}
+
+\newcommand*{\PrefitErr}{The uncertainty band includes statistical uncertainties for signal and backgrounds and background normalization uncertainties due to the prior assumptions and the modeling systematics.\xspace}
+
+% Standard normalisation comments 
+\newcommand*{\NormExp}{Both signal and backgrounds are normalised to the expected number of events before the fit.\xspace}
+
+% Background processes
+\newcommand*{\ttX}{\Pqt{}\Paqt{}+X}
+\newcommand*{\ttH}{\Pqt{}\Paqt{}\PH}
+\newcommand*{\ttZ}{\Pqt{}\Paqt{}\PZ}
+\newcommand*{\ttee}{\Pqt{}\Paqt{}\Pep{}\Pem}
+\newcommand*{\ttmumu}{\Pqt{}\Paqt{}\Pgmp{}\Pgmm}
+\newcommand*{\tttautau}{\Pqt{}\Paqt{}\Pgtp{}\Pgtm}
+\newcommand*{\ttt}{\Pqt{}\Paqt{}\Pqt{}}
+\newcommand*{\tttt}{\Pqt{}\Paqt{}\Pqt{}\Paqt{}}
+\newcommand*{\ttW}{\Pqt{}\Paqt{}\PW}
+\newcommand*{\tHq}{\Pqt{}\PH{}\Pq}
+\newcommand*{\tWZ}{\Pqt{}\PW{}\PZ}
+\newcommand*{\tWH}{\Pqt{}\PW{}\PH}
+\newcommand*{\tW}{\Pqt{}\PW}
+\newcommand*{\Ztoee}{\ensuremath{\PZ \rightarrow \Pep{}\Pem}\xspace}
+\newcommand*{\Ztomumu}{\ensuremath{\PZ \rightarrow \Pgmp{}\Pgmm}\xspace}
+\newcommand*{\Ztotautau}{\ensuremath{\PZ \rightarrow \Pgtp{}\Pgtm}\xspace}
+\newcommand*{\Ztoqq}{\ensuremath{\PZ \rightarrow \Pq{}\Paq}\xspace}
+\newcommand*{\Ztonunu}{\ensuremath{\PZ \rightarrow \Pgn{}\Pgn}\xspace}
+\newcommand*{\diboson}{diboson\xspace}
+\newcommand*{\Diboson}{Diboson\xspace}
+\newcommand*{\triboson}{triboson\xspace}
+\newcommand*{\Triboson}{Triboson\xspace}
+\newcommand*{\WWW}{\PW{}\PW{}\PW}
+\newcommand*{\WWZ}{\PW{}\PW{}\PZ}
+\newcommand*{\WZZ}{\PW{}\PZ{}\PZ}
+\newcommand*{\ZZZ}{\PZ{}\PZ{}\PZ}
+\newcommand*{\VVjets}{\ensuremath{VV\text{+\,jets}}\xspace}
+\newcommand*{\Vjets}{\ensuremath{V\text{+\,jets}}\xspace}
+
+% Variables used for unfolding
+\NewDocumentCommand {\fjet} {} {\ensuremath{\text{f-jet}}\xspace}
+\NewDocumentCommand {\pTZ} {} {\ensuremath{\pT(\PZ)}\xspace}
+\NewDocumentCommand {\pTt} {} {\ensuremath{\pT(\Pqt)}\xspace}
+\NewDocumentCommand {\pTfjet} {} {\ensuremath{\pT(\fjet)}\xspace}
+\NewDocumentCommand {\etaZ} {} {\ensuremath{\abs{\eta(\PZ)}}\xspace}
+\NewDocumentCommand {\etat} {} {\ensuremath{\abs{\eta(\Pqt)}}\xspace}
+\NewDocumentCommand {\etafjet} {} {\ensuremath{\abs{\eta(\fjet)}}\xspace}
+\NewDocumentCommand {\dphiZl} {} {\ensuremath{\abs{\dphi(\Pl_{1}^{\PZ}, \Pl_{2}^{\PZ})}}\xspace}
+\NewDocumentCommand {\dRtZ} {} {\ensuremath{\dR(\Pqt, \PZ)}\xspace}
+\NewDocumentCommand {\dRtfjet} {} {\ensuremath{\dR(\Pqt, \fjet)}\xspace}
+
+% Definitions
+\newcommand*{\MpT}{\ensuremath{\vec{p}_{\text{T}}^{\text{miss}}}\xspace}
+\newcommand*{\mtop}{\ensuremath{m_{t}}\xspace}
+\newcommand*{\mtw}{\ensuremath{m_{\text{T}}(\Plepton,\MET)}}
+\newcommand*{\mlb}{\ensuremath{m_{\Pl\Pqb}}}
+\newcommand*{\mll}{\ensuremath{m_{\Pl\Pl}}}
+\newcommand*{\mlplm}{\ensuremath{m_{\Plp\Plm}}}
+\newcommand*{\dR}{\ensuremath{\Delta R}\xspace}
+\newcommand*{\dphi}{\ensuremath{\Delta \phi}\xspace}
+\newcommand*{\mT}{\ensuremath{m_{\text{T}}}\xspace}
+\newcommand*{\mOSSF}{\ensuremath{m_{\text{OSSF}}}\xspace}
+\newcommand*{\OSSF}{\ensuremath{\text{OSSF}}\xspace}
+\newcommand*{\OS}{\ensuremath{\text{OS}}\xspace}
+\renewcommand*{\SS}{\ensuremath{\text{SS}}\xspace}
+\newcommand*{\SF}{\ensuremath{\text{SF}}\xspace}
+\NewDocumentCommand {\ONN} { o } {%
+  \IfNoValueTF {#1} {%
+      \ensuremath{O_\text{NN}}\xspace
+    }{%
+      \ensuremath{O_\text{NN}(#1)}\xspace
+  }%
+}
+\newcommand*{\ONNtZq}{\ensuremath{\ONN[\tZq]}\xspace}
+\newcommand*{\ONNbkg}{\ensuremath{\ONN[\text{bkg}]}\xspace}
+\newcommand*{\ONNSR}{\ensuremath{\ONN[\text{SR}]}\xspace}
+\newcommand*{\elHF}{\ensuremath{\Pe{}\text{-HF}}\xspace}
+\newcommand*{\elOther}{\ensuremath{\Pe{}\text{-Other}}\xspace}
+\newcommand*{\muHF}{\ensuremath{\Pgm{}\text{-HF}}\xspace}
+\newcommand*{\NPLelHF}{\ensuremath{\text{NPL-}\Pe{}\text{-HF}}\xspace}
+\newcommand*{\NPLelOther}{\ensuremath{\text{NPL-}\Pe{}\text{-Other}}\xspace}
+\newcommand*{\NPLmuHF}{\ensuremath{\text{NPL-}\Pgm{}\text{-HF}}\xspace}
+\newcommand*{\NPLOther}{\ensuremath{\text{NPL-Other}}\xspace}
+\newcommand*{\CRttZ}{\ensuremath{\text{CR}(\ttZ)}\xspace}
+\newcommand*{\CRVV}{\ensuremath{\text{CR}(VV)}\xspace}
+\newcommand*{\CRelHF}{\ensuremath{\text{CR}(\NPLelHF)}\xspace}
+\newcommand*{\CRelOther}{\ensuremath{\text{CR}(\NPLelOther)}\xspace}
+\newcommand*{\CRmuHF}{\ensuremath{\text{CR}(\NPLmuHF)}\xspace}
+\newcommand*{\fJVT}{\ensuremath{\text{fJVT}}\xspace}
+\newcommand*{\SREFT}{\ensuremath{\text{SR(EFT)}}\xspace}
+\newcommand*{\CREFT}{\ensuremath{\text{CR(EFT)}}\xspace}
+% \newcommand*{\jf}{\ensuremath{j_{\text{f}}}\xspace}
+% \newcommand*{\js}{\ensuremath{j_{\text{s}}}\xspace}
+\newcommand*{\kfold}{\ensuremath{k\text{-fold}}\xspace}
+
+% Norm factors
+\newcommand{\nttZ}{\ensuremath{\mathcal{N}_{\ttZ}}\xspace}
+\newcommand{\nVV}{\ensuremath{\mathcal{N}_{VV}}\xspace}
+\newcommand{\nFakesMuHF}{\ensuremath{\mathcal{N}_{\NPLmuHF}}\xspace}
+\newcommand{\nFakesElHF}{\ensuremath{\mathcal{N}_{\NPLelHF}}\xspace}
+\newcommand{\nFakesElOther}{\ensuremath{\mathcal{N}_{\NPLelOther}}\xspace}
+
+% Useful macros
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+\NewDocumentCommand {\tablesetup} { o } {%
+  \centering
+  \footnotesize
+  \IfNoValueTF {#1} {%
+  }{%
+    \renewcommand{\arraystretch}{#1}
+  }%
+}
+\newcommand{\definetrim}[2]{%
+  \define@key{Gin}{#1}[]{\setkeys{Gin}{trim=#2}}%
+}
+\definetrim{TRExNPTrim}{0cm 0cm 0cm 0cm}
+% Alternatives for real and imaginary parts.
+\renewcommand{\Re}{\operatorname{Re}}
+\renewcommand{\Im}{\operatorname{Im}}
+% \newcommand*{\mcc}[1]{\multicolumn{1}{c}{#1}}
+% Need expandable due to it being in a table - see xparse documentation.
+\NewExpandableDocumentCommand {\mcc} { o m } {%
+  \IfNoValueTF {#1} {%
+    \multicolumn{1}{c}{#2}
+  }{%
+    \multicolumn{1}{#1}{#2}
+  }%
+}
+
+
+\newcommand{\tool}[1]{\texttt{#1}}
+
+% Macros for LaTeX and code-related things
+\newcommand*{\Env}[1]{\texttt{#1}\xspace}
+\newcommand*{\File}[1]{\texttt{#1}\xspace}
+\newcommand*{\Macro}[1]{\texttt{\textbackslash #1}\xspace}
+\newcommand*{\Package}[1]{\texttt{#1}\xspace}
 % If you use the siunitx package include any decimal number in \qty or \num
 % e.g. \num{2.3} \qty{2.3E4}{\GeV}. The decimal point will be replaced
 % by a comma if you switch your document language to German!

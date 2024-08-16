@@ -1,0 +1,62 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usepackage{pgfplots}
+\usetikzlibrary{positioning,shapes,arrows}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
+
+\begin{document}
+	\tikzset{
+		particle/.style={thick, postaction={decorate},
+			decoration={markings, mark=at position 0.6 with {\arrow{triangle 45}}}},
+		photon/.style={decorate, draw=black,
+			decoration={coil, aspect=0}},
+		gluon/.style={decorate, draw=black,
+			decoration={coil, segment length=5pt, amplitude=4pt}}
+	}
+
+
+\begin{tikzpicture}[node distance=1cm and 1.5cm]
+
+\coordinate[label=left:$q$] (q1);
+% Definition of all vertices
+\coordinate[below right=of q1] (aux1); % qqZ
+\coordinate[right=2cm of aux1] (aux2); % Zll
+\coordinate[below=2.5cm of aux1] (aux3); % qqg
+\coordinate[right=2cm of aux3] (aux4); % gbbar
+
+% Definition of quark labels
+\coordinate[below left=of aux3,label=left:$\bar{q}$] (q2);
+\coordinate[below right=1cm of aux4,label=right:$l^-$] (b1);
+\coordinate[above right=1cm of aux4,label=right:$l^+$] (b2);
+
+% Definition of lepton labels
+\coordinate[above right=1cm of aux2,label=right:$l^+$] (l1);
+\coordinate[below right=1cm of aux2,label=right:$l^-$] (l2);
+
+% -------------------------------------------------------------------------
+
+% Draw quark lines
+
+% Draw W boson lines
+\draw[photon] (aux1) -- node[label=above:$Z$] {} (aux2);
+\draw[photon] (aux3) -- node[label=below:$Z$] {} (aux4);
+
+
+% Draw quark lines
+\draw[particle] (q1) -- (aux1);
+\draw[particle] (aux1) -- (aux3);
+\draw[particle] (aux3) -- (q2);
+
+\draw[particle] (aux4) -- (b1);
+\draw[particle] (b2) -- (aux4);
+
+% Draw lepton lines
+\draw[particle] (aux2) -- (l2);
+\draw[particle] (l1) -- (aux2);
+
+\end{tikzpicture}
+
+\end{document}

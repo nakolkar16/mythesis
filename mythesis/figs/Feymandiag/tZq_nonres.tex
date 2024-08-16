@@ -1,0 +1,60 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+\usepackage{tikz-feynman}
+\usepackage{pgfplots}
+\usetikzlibrary{positioning,shapes,arrows}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
+
+\begin{document}
+
+\tikzset{
+    particle/.style={thick, postaction={decorate},
+        decoration={markings, mark=at position 0.6 with {\arrow{triangle 45}}}},
+    photon/.style={decorate, draw=black,
+        decoration={snake}},
+    gluon/.style={decorate, draw=black,
+        decoration={coil, segment length=5pt, amplitude=4pt}}
+}
+
+\begin{tikzpicture}[node distance=1cm and 2cm]
+
+% Coordinates for quarks and bosons
+\coordinate[label=left:$u$] (q1);
+\coordinate[right=2cm of q1] (aux1); % u to W vertex
+\coordinate[below right=1cm and 0.5cm of aux1] (aux2); % W to l+ vertex
+\coordinate[below=1cm of aux2] (aux3); % W to l- vertex
+\coordinate[below left=1cm and 0.5cm of aux3] (aux4); % W to b vertex
+\coordinate[below left=1.5cm of aux4] (aux5); % g to b vertex
+
+% Gluon and quark labels
+\coordinate[left=1.5cm of aux5,label=left:$g$] (g);
+\coordinate[right=of aux1,label=right:$d$] (q2);
+\coordinate[right=of aux2,label=right:$l^+$] (lplus);
+\coordinate[right=of aux3,label=right:$l^-$] (lminus);
+\coordinate[right=of aux4,label=right:$t$] (t);
+\coordinate[below right=of aux5,label=right:$\bar{b}$] (b);
+
+% Quark lines
+\draw[particle] (q1) -- (aux1);
+\draw[particle] (aux1) -- (q2);
+\draw[particle] (aux4) -- (t);
+\draw[particle] (aux5) -- node[label=above left:$b$] {} (aux4);
+\draw[particle] (b) -- (aux5);
+
+% Boson lines
+\draw[photon] (aux1) -- node[label=right:$W$] {} (aux2);
+\draw[photon] (aux4) -- node[label=left:$W$] {} (aux3);
+\draw[gluon] (g) -- (aux5);
+
+% Lepton lines
+\draw[particle] (lplus) -- (aux2);
+\draw[particle] (aux3) -- (lminus);
+
+% Solid line connecting l+ l-
+\draw[particle] (aux2) -- (aux3);
+
+\end{tikzpicture}
+
+\end{document}

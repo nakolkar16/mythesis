@@ -1,0 +1,46 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usepackage{pgfplots}
+\usetikzlibrary{positioning,shapes,arrows}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
+
+\begin{document}
+	\tikzset{
+		particle/.style={thick, postaction={decorate},
+			decoration={markings, mark=at position 0.6 with {\arrow{triangle 45}}}},
+		photon/.style={decorate, draw=black,
+			decoration={coil, aspect=0}},
+		gluon/.style={decorate, draw=black,
+			decoration={coil, segment length=5pt, amplitude=4pt}}
+	}
+
+
+\begin{tikzpicture}[node distance=1.5cm and 1.5cm]
+\coordinate[label=left:$g$] (g1);
+\coordinate[below right=of g1] (aux1);
+\coordinate[below left=of aux1,label=left:$g$] (g2);
+\coordinate[right=of aux1] (aux2);
+\coordinate[above right=of aux2] (aux3);
+\coordinate[below right=of aux2,label=below right:$\bar{t}$] (t1);
+\coordinate[below right=of aux3] (aux4);
+\coordinate[below right=of aux4,label=below right:$b$] (b1);
+
+\coordinate[right=of aux3,label=right:$Z$] (Z);
+\coordinate[right=of aux4,label=right:$W^+$] (W);
+
+\draw[gluon] (g1)   -- (aux1);
+\draw[gluon] (g2) -- (aux1);
+\draw[gluon] (aux1) -- (aux2);
+\draw[particle] (aux2) -- node[label=above left:$t$] {} (aux3);
+\draw[particle] (t1) -- (aux2);
+\draw[particle] (aux3) -- (aux4);
+\draw[particle] (aux4) -- (b1);
+\draw[photon] (aux3) -- (Z);
+\draw[photon] (aux4) -- (W);
+
+\end{tikzpicture}
+
+\end{document}
