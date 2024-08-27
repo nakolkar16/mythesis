@@ -152,7 +152,52 @@ bosons are among the crucial tests of the Standard Model.
 
 \section{Physics at the hadron colliders}
 
+\subsection*{Pileup}
+At the LHC 2808 bunches of protons are injected which are 25 ns apart. This results into 
+$1.2 \times 10^{11}$ protons per bunch giving rise to different particle interactions. The 
+primary hard scatter collisions, that are of interest, are contaminated by soft interactions 
+called pileup. It is defined by the average number of interactions
+recorded per bunch crossing. Sources of pileup are categorized into in-time and out-of-time pileup. In-time pile up is due to collisions
+occurring in the same bunch-crossing and out-of-time pile-up is contributed by the collisions from previous
+or later bunches. Some of the sub-detectors have sensitivity windows longer than the interval between
+bunch crossings. This eventually affects the recorded number of interactions per bunch. The accurate
+detection of objects under study becomes difficult due to pile-up events. The higher the 
+luminosity, more the pileup. The object reconstruction algorithms have dedicated procedures 
+to mitigate pileup.
 
+\subsection*{Luminosity and cross-section ($\sigma$)}
+The quantity that measures the ability of a collider to produce particle interactions is called
+instantaneous luminosity ($\mathcal{L}$). The instantaneous luminosity integrated over the lifetime
+of collider operation is called integrated luminosity ($L$).
+
+In order to define the event rate for interesting processes, along with luminosity, we require
+another quantity called the cross-section. At the subatomic scale, the particle interactions 
+are governed by laws of quantum physics. Therefore, a theory can predict 
+the \textit{probablility} of certain outcomes of collisions. The probablity that a certain
+process will take place is called its cross-section ($\sigma$). Finally, the number of event rate of
+specific interactions is defined as the product of integrated luminosity and the cross-section (\cref{eq:lumi}).
+\begin{equation}
+    R = \sigma \cdot \int_{dt} \mathcal{L}(t)
+    \label{eq:lumi}
+\end{equation}
+
+For a particle collider, beam energies and the luminosity are two important figures of merit. 
+High energy allows the production of new heavy particles and high luminosity allows more flux 
+of particles contributing to high number of collisions. 
+
+At the LHC, the incoming protons see each other as a bunch of partons instead of a single 
+proton. The proton is composed of two $u$- and one $d$- quark called valence quarks. At high 
+energies, these quarks can exchange gluons and in turn produce more gluons and quarks. In a way,
+the proton looks like a \textit{sea} of gluons and quarks that altogether are called partons. 
+Here the net flavour of a proton is the same as that of valence quarks. These partons interact 
+at collision points and give rise to different SM processes.
+
+The outcomes of these collisions hold interesting physics and it is studied with the help of particle detectors. The LHC houses four main detectors at the four collision
+points. The two general purpose detectors are ATLAS (\textbf{A} \textbf{T}oroidal \textbf{L}HC \textbf{A}pparatu\textbf{S})\cite{TheATLASCollaboration_2008} and
+CMS (\textbf{C}ompact \textbf{M}uon \textbf{S}olenoid)\cite{TheCMSCollaboration_2008}. The LHCb experiment\cite{TheLHCbCollaboration_2008} is dedicated to 
+studies based on \PB-hadron and its decays whereas ALICE(\textbf{A} \textbf{L}arge \textbf{I}on \textbf{C}ollider \textbf{E}xperiment)\cite{TheALICECollaboration_2008}
+analyses the $Pb$-$Pb$ collisions at the LHC. This analysis uses data from the ATLAS detector
+which is described in the next section.
 \mynote[inline]{}{Lepton universality..because tZq trilepton, decay into muons and
 electrons equal probability}
 
