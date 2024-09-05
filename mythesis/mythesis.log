@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.6.18)  27 AUG 2024 14:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.6.18)  5 SEP 2024 20:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1690,27 +1690,6 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 8.0pt on input line 8.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 6.1pt on input line 8.
-
-
-LaTeX Font Warning: Font shape `T1/qhv/bx/sl' undefined
-(Font)              using `T1/qhv/bx/n' instead on input line 14.
-
-LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.29301pt on input line 14.
-LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <8> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 7.52002pt on input line 14.
-LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <6.1> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 5.73401pt on input line 14.
-LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <10.95> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.29301pt on input line 14.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 15.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
@@ -1724,20 +1703,7 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
  [5] [6
 
 
-]
-LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <20.74> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 155.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 19.49565pt on input line 155.
-LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <16.1> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 155.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 15.13403pt on input line 155.
-LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <11.4> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 155.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.71602pt on input line 155.
- (./mythesis.tdo)
+] (./mythesis.tdo)
 \tf@tdo=\write6
 \openout6 = `mythesis.tdo'.
 
@@ -1766,43 +1732,31 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 11.28003pt on input line 51.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 87.
+(Font)              scaled to size 9.0pt on input line 88.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 87.
+(Font)              scaled to size 9.0pt on input line 88.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 87.
+(Font)              scaled to size 7.3pt on input line 88.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 87.
+(Font)              scaled to size 5.5pt on input line 88.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 9.0pt on input line 87.
+(Font)              scaled to size 9.0pt on input line 88.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 7.3pt on input line 87.
+(Font)              scaled to size 7.3pt on input line 88.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 5.5pt on input line 87.
+(Font)              scaled to size 5.5pt on input line 88.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 87.
+(Font)              scaled to size 7.3pt on input line 88.
  [2]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 115.
+(Font)              scaled to size 6.1pt on input line 116.
  [3]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 168.
+(Font)              scaled to size 12.0pt on input line 178.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.8pt on input line 168.
+(Font)              scaled to size 8.8pt on input line 178.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 6.6pt on input line 168.
-LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <12> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 168.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 11.28003pt on input line 168.
-LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <8.8> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 168.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 8.27202pt on input line 168.
-LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <6.6> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 168.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 6.20401pt on input line 168.
+(Font)              scaled to size 6.6pt on input line 178.
  [4]) [5]
 \openout2 = `chapter3.aux'.
 
@@ -1814,91 +1768,126 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 
 ]
 chapter 2.
-<figs/Feymandiag//tZq_Zfromtop.pdf, id=134, 157.16216pt x 129.83307pt>
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.4pt on input line 8.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.5pt on input line 8.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 7.9pt on input line 8.
+
+LaTeX Font Warning: Font shape `T1/qhv/bx/sl' undefined
+(Font)              using `T1/qhv/bx/n' instead on input line 8.
+
+LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 13.53603pt on input line 8.
+LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <10.5> not available
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 9.87003pt on input line 8.
+LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <7.9> not available
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 7.42601pt on input line 8.
+<figs/Feymandiag//tZq_Zfromtop.pdf, id=172, 157.16216pt x 129.83307pt>
 File: figs/Feymandiag//tZq_Zfromtop.pdf Graphic file (type pdf)
 <use figs/Feymandiag//tZq_Zfromtop.pdf>
-Package pdftex.def Info: figs/Feymandiag//tZq_Zfromtop.pdf  used on input line 30.
+Package pdftex.def Info: figs/Feymandiag//tZq_Zfromtop.pdf  used on input line 39.
 (pdftex.def)             Requested size: 122.49173pt x 101.19409pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 31.
-<figs/Feymandiag//tZq_ZfromWW.pdf, id=135, 157.16216pt x 129.83307pt>
+(Font)              scaled to size 10.0pt on input line 40.
+<figs/Feymandiag//tZq_ZfromWW.pdf, id=173, 157.16216pt x 129.83307pt>
 File: figs/Feymandiag//tZq_ZfromWW.pdf Graphic file (type pdf)
 <use figs/Feymandiag//tZq_ZfromWW.pdf>
-Package pdftex.def Info: figs/Feymandiag//tZq_ZfromWW.pdf  used on input line 36.
+Package pdftex.def Info: figs/Feymandiag//tZq_ZfromWW.pdf  used on input line 45.
 (pdftex.def)             Requested size: 122.49173pt x 101.19409pt.
-<figs/Feymandiag//tZq_nonres.pdf, id=136, 176.11395pt x 158.28636pt>
+<figs/Feymandiag//tZq_nonres.pdf, id=174, 176.11395pt x 158.28636pt>
 File: figs/Feymandiag//tZq_nonres.pdf Graphic file (type pdf)
 <use figs/Feymandiag//tZq_nonres.pdf>
-Package pdftex.def Info: figs/Feymandiag//tZq_nonres.pdf  used on input line 47.
+Package pdftex.def Info: figs/Feymandiag//tZq_nonres.pdf  used on input line 56.
 (pdftex.def)             Requested size: 122.49173pt x 110.09444pt.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 66.
+(Font)              scaled to size 10.0pt on input line 75.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 66.
-[7 <./figs/Feymandiag//tZq_Zfromtop.pdf> <./figs/Feymandiag//tZq_ZfromWW.pdf> <./figs/Feymandiag//tZq_nonres.pdf>]
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 81.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.5pt on input line 81.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 7.9pt on input line 81.
+(Font)              scaled to size 10.0pt on input line 75.
 LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <14.4> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 81.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 13.53603pt on input line 81.
-LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <10.5> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 81.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 9.87003pt on input line 81.
-LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <7.9> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 81.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 7.42601pt on input line 81.
-<figs/Feymandiag//tZq_Zfromtop_decay.pdf, id=188, 192.06656pt x 151.67867pt>
+(Font)              scaled to size 13.53603pt on input line 95.
+[7]
+<figs/Feymandiag//tZq_Zfromtop_decay.pdf, id=182, 192.06656pt x 151.67867pt>
 File: figs/Feymandiag//tZq_Zfromtop_decay.pdf Graphic file (type pdf)
 <use figs/Feymandiag//tZq_Zfromtop_decay.pdf>
-Package pdftex.def Info: figs/Feymandiag//tZq_Zfromtop_decay.pdf  used on input line 97.
+Package pdftex.def Info: figs/Feymandiag//tZq_Zfromtop_decay.pdf  used on input line 113.
 (pdftex.def)             Requested size: 196.85619pt x 155.46236pt.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 109.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 126.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 109.
- [8 <./figs/Feymandiag//tZq_Zfromtop_decay.pdf>]
+(Font)              scaled to size 10.95pt on input line 126.
+ [8 <./figs/Feymandiag//tZq_Zfromtop.pdf> <./figs/Feymandiag//tZq_ZfromWW.pdf> <./figs/Feymandiag//tZq_nonres.pdf>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 148.
- [9]
-<figs/Feymandiag//Feynman_WZ.pdf, id=224, 154.32758pt x 142.5596pt>
+(Font)              scaled to size 5.5pt on input line 165.
+ [9 <./figs/Feymandiag//tZq_Zfromtop_decay.pdf>]
+<figs/Feymandiag//Feynman_WZ.pdf, id=257, 154.32758pt x 142.5596pt>
 File: figs/Feymandiag//Feynman_WZ.pdf Graphic file (type pdf)
 <use figs/Feymandiag//Feynman_WZ.pdf>
-Package pdftex.def Info: figs/Feymandiag//Feynman_WZ.pdf  used on input line 190.
+Package pdftex.def Info: figs/Feymandiag//Feynman_WZ.pdf  used on input line 207.
 (pdftex.def)             Requested size: 157.48555pt x 145.48933pt.
-<figs/Feymandiag//Feynman_ZZ.pdf, id=225, 151.52208pt x 141.63916pt>
+<figs/Feymandiag//Feynman_ZZ.pdf, id=258, 151.52208pt x 141.63916pt>
 File: figs/Feymandiag//Feynman_ZZ.pdf Graphic file (type pdf)
 <use figs/Feymandiag//Feynman_ZZ.pdf>
-Package pdftex.def Info: figs/Feymandiag//Feynman_ZZ.pdf  used on input line 196.
+Package pdftex.def Info: figs/Feymandiag//Feynman_ZZ.pdf  used on input line 213.
 (pdftex.def)             Requested size: 157.48555pt x 147.21912pt.
-<figs/Feymandiag//Feynman_ttbarV.pdf, id=227, 182.9756pt x 179.38419pt>
+<figs/Feymandiag//Feynman_ttbarV.pdf, id=260, 182.9756pt x 179.38419pt>
 File: figs/Feymandiag//Feynman_ttbarV.pdf Graphic file (type pdf)
 <use figs/Feymandiag//Feynman_ttbarV.pdf>
-Package pdftex.def Info: figs/Feymandiag//Feynman_ttbarV.pdf  used on input line 212.
+Package pdftex.def Info: figs/Feymandiag//Feynman_ttbarV.pdf  used on input line 229.
 (pdftex.def)             Requested size: 196.85619pt x 192.99844pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10 <./figs/Feymandiag//Feynman_WZ.pdf> <./figs/Feymandiag//Feynman_ZZ.pdf> <./figs/Feymandiag//Feynman_ttbarV.pdf>]
-<figs/Feymandiag//ZPlusJets_standalone.pdf, id=274, 151.52208pt x 141.63916pt>
+<figs/Feymandiag//ZPlusJets_standalone.pdf, id=263, 151.52208pt x 141.63916pt>
 File: figs/Feymandiag//ZPlusJets_standalone.pdf Graphic file (type pdf)
 <use figs/Feymandiag//ZPlusJets_standalone.pdf>
-Package pdftex.def Info: figs/Feymandiag//ZPlusJets_standalone.pdf  used on input line 232.
+Package pdftex.def Info: figs/Feymandiag//ZPlusJets_standalone.pdf  used on input line 249.
 (pdftex.def)             Requested size: 157.48555pt x 147.21912pt.
-<figs/Feymandiag//ttbar_standalone.pdf, id=275, 151.82823pt x 149.03981pt>
+<figs/Feymandiag//ttbar_standalone.pdf, id=264, 151.82823pt x 149.03981pt>
 File: figs/Feymandiag//ttbar_standalone.pdf Graphic file (type pdf)
 <use figs/Feymandiag//ttbar_standalone.pdf>
-Package pdftex.def Info: figs/Feymandiag//ttbar_standalone.pdf  used on input line 238.
+Package pdftex.def Info: figs/Feymandiag//ttbar_standalone.pdf  used on input line 255.
 (pdftex.def)             Requested size: 157.48555pt x 154.60886pt.
-) [11 <./figs/Feymandiag//ZPlusJets_standalone.pdf> <./figs/Feymandiag//ttbar_standalone.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+ [10 <./figs/Feymandiag//Feynman_WZ.pdf> <./figs/Feymandiag//Feynman_ZZ.pdf>] [11 <./figs/Feymandiag//Feynman_ttbarV.pdf> <./figs/Feymandiag//ZPlusJets_standalone.pdf> <./figs/Feymandiag//ttbar_standalone.pdf>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 308.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/ntxtlf/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 315.
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+) [12]
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 318.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 10.95pt on input line 318.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ntxtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 9.0pt on input line 350.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/ntxtlf/m/sc/9'.
+(microtype)             Ignoring protrusion settings for this character.
+ [13]
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 394.
+ [14]) [15]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.186 \printbibliography[heading=bibintoc]
@@ -1910,33 +1899,27 @@ l.186 \printbibliography[heading=bibintoc]
 
 ]
 chapter without number
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 186.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/ntxtlf/m/sc/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 186.
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtt.fd
-File: t1ntxtt.fd 2012/04/20 v3.1
-)
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.95pt on input line 186.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `ntxtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <20.74> not available
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 186.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 19.49565pt on input line 186.
+LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <16.1> not available
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 186.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 15.13403pt on input line 186.
+LaTeX Font Info:    Font shape `T1/qhv/bx/sl' in size <11.4> not available
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 186.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 10.71602pt on input line 186.
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.202 \backmatter
-                  [5]pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
+l.186 \printbibliography[heading=bibintoc]
+                                           [5]pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.202 \backmatter
-                  [6
-
-
-]
+                  [6]
 Package tocbasic Info: character protrusion at lof deactivated on input line 204.
  (./mythesis.lof
 Package cleveref Info: loaded `ngerman' language definitions on input line 2.
@@ -1951,6 +1934,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has b
                    \relax 
 l.205 \listoftables
                     [7
+
+
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
@@ -1993,20 +1978,20 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52333 strings out of 480171
- 1051232 string characters out of 5894489
- 1957018 words of memory out of 5000000
- 68987 multiletter control sequences out of 15000+600000
- 695309 words of font info for 499 fonts, out of 8000000 for 9000
+ 52559 strings out of 480171
+ 1056263 string characters out of 5894489
+ 1962681 words of memory out of 5000000
+ 69150 multiletter control sequences out of 15000+600000
+ 684118 words of font info for 511 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
  122i,23n,147p,10634b,4023s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{appendix.A} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on mythesis.pdf (24 pages, 306194 bytes).
+ </home/nilima/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on mythesis.pdf (28 pages, 341211 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 389 compressed objects within 4 object streams
- 58 named destinations out of 1000 (max. 500000)
- 160410 words of extra memory for PDF output out of 184870 (max. 10000000)
+ 614 PDF objects out of 1000 (max. 8388607)
+ 521 compressed objects within 6 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 155370 words of extra memory for PDF output out of 184870 (max. 10000000)
 

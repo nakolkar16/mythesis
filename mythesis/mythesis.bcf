@@ -2354,12 +2354,28 @@
     <bcf:citekey order="4">TheCMSCollaboration_2008</bcf:citekey>
     <bcf:citekey order="5">TheLHCbCollaboration_2008</bcf:citekey>
     <bcf:citekey order="6">TheALICECollaboration_2008</bcf:citekey>
-    <bcf:citekey order="7">pdg2024</bcf:citekey>
-    <bcf:citekey order="8">HASERT1973138</bcf:citekey>
-    <bcf:citekey order="9">TheATLASCollaboration_2008</bcf:citekey>
-    <bcf:citekey order="10">TheCMSCollaboration_2008</bcf:citekey>
-    <bcf:citekey order="11">TheLHCbCollaboration_2008</bcf:citekey>
-    <bcf:citekey order="12">TheALICECollaboration_2008</bcf:citekey>
+    <bcf:citekey order="7">mcgen</bcf:citekey>
+    <bcf:citekey order="8">Bellm2016</bcf:citekey>
+    <bcf:citekey order="9">SJOSTRAND2008852</bcf:citekey>
+    <bcf:citekey order="10">ATL-PHYS-PUB-2014-021</bcf:citekey>
+    <bcf:citekey order="11">Alwall:2014hca</bcf:citekey>
+    <bcf:citekey order="12">TGleisberg_2009</bcf:citekey>
+    <bcf:citekey order="13">Banfi:2023mhz</bcf:citekey>
+    <bcf:citekey order="14">Barillari2012</bcf:citekey>
+    <bcf:citekey order="15">pdg2024</bcf:citekey>
+    <bcf:citekey order="16">HASERT1973138</bcf:citekey>
+    <bcf:citekey order="17">TheATLASCollaboration_2008</bcf:citekey>
+    <bcf:citekey order="18">TheCMSCollaboration_2008</bcf:citekey>
+    <bcf:citekey order="19">TheLHCbCollaboration_2008</bcf:citekey>
+    <bcf:citekey order="20">TheALICECollaboration_2008</bcf:citekey>
+    <bcf:citekey order="21">mcgen</bcf:citekey>
+    <bcf:citekey order="22">Bellm2016</bcf:citekey>
+    <bcf:citekey order="23">SJOSTRAND2008852</bcf:citekey>
+    <bcf:citekey order="24">ATL-PHYS-PUB-2014-021</bcf:citekey>
+    <bcf:citekey order="25">Alwall:2014hca</bcf:citekey>
+    <bcf:citekey order="26">TGleisberg_2009</bcf:citekey>
+    <bcf:citekey order="27">Banfi:2023mhz</bcf:citekey>
+    <bcf:citekey order="28">Barillari2012</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
