@@ -1,7 +1,7 @@
 % !TEX root = mythesis.tex
 
 %==============================================================================
-\chapter{Experimental equipment}
+\chapter{Particle Detection and Reconstruction}
 \label{sec:LHCATLAS}
 %==============================================================================
 
@@ -9,16 +9,22 @@
 
 
 \section{The Large Hadron Collider}
-The Large Hadron Collider (LHC)\cite{LyndonEvans_2008} is a two-ring proton-proton collider situated near Geneva across the Swiss-French border. It is built in 
-the 26.7 km long tunnel that previously housed the Large Electron-Positron (LEP) collider. The two proton beams are accelerated in opposite directions and 
-brought into collision at four points where the four detectors are located. The LHC has two transfer tunnels of 2.5 km each that connects to the CERN accelerator
-complex as shown in \cref{fig:acc_complex}. 
+The Large Hadron Collider (LHC) is the world's largest particle accelerator built by the 
+European Organization for Nuclear Research (CERN). It is a proton-proton collider 
+installed in the 26.7 km long tunnel near Geneva across the Swiss-French border~\cite{LyndonEvans_2008}. 
+Inside the LHC, two high-energy proton beams travel in opposite directions before they are collided.
+The particles are guided along the accelerator ring by strong magnetic field created by superconducting
+magnets. The beams are brought in collision at four locations around the LHC ring. At these locations, 
+the particle detectors are placed aimed for analysing the outcome of the collisions.
 
-The CERN accelerator complex is a set of subsystems that contribute to the acceleration of protons. The process 
-starts with negative Hydrogen ions that are accelerated in LINAC4 which is the first system in the CERN accelerator complex. Electrons are stripped off from 
-Hydrogen ions during injection from LINAC4 to Proton Synchrotron Booster (PBS) which increases the proton energy further. Eventually the protons are fed into 
-the Super Proton Synchrotron (SPS). At this point the proton energy is 450 GeV and then they are finally injected into two opposing beams of the LHC. Here each beam 
-attains a path-breaking energy of 6.5 TeV. 
+The protons pass through multiple accelerators before entering the LHC ring. These accelerators are
+collectively known as the CERN accelerator complex as shown in \cref{fig:acc_complex}. The first step 
+is to accelerate negative Hydrogen ions in LINAC3, which is the first system in the
+complex. The next step is the injection into the Proton Synchrotron Booster (PSB), during which, 
+the electrons are stripped from the hydrogen ions. Here the proton energy is increased further. After 
+that, the protons are fed into the Super Proton Synchrotron (SPS) where the energy reaches \qty{450}{\GeV}. 
+Finally, the protons enter two opposing beams of the LHC where each proton beam attains a 
+path-breaking energy of \qty{6.5}{\TeV}. 
 
 \begin{figure}[htbp]
     \centering
@@ -27,71 +33,108 @@ attains a path-breaking energy of 6.5 TeV.
     \label{fig:acc_complex}
 \end{figure}
 
-\subsection*{Superconducting magnets}
-One of the major challenges at the LHC is the directing of proton beams along the circular structure. To achieve the destined center of mass energy, 
-given the circumference and charge of proton, approximately 8 T magnetic field is required. This is outside the limit of conventional magnets which is why 
-superconducting magnets are engaged. Due to the limited available area in the LHC tunnel, a single magnet system is shared by both the beam pipes. The 
-superconducting coils are immersed in a superfluid Helium bath which is cooled down to a certain low temperature to achieve superconductivity. One of the 
-obstacles here is the synchrotron radiation. The protons radiate photons when they are accelerated and this radiation can adversely impact the temperature 
-inside the magnet system. To fix this problem, beam screens are placed between the beam pipe and the magnet system which reflects or absorbs these radiated photons,
-preserving the superconductivity. 
+At the LHC, the superconducting magnets have the important responsibility of directing the proton beams 
+along the circular structure. To achieve the desired center of mass energy, 
+given the circumference of the LHC ring and charge of proton, approximately \SI{8}{\tesla} magnetic field is 
+required. This is outside the limit of conventional magnets and that is why superconducting magnets are 
+engaged at the LHC. Since the 
+available area in the LHC tunnel is limited, a single magnet system is shared by both the beam pipes. The 
+superconducting magnets are immersed in a superfluid Helium bath set at 
+a low temperature of \SI{1.9}{\kelvin} in order to achieve superconductivity~\cite{Rossi:630341}. 
+When charged particles travel in curved paths, they emit electromagnetic radiation called the 
+synchrotron radiation. The magnet system is shielded by this synchrotron radiation so that the low
+temperature and ultimately the superconductivity is preserved. 
 
- 
+The outcome of particle collisions hold interesting physics which is studied with the help of particle detectors. 
+Out of the four detectors, two are general purpose detectors namely ATLAS (\textbf{A} \textbf{T}oroidal \textbf{L}HC \textbf{A}pparatu\textbf{S})~\cite{TheATLASCollaboration_2008} and
+CMS (\textbf{C}ompact \textbf{M}uon \textbf{S}olenoid)~\cite{TheCMSCollaboration_2008}. The LHCb experiment\cite{TheLHCbCollaboration_2008} is dedicated to 
+studies based on \PB-hadron and its decays whereas ALICE(\textbf{A} \textbf{L}arge \textbf{I}on \textbf{C}ollider \textbf{E}xperiment)~\cite{TheALICECollaboration_2008}
+analyses the $Pb$-$Pb$ collisions at the LHC. This analysis uses data from the ATLAS detector
+which is described in the next section. The sketch of 
+the LHC and its experiments are shown in \cref{fig:lhc}.
 
-
-\section{The ATLAS detector}
-The ATLAS detector is one of the general purpose detectors at the LHC. It is an assembly of sub detectors constructed around the beam pipe in an onion-shaped structure as shown
-in \cref{fig:atlas}.
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=\figwidth]{atlas_layout.jpg}
-    \caption[Overview of the ATLAS detector]{An overview of the ATLAS detector\cite{Pequenao:1095924}.}%
+    \includegraphics[width=\figwidth]{lhc-pho-1998-349.jpg}
+    \caption[LHC and its experiments]{Illustration of the LHC ring and positions of the 
+    four experiments along with position of CERN~\cite{Jean-Luc:841555}.}%
+    \label{fig:lhc}
+\end{figure}
+
+\section{The ATLAS detector}
+The ATLAS detector is one of the general purpose detectors at the LHC. It is an assembly of sub detectors constructed around the beam pipe in an onion-shaped structure as shown
+in \cref{fig:atlas}. The sub detector closest to the IP is called the Inner Detector (ID) and it
+is designed to reconstruct trajectories of charged particles and vertices of interactions. Vertices are
+locations where the collision/scattering took place. Surrounding the ID are the calorimeters.
+The calorimeters measure the energy deposited by particles traversing through them. Beyond the 
+calorimeters, Muon Spectrometers are positioned to detect muons. The ATLAS magnet system generates 
+the strong magnetic field necessary to bend the paths of incoming particles.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\figwidth]{atlas_layout.pdf}
+    \caption[Overview of the ATLAS detector]{A graphic of the ATLAS detector, showing its different 
+    sub detectors and its scale. The scale is shown by adding two humans on the left side~\cite{Pequenao:1095924}.}%
     \label{fig:atlas}
 \end{figure}
 
 \subsection{Coordinate system}
-ATLAS uses a conventional coordinate system in which the point where collisions occur, called the Interaction Point (IP), is treated as the origin. The 
-$z$-axis is along the beam direction, $x$-axis is directed to the center of the LHC ring and the $y$-axis is pointing upwards. The azimuthal angle ($\phi$) 
-is the angle with the $x$-axis (around the beam pipe) and the polar angle ($\theta$) is the angle from the $z$-axis (from the beam pipe). A sketch of the coordinate
-system is shown in ~\cref{fig:coordinatesys}. It is crucial to note that the colliding protons are traveling along the beam direction and given this coordinate 
-system, the boosts parallel to the $z$-axis are 
-taken into account. This leads to the definition of rapidity as follows:
+ATLAS uses a spherical coordinate system in which the point where collisions occur, called the 
+Interaction Point (IP), is treated as the origin. The $z$-axis is along the beam direction, $x$-axis is
+directed to the center of the LHC ring and the $y$-axis points upwards. The azimuthal angle ($\phi$) 
+is measured from the $x$-axis (around the beam pipe) and the polar angle ($\theta$) is measured 
+from the $z$-axis (from the beam pipe). A sketch of the coordinate
+system is shown in \cref{fig:coordinatesys}. It is crucial to note that the momentum of colliding protons
+is along the beam direction ($z$-axis) which means that there is zero momentum in the transverse plane before
+the collisions. A quantity derived from this fact is known as rapidity defined as follows:
 
-\begin{equation*}
+
+\begin{equation}
     y = \frac{1}{2}\text{ln} \Bigl(\frac{E+p_zc}{E-p_zc}\Bigl)
-\end{equation*}
+\end{equation}
 
 
 If a collided particle is highly relativistic and launched almost perpendicular to the $z$-axis, its $p_z$ will be close to zero leading to zero rapidity.
 Another scenario would be that the particle is moving along the $z$-axis and in that case the rapidity will be $\pm \infty$. For large
-collider experiments precise calculation of $E$ and $p_z$ is difficult and therefore, a quantity called pseudorapidity is used. It is conceptually similar to 
+collider experiments precise calculation of $E$ and $p_z$ is difficult. Therefore, a quantity called pseudorapidity is used. It is conceptually similar to 
 rapidity and is defined as:
 
-\begin{equation*}
-    \eta = -\text{ln} \text{tan}\frac{\theta}{2}
-\end{equation*}
+\begin{equation}
+    \eta = -\text{ln}\hspace{0.1cm}\text{tan}\frac{\theta}{2}
+\end{equation}
 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\figwidth]{coordinate_system.pdf}
-    \caption[Sketch of the ATLAS coordinate system]{Sketch of the ATLAS coordinate system. Based on \cite{coordinatesys}.}%
+    \caption[Sketch of the ATLAS coordinate system]{Sketch of the ATLAS coordinate system. 
+    The origin is the Interaction point (IP) and the coordinates for a particle 
+    with momentum $\vec{p}$ is shown. Based on \cite{coordinatesys}.}%
     \label{fig:coordinatesys}
 \end{figure}
 
 \subsection{The Inner Detector}
-The closest sub detector system from the beam pipe is the Inner Detector (ID). It has a cylindircal barrel region covering $|\eta|<1$ and two end-cap regions covering 
-$1 \leq \eta \leq 2.5$~\cite{BARBERIS2000331}. The ID comprises of the Pixel Detector, the Semiconductor Tracker (SCT) and the Transition Radiation Tracker (TRT) immersed in a 2 T solenoidal 
-magnetic field. Data recorded by these components are used to reconstruct charged-particle trajectories which eventually are used to measure momenta of particles. 
+The closest sub detector system from the beam pipe is the Inner Detector (ID). It has a cylindrical 
+barrel region covering $|\eta|<1$ and two end-cap regions covering 
+$1 \leq \eta \leq 2.5$~\cite{BARBERIS2000331}. The ID comprises the Pixel Detector, the Semiconductor 
+Tracker (SCT) and the Transition Radiation Tracker (TRT) immersed in a 2 T solenoidal 
+magnetic field. Data recorded by these components are used to measure the charge, direction and 
+momentum of charged particles.
 
-The Pixel Detector resides along the innermost radii of 33-150 mm~\cite{Aaboud_2017}. Modules of silicon pixels are arranged in three layers in the barrel region and two layers in the end-cap region. 
-It provides a three-dimensional space-point reading that allows for the reconstruction of primary and secondary vertices. The high granularity of these pixels provide high spatial 
-resolution that is beneficial in pattern recognition. The next sub component is the Semiconductor Tracker (SCT) which consists of silicon microstrip detectors 
-arranged in four barrel layers and two end-cap layers. The radii range of the SCT is 299-560 mm. The outermost sub component is the Transition Radiation Tracker (TRT) which 
-is made up of gaseous straw tube detectors. It spans across 563-1066 mm radii. The straws are filled with xenon and carbon-dioxide at atmospheric pressure and each straw
-has a gold-plated tungsten wire along the longitudinal axis. The transition material is a low-density foam surrounding the straws. Tracks of particles are reconstructed from TRT
-data. A combination of measurements given by the sub components help get a high-resolution vertex and momentum measurement of
-incoming particles. 
+The Pixel Detector resides along the radii of 33-150 mm~\cite{Aaboud_2017}. Modules of silicon pixels 
+are arranged in three layers in the barrel region and two layers in the end-cap region. 
+It provides a three-dimensional space-point reading that allows for the reconstruction of primary and 
+secondary vertices. The high granularity of these pixels provide high spatial 
+resolution that is beneficial pattern recognition. The next subcomponent is the Semiconductor 
+Tracker (SCT) which consists of silicon micro strip detectors 
+arranged in four barrel layers and two end-cap layers. The radii range of the SCT is 299-560 mm. The 
+outermost subcomponent is the Transition Radiation Tracker (TRT) which 
+is made up of gaseous straw tube detectors. It spans across 563-1066 mm radii. The straws are filled 
+with xenon and carbon-dioxide at atmospheric pressure and each straw
+has a gold-plated tungsten wire along the longitudinal axis. The transition material is a low-density 
+foam surrounding the straws. Tracks of particles are reconstructed from TRT
+data. A combination of measurements given by the subcomponents help get a high-resolution vertex and 
+momentum measurement of incoming particles. 
 
 \subsection{Calorimeters}
 Detector system surrounding the ID are calorimeters. The tasks of a calorimeter include accurately measuring energies and position of incident

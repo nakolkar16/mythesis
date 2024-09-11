@@ -1,25 +1,35 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'mythesis.blg'
-[32] biber:340> INFO - === Do Sep  5, 2024, 19:35:31
-[38] Biber.pm:418> INFO - Reading 'mythesis.bcf'
-[67] Biber.pm:972> INFO - Found 14 citekeys in bib section 0
-[73] Biber.pm:4383> INFO - Processing section 0
-[78] Biber.pm:4574> INFO - Looking for bibtex file 'bib/thesis_refs.bib' for section 0
-[79] bibtex.pm:1713> INFO - LaTeX decoding ...
-[95] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/thesis_refs.bib'
-[138] Biber.pm:4574> INFO - Looking for bibtex file 'bib/standard_refs-biber.bib' for section 0
-[139] bibtex.pm:1713> INFO - LaTeX decoding ...
-[148] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/standard_refs-biber.bib'
-[189] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[189] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[189] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
-[189] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-UK'
-[195] bbl.pm:654> INFO - Writing 'mythesis.bbl' with encoding 'UTF-8'
-[212] bbl.pm:757> INFO - Output to mythesis.bbl
-[212] Biber.pm:130> WARN - legacy month field 'aug' in entry 'TheATLASCollaboration_2008' is not an integer - this will probably not sort properly.
-[212] Biber.pm:130> WARN - legacy month field 'aug' in entry 'TheCMSCollaboration_2008' is not an integer - this will probably not sort properly.
-[212] Biber.pm:130> WARN - legacy month field 'aug' in entry 'TheLHCbCollaboration_2008' is not an integer - this will probably not sort properly.
-[212] Biber.pm:130> WARN - legacy month field 'aug' in entry 'TheALICECollaboration_2008' is not an integer - this will probably not sort properly.
-[212] Biber.pm:130> WARN - legacy month field 'feb' in entry 'TGleisberg_2009' is not an integer - this will probably not sort properly.
-[212] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Barillari2012' is not an integer - this will probably not sort properly.
-[212] Biber.pm:132> INFO - WARNINGS: 6
+[42] biber:340> INFO - === Mi Sep 11, 2024, 21:25:38
+[50] Biber.pm:418> INFO - Reading 'mythesis.bcf'
+[86] Biber.pm:972> INFO - Found 38 citekeys in bib section 0
+[92] Biber.pm:4383> INFO - Processing section 0
+[98] Biber.pm:4574> INFO - Looking for bibtex file 'bib/thesis_refs.bib' for section 0
+[100] bibtex.pm:1713> INFO - LaTeX decoding ...
+[120] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/thesis_refs.bib'
+[234] Biber.pm:4574> INFO - Looking for bibtex file 'bib/standard_refs-biber.bib' for section 0
+[235] bibtex.pm:1713> INFO - LaTeX decoding ...
+[247] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/standard_refs-biber.bib'
+[304] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[304] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[304] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
+[304] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-UK'
+[318] bbl.pm:654> INFO - Writing 'mythesis.bbl' with encoding 'UTF-8'
+[352] bbl.pm:757> INFO - Output to mythesis.bbl
+[352] Biber.pm:130> WARN - legacy month field 'aug' in entry 'LyndonEvans_2008' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'aug' in entry 'TheATLASCollaboration_2008' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'aug' in entry 'TheCMSCollaboration_2008' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'aug' in entry 'TheLHCbCollaboration_2008' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'aug' in entry 'TheALICECollaboration_2008' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Aaboud_2017' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Francavilla_2012' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'feb' in entry 'J-P-Archambault_2008' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'feb' in entry 'A-Artamonov_2008' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'oct' in entry 'The-ATLAS-collaboration_2020' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Nakahama_2015' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'jan' in entry 'C-Gabaldon_2012' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'jul' in entry 'T_Cornelissen_2008' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'September' in entry 'F_Meloni_vertex' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'feb' in entry 'TGleisberg_2009' is not an integer - this will probably not sort properly.
+[352] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Barillari2012' is not an integer - this will probably not sort properly.
+[352] Biber.pm:132> INFO - WARNINGS: 16

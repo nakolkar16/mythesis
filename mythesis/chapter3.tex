@@ -416,17 +416,32 @@ in \cref{sec:systdescribe} and \cref{sec:systdescribe2}, respectively.
 \end{itemize}
 
 \subsection{Theoretical uncertainties}
-
+This category involves uncertainties originating from the various models used in the MC simulation 
+chain, and therefore, also called modeling uncertainties or modeling systematics. 
+  
 \begin{itemize}
-  \item \textbf{MC Modeling uncertainties}: This category involves uncertainties originating from the 
-  various models used in the MC simulation chain. 
-
-  The uncertainty associated with the A14 tune set is determined by comparing the nominal sample with 
+  
+  \item \textbf{A14}: The uncertainty associated with the A14 tune set is determined by comparing the nominal sample with 
   two alternate samples, both simulated using the same settings as the nominal sample but incorporating 
   the up and down variations of the A14 tune set. This variation is related to the strong 
-  coupling constant $\alpha_s$.
+  coupling constant $\alpha_s$. This uncertainty is considered for \tZq and \ttZ processes. 
 
+  \item \textbf{Scale}: The scale uncertainty is calculated by using a 3-point variation. The parameters
+  $\mu_R$ and $\mu_F$, related to $H_T/6$, are varied between 0.5, 1 and 2. This uncertainty is considered 
+  for \tZq and \ttZ processes. 
+  \mynote[inline]{}{What is mur muf and rephrase this}
 
+  \item \textbf{Shower and PDF}: The showering uncertainty is calculated by comparing the nominal sample (modeled using \textsc{Pythia})
+  and the alternate sample (modeled using \textsc{Herwig}). Moreover, uncertainty associated 
+  with the PDF is also considered. This uncertainty is considered for \tZq and \ttZ processes. 
+
+  \item \textbf{\tWZ modeling} This uncertainty accounts for the interference between \ttZ and \tWZ
+  processes. The non-resonant \tWZ production can feature a resonant $\APtop$ in the intermediate state,
+  leading to overlap with the \ttZ production. This interference is navigated using various techniques 
+  called diagram removal (DR) and diagram subtraction (DS). Two \tWZ samples were generated, one with 
+  DR1 and another with DR2 and the difference is taken to be the \tWZ modeling uncertainty. 
+
+  \item \textbf{\diboson }
 \end{itemize}
 \label{sec:systdescribe2}
 
