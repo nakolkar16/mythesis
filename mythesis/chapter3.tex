@@ -1,28 +1,27 @@
 % !TEX root = mythesis.tex
 
 %==============================================================================
-\chapter{Signal extraction and Background Estimation}
+\chapter{Signal Extraction and Background Estimation}
 \label{sec:tZq}
 %==============================================================================
-
+The process of interest for this analysis 
 \section{The \tZqsec production}
-High energy proton-proton collisions at the LHC enable
-multiple processes to occur simultaneously. Out of those processes, the process of 
-interest for this analysis 
-is the electroweak production of the \Ptop-quark and the 
-\PZ-boson, referred to as the \tZq production. The LO $t$-channel Feynman diagrams are shown in \cref{fig:tZqfeyn} where
-a \PZ-boson can be radiated from any one of the incoming or outgoing quarks (\cref{fig:tZqfeyna})
-or from the exchanged \PW-boson (\cref{fig:tZqfeynb}). In addition to these
+Since at the LHC, high energies are attainable by particles, production of heavy particles such as the
+\Ptop-quark and its related processes, become highly probable. For this reason, LHC is called a top 
+factory. One of the
+rare processes at the LHC is the associated production of the \Ptop-quark and the 
+\PZ-boson through electroweak interactions. It is referred to as the \tZq production. Its LO $t$-channel
+Feynman diagrams are shown in \cref{fig:tZqfeyn}. A \PZ-boson is radiated from any one of the incoming or outgoing 
+quarks (\cref{fig:tZqfeyna}) or from the exchanged \PW-boson (\cref{fig:tZqfeynb}). In addition to these
 resonant contributions, there is also a small non-resonant contribution 
-in the form of $tl^+l^-q$ (\cref{fig:tZqfeync}) which is also accounted for. The \Ptop-quark can be produced through
-interactions such as $\Pup+\Pbottom \rightarrow \Pdown+\PZ+\Ptop$ or 
-$\APup+\Pbottom \rightarrow \APdown+\PZ+\Ptop$ whereas \APtop-quark can be produced 
-via charge conjugate processes. The NLO QCD
-corrections for \tZq are small and therefore any possible deviations from the SM can be 
-studied in the context of SM Effective Field Theory. 
+in the form of $tl^+l^-q$ (\cref{fig:tZqfeync}) which is also accounted for in this analysis. 
+The associated \Ptop-quark is produced through interactions such as $\Pup+\Pbottom \rightarrow \Pdown+\PZ+\Ptop$ or 
+$\APup+\Pbottom \rightarrow \APdown+\PZ+\Ptop$ whereas \APtop-quark is produced 
+via the charge conjugate processes. 
 
-\mynote[inline]{}{This will be useful when EFT section is written. Make sure the 
-section is referenced}
+% The NLO QCD
+% corrections for \tZq are small and therefore any possible deviations from the SM can be 
+% studied in the context of SM Effective Field Theory. 
 
 
 \begin{figure}[htbp]
@@ -76,21 +75,23 @@ section is referenced}
   \label{fig:tZqfeyn}
   \end{figure}
 
-The \tZq production probes the coupling of \Ptop and \PZ as well as the $\PW\PW\PZ$ coupling.
-Hence, it allows the coupling
+The \tZq production is interesting to study because it probes the coupling of \Ptop and \PZ as well as 
+the $\PW\PW\PZ$ coupling. In other words, it allows the coupling
 of two bosons and the coupling of a fermion to a boson to be studied in a single interaction. Moreover, 
 it can provide a solid basis to study similar processes such as the $tHq$ process. 
-The \mynote{expected cross-section}{check what cross-section we are quoting} of the \tZq production in the SM, calculated at NLO in QCD
-for a dilepton mass more than $\qty{30}{\GeV}$, is $\qtypmerr{102}{5}{2}{\femto\barn}$. The
-cross-section, measured by the ATLAS collaboration, is $\qtyerrs{97}{13}{7}{\femto\barn}$ which
+The theoretical cross-section based on SM prediction is calculated at NLO in QCD
+for a dilepton mass more than $\qty{30}{\GeV}$, is $\qtypmerr{102}{5}{2}{\femto\barn}$. The \tZq
+process was observed by ATLAS and CMS during the Run-2 of the LHC.
+The cross-section, measured by the ATLAS collaboration, is $\qtyerrs{97}{13}{7}{\femto\barn}$~\cite{Aad2020} which
 is consistent with the SM expectation. 
 
 In order to study this process, one has to note 
 that the particles involved are quite heavy and therefore,
-the only way to spot them is from their reconstructed decay products. 
-Conventionally, the possible final states are divided into several \textit{channels}
+the only way to spot them is from their reconstructed decay products. Moreover, depending on the 
+branching ratio, there can be several sets of final states.
+A common practice is to divide the possible final states into \textit{channels}
 based on certain combinations of leptons and jets. This analysis focuses on
-the so-called trilepton channel as described below.
+the so-called trilepton channel which is described below.
 
 \section{The \tZqsec Trilepton Channel}
 As the name suggests, the trilepton decay channel of the \tZq production 
@@ -99,14 +100,16 @@ contains final states with three charged leptons, as shown in \cref{fig:tZqtrile
 an associated neutrino. The \PZ-boson decays into opposite sign same flavour lepton pairs and its probability 
 is equal across the three lepton families (\Pelectron,\Pmuon,\Ptauon) due to 
 lepton universality. This analysis includes \PZ decays resulting into electrons or muons 
-(\Pelectron\APelectron or \Pmuon\APmuon). The \Ptauon-leptons are considered if they decay into lighter
+(\Pelectron\APelectron or \Pmuon\APmuon). The tau leptons are considered if they decay into lighter
 leptons (i.e. \Pelectron or \Pmuon).
 
-\mynote[inline]{}{Do we talk about other decay channels?}
-The branching ratio of the trilepton channel is relatively small. However, it has a clean 
-signature due to the three lepton requirement. In addition, three lepton final state is quite difficult
-to mimic by background processes. This is the reason to choose this final state for studying \tZq process.
-For this analysis, the trilepton final state is referred to as the signal.
+\mynote[inline]{}{Do we talk about other decay channels? YES}
+
+Selecting the trilepton decay state has a few advantages. The efficiency of reconstructing leptons is 
+higher than that of hadrons. Also, a decay state with three leptons is difficult to replicate by 
+background processes. Even though, the branching ratio of the trilepton channel is relatively small,
+it shows a clean signature. Due to these reasons, the trilepton channel is chosen for studying the 
+\tZq process. From this point onward, this will be referred to as the signal.
 
 \begin{figure}
   \centering
@@ -116,7 +119,8 @@ For this analysis, the trilepton final state is referred to as the signal.
 \end{figure}
 
 \subsection{Event Selection}
-The next task is to reconstruct this final state from the detector data or in other words, find
+In LHC physics, the outcome of a collision between two incoming particles is called as an "event".
+An important step in an analysis is to reconstruct the final state of interest from the detector data or in other words, find
 possible occurrences of this final state within the collision events. In order to achieve that,
 certain requirements are defined in favour of the signal events. The collection of these requirements
 is called event selection. For this analysis, the primary event selection is discussed below and
@@ -262,53 +266,57 @@ into a lepton, then it can satisfy the signal event selection.
 
 \section{Monte-Carlo (MC) simulations}
 
-\mynote[inline]{}{can i put it after PDF? it is also a part of physic at hadron colliders!}
-
 As already discussed before, proton-proton collisions are viewed as collisions between partons. This is 
 not a simple process because multiple interactions can occur within the same event. With this complexity,
 it becomes difficult to study the interaction of interest and more importantly the task of 
 segregating signal from background becomes more complex. Here is where, Monte Carlo
-generators come to the rescue. Monte Carlo generators are software that simulate collision events along with
-detector effects and try to provide a detailed description of the possible final states. More precisely,
-they use pseudo-random numbers to reproduce the quantum mechanical probabilities of different outcomes
-of a collision event~\cite{mcgen}.  
+generators come to the rescue. Monte Carlo generators are software that simulate collision events and 
+try to provide a detailed description of the possible final states. In addition, these generators, also called
+event generators, can also simulate detector response. 
+In practice, the generators use pseudo-random numbers to reproduce the quantum mechanical probabilities of different outcomes
+for a collision event~\cite{mcgen}.  
 
 The simulated data provided by these generators can be thought of as a "digital twin"
 of the actual observed data. It can be used to predict any experimental observable or a combination of observables.
-The MC chain is a step-by-step process that begins with identifying the hard interaction and 
+The workflow of MC generators, called as the MC chain, is a step-by-step process that begins with identifying the hard interaction and 
 continues until the final state is achieved. At each stage, the structure of the underlying event 
 evolves. The steps are briefly summarised below:
 
 \begin{itemize}
-  \item \textbf{Hard process}: In this step the hard process, defined as the process with highest
+  \item \textbf{Hard process}: In this step the hard process, defined as the process with the highest
   momentum transfer, is determined using matrix element calculation combined with the input Parton
   Distribution Functions. If a resonance is produced in a hard process, such as the \Ptop or \PZ and it
   shortly decays, then its decay process is also considered within the hard process. 
 
   \item \textbf{Parton Shower (PS)}: The colliding partons are responsible for emissions that give rise
   to more partons and subsequently more interactions. The emissions associated with the incoming partons
-  is called Initial-State Radiation (ISR) while the emissions associated with outgoing partons is called
+  is called Initial-State Radiation (ISR) while the emissions associated with the outgoing partons is called
   Final-State Radiation (FSR). These emissions and their respective interactions are modelled with
   Parton Shower algorithms. The incorporation of PS into the matrix element paints a more accurate picture
   of the collision process.
 
   \item \textbf{Multiple-processes}: Until now, only one of the partons from the original hadron is 
   considered but in reality, other partons from the same hadron also interact. Their interactions are
-  termed as multiple-processes and they are calculated at this step of the MC simulation chain.
+  termed as multiple-processes. They are calculated at this step of the MC simulation chain.
   
   \item \textbf{Hadronisation and decay}: The outgoing partons, with sufficient energy, can produce 
   new hadrons due to QCD colour confinement (hadronisation). If these hadrons are unstable, they can also
   decay into lighter particles. The MC chain also includes these calculations.
 \end{itemize}
 
-Finally, detector simulation is applied, after which the simulated data is ready for comparison with the 
-detector data.
-% After all the MC events are generated, the GEANT4 software toolkit [12] is used to propagate
-% the particles through the detector and to simulate their interactions with the detector material.
+After all the MC events are generated, the interactions of the particles with the detector material is
+simulated using the \textsc{GEANT4} software toolkit~\cite{GEANT4:2002zbu}.
+Finally, the simulated data is ready for comparison with the observed detector data. The workflow of 
+the MC chain is illustrated in \cref{fig:MCchain}.
 Among the various available MC generators, \textsc{Herwig}~\cite{Bellm2016} and 
 \textsc{Pythia}~\cite{SJOSTRAND2008852} are two of the most commonly used ones.
 
-\mynote[inline]{}{explain the different weights}
+\begin{figure}
+  \centering
+      \includegraphics[width=0.8\textwidth]{MCchain.png}
+      \caption{An illustration of the steps involved in a Monte Carlo chain~\cite{Plehn:2022ftl}}
+         \label{fig:MCchain}
+\end{figure}
 
 \section{Data and simulated samples}
 This analysis uses collision data collected by the ATLAS detector during 2015 to 2018 (Run-2 of the LHC) at a center of
@@ -417,7 +425,11 @@ in \cref{sec:systdescribe} and \cref{sec:systdescribe2}, respectively.
 
 \subsection{Theoretical uncertainties}
 This category involves uncertainties originating from the various models used in the MC simulation 
-chain, and therefore, also called modeling uncertainties or modeling systematics. 
+chain, and therefore, also called modeling uncertainties or modeling systematics. There are various 
+parameters related to the modelling of a certain process and for each parameter, there is 
+an associated uncertainty which is investigated by varying the values of the parameters. The effect of 
+the variation is estimated and assigned as the systematic uncertainty. In this way,
+the uncertainties associated with the modelling of the process is extracted. 
   
 \begin{itemize}
   
@@ -426,24 +438,83 @@ chain, and therefore, also called modeling uncertainties or modeling systematics
   the up and down variations of the A14 tune set. This variation is related to the strong 
   coupling constant $\alpha_s$. This uncertainty is considered for \tZq and \ttZ processes. 
 
-  \item \textbf{Scale}: The scale uncertainty is calculated by using a 3-point variation. The parameters
-  $\mu_R$ and $\mu_F$, related to $H_T/6$, are varied between 0.5, 1 and 2. This uncertainty is considered 
-  for \tZq and \ttZ processes. 
-  \mynote[inline]{}{What is mur muf and rephrase this}
+  \item \textbf{Scale}: The parameters representing renormalisation and factorisation scales are 
+  known as $\mu_R$ and $\mu_F$, respectively and their values are $\mu_R$=$\mu_F$=$H_T/6$. The renormalisation
+  scale is for the running of $\alpha_S$ associated with the hard process whereas the 
+  factorisation scale for the PDFs. They are introduced to prevent the matrix 
+  element from any possible divergences. In order to estimate the uncertainty on the parameters, the values
+  of $\mu_R$ and $\mu_F$ are varied between $\mu_R$=$\mu_F$=0.5, $\mu_R$=$\mu_F$=1 and $\mu_R$=$\mu_F$=2. This
+  uncertainty is considered for \tZq, \diboson and \ttZ processes.
 
   \item \textbf{Shower and PDF}: The showering uncertainty is calculated by comparing the nominal sample (modeled using \textsc{Pythia})
   and the alternate sample (modeled using \textsc{Herwig}). Moreover, uncertainty associated 
-  with the PDF is also considered. This uncertainty is considered for \tZq and \ttZ processes. 
+  with the \mynote{PDF}{write about pdf4lhc} is also considered. The shower systematic is included for \tZq, \ttZ and \ttbar processes
+  whereas the PDF uncertainty is considered for \tZq, \diboson and \ttZ processes. 
 
-  \item \textbf{\tWZ modeling} This uncertainty accounts for the interference between \ttZ and \tWZ
+  \item \textbf{Interference}: This uncertainty accounts for the interference between \ttZ and \tWZ
   processes. The non-resonant \tWZ production can feature a resonant $\APtop$ in the intermediate state,
   leading to overlap with the \ttZ production. This interference is navigated using various techniques 
   called diagram removal (DR) and diagram subtraction (DS). Two \tWZ samples were generated, one with 
   DR1 and another with DR2 and the difference is taken to be the \tWZ modeling uncertainty. 
 
-  \item \textbf{\diboson }
+  \item \textbf{Matrix element matching and resummation}: The systematics in this category are
+  taken into account for the \diboson process following the recommendations
+  of the Physics Modelling Group~\cite{twikiPMG,twikiPMGVV}. The CKKW parameter is related to the calculation of 
+  the overlap between jets involved in the matrix element and parton shower computation. The nominal 
+  value of the parameter CKKW is \qty{20}{GeV} and its uncertainty is estimated by varying this value 
+  to \qty{30}{GeV} (up variation) and \qty{15}{GeV} (down variation)~\cite{Anders:2125718}. The QSF parameter determines the 
+  scale for the resummation of soft gluon emissions. Its uncertainty is estimated by varying the nominal
+  by 2 and 0.5~\cite{Anders:2125718}.
+
+  In the parton shower computation, a recoil scheme refers to how the remaining partons adjust their
+  momenta after emission or splitting, in order to conserve the total momentum. The recoil scheme used
+  for the \diboson samples is described in~\cite{Schumann:2007mg}. The uncertainty on the associated parameter CSSKIN is 
+  also considered for the \diboson process. Finally, approximate NLO EW corrections are included as weights using
+  the electroweak virtual approximation as described in~\cite{Kallweit2015}. 
+
+  \item \textbf{Matching and ISR}: The \ttbar background is being modelled using \textsc{Powheg}
+  generator in which a parameter called $h_{\text{damp}}$ is the damping factor that controls the radiation
+  at which the \ttbar system recoils. If this is set to infinity then all the radiation is considered
+  in the computation of ISR. The uncertainty on ISR is estimated by comparing two nominal \ttbar 
+  samples, one with $h_{\text{damp}}$=$1.5m_t$ and second with $h_{\text{damp}}$=$3m_t$.
+
+  Depending on the generator and parton shower workflow, there might be overlapping phase spaces
+  which can cause double-counting of events. To prevent this, a parameter called \textsc{pThard} is defined 
+  which refers to the hard scattering transverse momentum scale. This parameter decides the extent of 
+  phase space this vetoed while matching matrix element with the parton shower. 
+  The uncertainty on \textsc{pThard} is estimated
+  by comparing samples with \textsc{pThard}=1 and \textsc{pThard}=0.
 \end{itemize}
 \label{sec:systdescribe2}
+
+\section{Event weights}
+The events generated from the Monte Carlo simulation are unweighted, which means that each event 
+represents an equal share of the total cross-section. However, for obtaining a correct distribution
+of an observable, each raw event is required to be weighted. Generally, these weights are provided by the
+MC generator.
+
+The nominal event weight ($w_{\text{MC}}$) is the measure of the relative probability of an event 
+within a sample. Along with the nominal weight, there are other weights representing parameter or
+setting variations associated with systematic uncertainty estimation. Consider a systematic which 
+requires a parameter to be varied. Now, producing the entire event sample with the varied 
+parameter is computation intensive. Instead, a corresponding weight is included in the event 
+generation~\cite{10.21468/SciPostPhysCodeb.8}. The total sum of these weights give the 
+corrected number of events for that sample. 
+
+The total event weight can be written as:
+
+\begin{equation}
+  w_{\text{total}} = w_{\text{MC}} \cdot w_{\text{pileup}} \cdot w_{\text{lepton}} \cdot w_{\text{JVT}} \cdot w_{\text{trigger}} \cdot w_{\text{\Pbottom-tagging}}
+\end{equation}
+
+
+\begin{itemize}
+  \item $w_{\text{MC}}$: gives the relative probability of producing that event
+  \item $w_\text{pileup}$: to correct the pileup profile of simulated events to match observed data
+  \item $w_{\text{lepton}}$: to correct for the differences in lepton isolation and reconstruction between
+  MC and data.
+  \item $w_{\text{JVT}}$: 
+\end{itemize}
 
 
 \section{Artificial Neural Networks}

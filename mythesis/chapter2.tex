@@ -5,10 +5,46 @@
 \label{sec:LHCATLAS}
 %==============================================================================
 
-\mynote[inline]{}{Write about what the chapter has to offer}
+This chapter describes the particle physics experiments that form an integral part of this thesis.
+The data analysed for this study is from the ATLAS experiment described in \cref{sec:ATLAS}, situated
+at the Large Hadron Collider (LHC) which is explained in \cref{sec:LHC}. \Cref{sec:ATLASrecon} 
+explains in detail particle identification and reconstruction in the ATLAS detector. In addition, the 
+signatures of various objects necessary for this thesis are also explained.  
+
+\section{Particle accelerators and detectors}
+The matter that we observe around us is made up of the lighter, first generation of the Standard Model.
+To produce heavier particles, a high energy environment is necessary which is 
+created inside a particle accelerator like the LHC. These are devices that drive charged particles to 
+high speeds (close to the speed of light) and then collide them, either with each other or with a target. 
+This enables physicists to study the fundamental particles and the forces governing them.
+
+A typical particle accelerator has two main components: particle source and electromagnetic field. The 
+charged particles traveling in vacuum inside the beampipe, experience the force from the electric field and are accelerated in the direction of 
+the field. Moreover, the magnetic field bends their path so that the particles travel along the 
+accelerator arcs. In modern machines, metallic chamber called as the RF cavity is installed with the purpose of
+supplying the required electric field. The field inside the cavity is made to oscillate which is useful
+to ensure all the incoming particles are accelerated. The frequency of oscillation is tuned with the
+arrival timings of the incoming particles. A particle which arrives at the exact time when the field
+is the highest (resonant frequency), will receive the maximum push. At every revolution, particles
+arriving sooner or later will be accelerated or decelerated depending on the phase of the electric 
+field. 
+
+A direct consequence of applying an oscillating electric field is that the particles will be packed 
+groups called "bunches", rather than a continuous flow. The acceleration or deceleration
+will continue until all the particles reach the desired energy. Once that is achieved, the particles
+are ready to be collided.
+
+The collisions of these high energy particles give rise to an arena of processes such as production 
+of heavy particles, decay, elastic and inelastic scattering, etc. Particle detectors enable us to study
+the various outcomes of collisions. These detectors, like the ATLAS, identify and measure the 
+particles produced after the collisions. It can be said that particle accelerators and detectors are a 
+playground for the Standard Model. For this thesis, data from the ATLAS detector which is at the 
+Large Hadron Collider (LHC) have been analysed. 
+
 
 
 \section{The Large Hadron Collider}
+\label{sec:LHC}
 The Large Hadron Collider (LHC) is the world's largest particle accelerator built by the 
 European Organization for Nuclear Research (CERN). It is a proton-proton collider 
 installed in the 26.7 km long tunnel near Geneva across the Swiss-French border~\cite{LyndonEvans_2008}. 
@@ -45,7 +81,9 @@ When charged particles travel in curved paths, they emit electromagnetic radiati
 synchrotron radiation. The magnet system is shielded by this synchrotron radiation so that the low
 temperature and ultimately the superconductivity is preserved. 
 
-The outcome of particle collisions hold interesting physics which is studied with the help of particle detectors. 
+At the LHC 2808 bunches of protons are injected which are \SI{25}{\ns} apart. This results into 
+$1.2 \times 10^{11}$ protons per bunch giving rise to different particle interactions. 
+The outcomes hold interesting physics which is studied with the help of particle detectors. 
 Out of the four detectors, two are general purpose detectors namely ATLAS (\textbf{A} \textbf{T}oroidal \textbf{L}HC \textbf{A}pparatu\textbf{S})~\cite{TheATLASCollaboration_2008} and
 CMS (\textbf{C}ompact \textbf{M}uon \textbf{S}olenoid)~\cite{TheCMSCollaboration_2008}. The LHCb experiment\cite{TheLHCbCollaboration_2008} is dedicated to 
 studies based on \PB-hadron and its decays whereas ALICE(\textbf{A} \textbf{L}arge \textbf{I}on \textbf{C}ollider \textbf{E}xperiment)~\cite{TheALICECollaboration_2008}
@@ -63,6 +101,7 @@ the LHC and its experiments are shown in \cref{fig:lhc}.
 \end{figure}
 
 \section{The ATLAS detector}
+\label{sec:ATLAS}
 The ATLAS detector is one of the general purpose detectors at the LHC. It is an assembly of sub detectors constructed around the beam pipe in an onion-shaped structure as shown
 in \cref{fig:atlas}. The sub detector closest to the IP is called the Inner Detector (ID) and it
 is designed to reconstruct trajectories of charged particles and vertices of interactions. Vertices are
@@ -109,82 +148,119 @@ rapidity and is defined as:
     \includegraphics[width=\figwidth]{coordinate_system.pdf}
     \caption[Sketch of the ATLAS coordinate system]{Sketch of the ATLAS coordinate system. 
     The origin is the Interaction point (IP) and the coordinates for a particle 
-    with momentum $\vec{p}$ is shown. Based on \cite{coordinatesys}.}%
+    with momentum $\vec{p}$ is shown. Based on~\cite{coordinatesys}.}%
     \label{fig:coordinatesys}
 \end{figure}
 
 \subsection{The Inner Detector}
-The closest sub detector system from the beam pipe is the Inner Detector (ID). It has a cylindrical 
+The closest sub detector system from the beam pipe is the Inner Detector (ID)~\cite{CERN-LHCC-97-016}. It has a cylindrical 
 barrel region covering $|\eta|<1$ and two end-cap regions covering 
 $1 \leq \eta \leq 2.5$~\cite{BARBERIS2000331}. The ID comprises the Pixel Detector, the Semiconductor 
 Tracker (SCT) and the Transition Radiation Tracker (TRT) immersed in a 2 T solenoidal 
 magnetic field. Data recorded by these components are used to measure the charge, direction and 
-momentum of charged particles.
+momentum of charged particles. The schematic showing the structure of the ID is given in \cref{fig:ID}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\figwidth]{IDbriefing_figure1.png}
+    \caption[Sketch of the ATLAS Inner Detector]{Schematic of the structure inside the Inner
+    Detector. It shows the highly granular silicon pixels in the Pixel detector, silicon strips in the
+    SCT and straw tubes in the TRT. Moreover, the distances are shown from the beam pipe in 
+    terms of radii~\cite{Collaboration:2723878}.}%
+    \label{fig:ID}
+\end{figure}
+
 
 The Pixel Detector resides along the radii of 33-150 mm~\cite{Aaboud_2017}. Modules of silicon pixels 
 are arranged in three layers in the barrel region and two layers in the end-cap region. 
 It provides a three-dimensional space-point reading that allows for the reconstruction of primary and 
 secondary vertices. The high granularity of these pixels provide high spatial 
-resolution that is beneficial pattern recognition. The next subcomponent is the Semiconductor 
+resolution that is beneficial for pattern recognition. The next subcomponent is the Semiconductor 
 Tracker (SCT) which consists of silicon micro strip detectors 
-arranged in four barrel layers and two end-cap layers. The radii range of the SCT is 299-560 mm. The 
+arranged in four barrel layers and two end-cap layers. The radii range of the SCT is 299-560 mm~\cite{Aaboud_2017}. The 
 outermost subcomponent is the Transition Radiation Tracker (TRT) which 
-is made up of gaseous straw tube detectors. It spans across 563-1066 mm radii. The straws are filled 
+is made up of gaseous straw tube detectors. It spans across 563-1066 mm radii~\cite{Aaboud_2017}. The straws are filled 
 with xenon and carbon-dioxide at atmospheric pressure and each straw
-has a gold-plated tungsten wire along the longitudinal axis. The transition material is a low-density 
-foam surrounding the straws. Tracks of particles are reconstructed from TRT
-data. A combination of measurements given by the subcomponents help get a high-resolution vertex and 
+has a gold-plated tungsten wire along the longitudinal axis~\cite{VOGEL2013277}. The transition material is a low-density 
+foam surrounding the straws. The data recorded by the TRT is utilised for reconstructing 
+tracks of charged particles. A combination of measurements given by the subcomponents help get a high-resolution vertex and 
 momentum measurement of incoming particles. 
 
 \subsection{Calorimeters}
-Detector system surrounding the ID are calorimeters. The tasks of a calorimeter include accurately measuring energies and position of incident
-particles. The particles emerging after a certain process during collisions, interact with the active material inside the calorimeters and produce secondary particles. The incoming
-particle loses almost all its energy inside the calorimeter by producing a shower of secondary particles. These showers are read-out and recorded for accurate energy measurements. 
-Besides a decent area coverage, sufficient depth is also an important parameter for calorimeters. In order to contain the showers, calorimeters at ATLAS are designed such that they cover a 
-full $\phi$-range and $|\eta|<4.9$.  
+Calorimeters are detectors that are designed to measure the energy of incident particles.
+The particles emerging after a certain process during collisions, interact with 
+the active material inside the calorimeters and produce secondary particles. Almost all of
+their energies are lost inside the calorimeter through a shower production.
+These showers of secondary particles are read-out and recorded for accurate energy 
+measurements. Besides a wide area coverage, sufficient depth is also an important 
+parameter for calorimeters. In order to contain the showers, calorimeters at ATLAS are 
+designed such that they cover a full $\phi$-range and $|\eta|<4.9$. A sliced image of the ATLAS calorimeter
+is shown in \cref{fig:calo}.  
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\figwidth]{calo.jpg}
+    \caption[Sketch of the ATLAS calorimeters]{A sliced view of the ATLAS calorimeter system~\cite{Pequenao:1095927}.}%
+    \label{fig:calo}
+\end{figure}
 
 \subsection*{Electromagnetic Calorimeter (ECAL)}
-The Electromagnetic Calorimeter (ECAL) is a lead-liquid-argon calorimeter split into a barrel component ($|\eta|<1.475$) and two end-cap components 
-($1.375 < |\eta| < 3.2$)~\cite{TheATLASCollaboration_2008}. Over the precision physics $\eta$ region, essentially the region coinciding with the inner detector, there are highly granular
-detectors capable of accurately measuring electron energies. The ones outside this range are coarser but still adequate for jets and missing transverse energy measurements.
-The ECAL is a sampling detector in which liquid argon (active material) and lead absorbers are placed alternatively in an accordian geometry. This geometry allows for a full 
+The Electromagnetic Calorimeter (ECAL) is a lead-liquid-argon calorimeter split into a 
+barrel component ($|\eta|<1.475$) and two end-cap components 
+($1.375 < |\eta| < 3.2$)~\cite{TheATLASCollaboration_2008}. Over the precision physics 
+$\eta$ region, which is essentially the region coinciding with the inner detector, the 
+detectors are highly granular which allows accurate measurement of electron energies.
+The ECAL is a sampling detector in which liquid argon (active material) and lead absorbers are placed 
+alternatively in an accordion geometry. This geometry allows for a full 
 $\phi$-coverage. 
 
 The incident particles encounter the absorber, producing charged particles that ionise the argon atoms. The resulting electrons travel towards the electrodes and a
-signal is recorded. The depth of the ECAL is decided according to the radiation length. The radiation length $X_0$ is a characteristic of a material which is defined as 
+signal is recorded. The depth of the ECAL is based on the expected shower length and is estimated
+by the radiation length. The radiation length $X_0$ is a characteristic of a material which is defined as 
 the length at which the energy of a particle traversing the material, is reduced by a factor of $1/e$. The thickness of ECAL is $> 22 X_0$ in the barrel and $> 26 X_0$ in the end-cap
-regions. The energy resolution of the ECAL is $\sigma_E/E = 10\%/\sqrt{E} \oplus 0.7\%$~\cite{CERN-LHCC-2017-018}.
+regions~\cite{CERN-LHCC-2017-018}.
 
 \subsection*{Hadronic Calorimeter (HCAL)}
-The Hadronic Calorimeter (HCAL) consists of the tile calorimeter, the Hadronic End-Cap calorimeter (HEC) and the Forward Calorimeter (FCal). The tile calorimeter~\cite{Francavilla_2012} is of a sampling
-type, covering a range of $|\eta|<1.7$. The active material consists of iron and plastic, absorbers are made of steel and wavelength shifting fibers are used for readout.
-Readout cells are defined by grouping certain number of fibers onto the same Photo Multiplier Tube (PMT). 
+The Hadronic Calorimeter (HCAL) consists of the tile calorimeter, the Hadronic End-Cap calorimeter (HEC)
+and the Forward Calorimeter (FCal). The tile calorimeter~\cite{Francavilla_2012} is a type of sampling
+detector, covering a range of $|\eta|<1.7$. The active material consists of iron and plastic, 
+absorbers are made of steel and wavelength shifting fibers are used for readout.
+Readout cells are defined by grouping certain number of fibers onto the same Photo Multiplier 
+Tube (PMT). 
 
 Overlapping some $\eta$ region of the tile calorimeter, there is the HEC which occupies
 $1.5 < |\eta| < 3.2$. It is a copper-liquid-argon sampling calorimeter consisting of two independent wheels per end-cap situated right behind the end-cap electromagnetic
 calorimeters. The detector responsible for detecting large $|\eta|$ objects is the FCal which has a coverage of $3.1 < \eta < 4.9$. The active material (liquid-argon) is 
-placed in smaller gaps between the electrodes compared to the gaps in the ECAL. The reason is to avoid ion build-up problems caused by the heavy particle flux 
+placed in smaller gaps between the electrodes compared to the gaps in the ECAL. The reason is avoiding
+ion build-up problems caused by the heavy particle flux 
 encountered by the FCal. Forward calorimetery is essential to increase the detection of high momentum jets that would otherwise escape detection at low 
-$\eta$~\cite{J-P-Archambault_2008}. It allows a hermetic calorimetry that leads to efficient missing $\text{E}_\text{T}$ measurements. The resolution of the tile 
-calorimeter and HEC is $\sigma_E/E = 50\%/\sqrt{E} \oplus 3\%$ while the FCal has a resolution of $\sigma_E/E = 100\%/\sqrt{E} \oplus 10\%$~\cite{A-Artamonov_2008}.
+$\eta$~\cite{J-P-Archambault_2008}. It allows a hermetic calorimetry that leads to efficient missing
+$\text{E}_\text{T}$ measurements~\cite{A-Artamonov_2008}.
  
 
-
 \subsection{Muon spectrometers (MS)}
-The muon spectrometers play a significant role in accurate measurements of high energy muons. The structure is made up of three superconducting toroids, 
-precision tracking chambers and the trigger system. The Barrel toroid is made of eight superconducting coils, having a coil area of $5 \times 26 \text{m}^2$ each 
-providing a magnetic field in the range of 0.5 to 2 T. In the end-cap region, eight superconducting coils are situated inside an insulation vessel, providing magnetic 
-field in the range 1 to 2 T~\cite{Palestini:2003noa}. 
+The muon spectrometers play a significant role in accurate measurements of high energy muons. The 
+structure is made up of three superconducting toroids, 
+precision tracking chambers and the trigger system. The Barrel toroid is made of eight superconducting 
+coils, having a coil area of $5 \times 26 \text{m}^2$ each 
+providing a magnetic field in the range of 0.5 to \qty{2}{\tesla}. In the end-cap region, eight 
+superconducting coils are situated inside an insulation vessel, providing magnetic 
+field in the range 1 to \qty{2}{\tesla}~\cite{Palestini:2003noa}. 
 
-The hunting of muon candidates from the collided particles is done by the ATLAS muon trigger. It comprises of the Level-1 muon trigger and the High-Level muon trigger implemented with 
-different detectors. The Resistive Plate Chambers (RPCs) are placed in the Barrel region and the Thin Gap Chambers (TGCs) are placed in the end-cap region. Different types of 
-detectors are used in barrel and end-cap because the muon flux encountered by these regions is different. 
+The hunting of muon candidates out of the emissions, is performed by the ATLAS muon trigger. It 
+comprises the Level-1 muon trigger and the High-Level muon trigger implemented with 
+different detectors. The Resistive Plate Chambers (RPCs) are placed in the Barrel region and the
+Thin Gap Chambers (TGCs) are placed in the end-cap region. Different types of 
+detectors are used in barrel and end-cap because the muon flux encountered by these regions is 
+different. 
 
 The RPCs and TGCs form the so-called Level-1 muon trigger. It selects muon
-candidates with high $p_T$ by reconstructing tracks that point directly towards the interaction point. The precision tracking 
-chambers house the Monitored Drift Tubes (MDT) that perfrom the precision measurement of muon momentum. Each chamber
-contains two layers, each formed by three or four more layers of drift tubes. The drift tubes are made up of aluminium and are filled with $\text{Ar}-\text{CO}_2$ gas mixture.
-The MDTs along with Cathode Strip Chambers (CSCs) form the High-Level muon trigger. Both these triggers operate based on a preconfigured threshold value. In Run-2, for high-$p_T$ the 
+candidates with high $p_T$ by reconstructing tracks that point directly towards the interaction point. 
+The precision tracking chambers house the Monitored Drift Tubes (MDT) that perform the precision 
+measurement of muon momentum. Each chamber contains two layers, each formed by three or four more 
+layers of drift tubes. The drift tubes are made up of aluminum and are filled with 
+Ar-$\text{CO}_2$ gas mixture.
+The MDTs along with the Cathode Strip Chambers (CSCs) form the High-Level muon trigger. Both these triggers operate based on a preconfigured threshold value. In Run-2, for high-$p_T$ the 
 threshold was 20 GeV for Level-1 muon trigger and 26 GeV for High-Level muon trigger.  
 
 \subsection{Magnet system}
@@ -199,8 +275,12 @@ The end cap magnets are placed inside the barrel toroidal magnet at both ends of
 magnet.
 
 \subsection{Trigger and Data Acquisition System}
-The Trigger and Data Acquisition system (TDAQ) has two components, the data acquisition system which reads data
-from the detector subsystems and the trigger system which decides which data to retain.
+At the LHC numerous interactions are occurring simultaneously. However, not all events contain
+interesting characteristics. Therefore, ATLAS uses a dedicated trigger system to select only those
+events that are interesting from a physics point of view. The selection and storage of events is 
+performed by the Trigger and Data Acquisition system (TDAQ). It has two components, the data acquisition
+system which reads data from the detector subsystems and the trigger system which decides which data 
+to retain.
  
 ATLAS uses a two-staged trigger system formed by the Level-1 (L1) trigger and the High-Level Trigger (HLT)~\cite{The-ATLAS-collaboration_2020}. The
 L1 trigger is a hardware based trigger that selects meaningful signals from the detector components and passes on 
@@ -208,25 +288,41 @@ to the HLT which then performs sophisticated algorithms to only retain interesti
 which are further stored for offline analysis. The event rate drops from 40 MHz to 100 kHz after the L1 trigger and 
 it further drops to 1 kHz after the HLT.
 
-The L1 trigger is composed of L1Calo, L1Muon, L1Topo and Central Trigger Processors (CTPs). The L1Calo processes
-signals from the calorimeters whereas L1Muon processes signals from the RPCs and TGCs in the muon spectrometers. 
-In order to avoid particles not originating from the interaction point, L1Muon follows coincidence requirements 
-based on the inner detector and the calorimeter signals. L1Topo which was an upgrade introduced in Run-2, calculates
-event topological quantities of L1 objects, such as the sum of transverse momenta of jets~\cite{Nakahama_2015}. The final decision of 
-whether to keep an event or discard it, is made by the CTP in $2.5 \mu s$. It also determines Regions of Interest (RoIs)
-to be investigated by the HLT.
+The L1 trigger is composed of L1Calo, L1Muon, L1Topo and Central Trigger 
+Processors (CTPs)~\cite{Buttinger_2012}. The L1Calo processes signals from the calorimeters whereas 
+L1Muon processes signals from the RPCs and TGCs in the
+muon spectrometers. In order to avoid particles not originating from the interaction point, L1Muon 
+follows coincidence requirements based on the inner detector and the calorimeter signals. L1Topo which 
+was an upgrade introduced in Run-2~\cite{Simioni_2015}, calculates event topological quantities of L1 objects, such as the 
+sum of transverse momenta of jets~\cite{Nakahama_2015}. The final decision of whether to keep an event 
+or discard it, is made by the CTP in $2.5 \mu s$. It also determines interesting areas to be further 
+investigated by the HLT. A schematic of the Level-1 trigger system is shown in \cref{fig:trigger}.
 
 The HLT is a software based trigger that applies a typical reconstruction algorithm at a preliminary stage 
-followed by more advanced, CPU-intensive algorithms to trigger on events. A farm of CPUs are running several
+followed by more advanced, CPU-intensive algorithms to trigger on events. A farm of CPUs is running several
 algorithms in parallel to process signals based on selection criteria similar to offline physics requirements~\cite{C-Gabaldon_2012}.   
 
-
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\figwidth]{trigger.png}
+    \caption[Sketch of the ATLAS calorimeters]{A schematic describing the Level-1 ATLAS trigger system~\cite{Simioni:2305791}.}%
+    \label{fig:trigger}
+\end{figure}
 
 \section{Physics objects reconstruction}
-
+\label{sec:ATLASrecon}
 The various decay products from the proton-proton collisions travel through the detector volume leaving
-behind characteristic trails. Physicists follow the trails and try to reconstruct objects which would represent
-characteristics of particles.
+behind characteristic trails. Physicists follow the trails and try to reconstruct objects which would 
+represent characteristics of particles.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\figwidth]{ATLAS_reco.png}
+    \caption[Sketch of the ATLAS calorimeters]{The schematic shows the signatures of electron, photon
+    muon and hadrons inside the sub detector systems of the ATLAS detector. The dotted line represents
+    the neutrino which is not detected directly~\cite{Mehlhase:2770815}.}%
+    \label{fig:ATLASreco}
+\end{figure}
 
 \subsection{Tracking}
 The signals collected from the tracking detectors, the inner detector and muon spectrometers, are used to reconstruct charged-particle trajectories called tracks. The primary-tracking
@@ -237,23 +333,31 @@ three-dimensional space points that indicate the coordinates of the charged part
 point of a particle on the pixel sensor. In a crowded environment, it may happen that the reconstructed cluster has energies from multiple particles. Therefore,
 it is essential for the algorithms to identify such clusters. 
 
-Track seeds are formed using a group of space points. These preliminary track seeds pass through a number of selection criteria to ensure purity. For instance, there should be atleast one 
-additional space point compatible with the track trajectory estimated from the seed. The task of combining the filtered track seeds to construct track candidates is performed by 
-the Kalman filter. In principle, it searches for additional space points from other layers of pixels that are suitable with the track seed. If the filter finds more than one suitable space 
-point on the same layer then it creates multiples track candidates per seed. The Kalman filter is also effective in reducing the amount of track candidates from random space points. 
+Track seeds are formed using a group of space points. These preliminary track seeds pass through a 
+number of selection criteria to ensure purity. For instance, there should be at least one 
+additional space point compatible with the track trajectory estimated from the seed. The task of 
+combining the filtered track seeds to construct track candidates is performed by 
+the Kalman filter~\cite{FRUHWIRTH1987444}. In principle, it searches for additional space points from other layers of pixels that are suitable with the track seed. If the filter finds more than one suitable space 
+point on the same layer then it creates multiples track candidates per seed. The 
+Kalman filter is also effective in reducing the amount of track candidates from random space points. 
 
-Once all the track candidates are ready, the ambiguity solver is employed. It is required to rectify cases where space points might overlap or have been incorrectly assigned. 
-The ambiguity solver processes track candidates individually based on their scores. Each track gets a score based on how likely it is to be a primary reconstructed track. 
-It also resolves issues where a cluster is assigned to multiple track candidates. Moreover, track candidates are rejected if they fail to meet basic track quality requirements based on
-minimum transverse momentum, minimum $|\eta|$ and number of pixels contributing to the cluster formation.
+Once all the track candidates are ready, the ambiguity solver is employed. It is required to rectify 
+cases where space points might overlap or have been incorrectly assigned. 
+The ambiguity solver processes track candidates individually based on their scores. Each track gets a 
+score based on how likely it is to be a primary reconstructed track. 
+It also resolves issues where a cluster is assigned to multiple track candidates. Moreover, track 
+candidates are rejected if they fail to meet basic track quality requirements based on
+minimum \pT, minimum $|\eta|$ and number of pixels contributing to the cluster formation.
 
-The track candidates that pass the ambiguity solver are used as input to find suitable TRT measurements. The so-called space points in TRT are expressed in $r-\phi$
-and $r-z$ coordinates in the barrel and end-cap region respectively. These space points or \textit{hits} are employed by the extension algorithm which performs
+The track candidates that pass the ambiguity solver are used as input to find suitable TRT measurements.
+The space points in TRT are expressed in $r$-$\phi$
+and $r$-$z$ coordinates in the barrel and end-cap region respectively. These space points termed
+as \textit{hits} are employed by the extension algorithm which performs
 a line fit to find hits suitable with the input track candidates. In this way, the chosen hits form the TRT further extend the track candidate~\cite{T_Cornelissen_2008}.
 
 \subsection{Vertexing}
 Vertexing is the process of identifying vertices, which are the locations in the detector where proton-proton hard scattering occurs.
-Primary vertex is the position where the initial interaction took place whereas secondary vertices
+A primary vertex is the position where the initial interaction took place whereas secondary vertices
 are positions where particles produced in the initial interaction decay.
 
 The vertex reconstruction algorithm takes tracks estimated from the Inner Detector (ID) as input. These tracks are filtered based on certain quality requirements to ensure 
@@ -269,36 +373,40 @@ largest $\sum p_{\text{T}}^2$ of the associated tracks. The other primary vertic
 with pileup contribution. 
 
 \subsection{Topo clusters}
-Topoclusters, as the name suggests, are topological energy clusters produced inside the calorimeter cells caused by particle showers. 
-The technique of collecting calorimeter signals from topologically connected cells and grouping them into clusters is an effective way to extract signal in 
-highly granular calorimeters such as the one in ATLAS. It is important to suppress the signals from background noise and pileup contributions and therefore, 
-a quantity called signal significance is used to decide which signals contribute to cluster formation~\cite{Aad:2138166}. It is defined as the ratio of the cell signal to the average 
-expected noise in this cell. Both these quantities are defined at the electromagnetic scale (EM). The significance is described in \cref{eq:toposigni}.
+Topoclusters, as the name suggests, are topological energy clusters produced inside the calorimeter 
+cells caused by particle showers. The technique of collecting calorimeter signals from topologically 
+connected cells and grouping them into clusters is an effective way in 
+highly granular calorimeters such as the one in ATLAS. It is important to suppress the signals from the
+background noise and pileup contributions. Therefore, a quantity called signal significance is used to
+decide which signals contribute to cluster formation~\cite{Aad:2138166}. It is defined as the ratio of 
+the cell signal to the average expected noise in this cell. Both these quantities are defined at the 
+electromagnetic scale (EM). The significance is described in \cref{eq:toposigni}.
 
 \begin{equation}
     \varsigma_{\text{cell}}^{\text{EM}} = \frac{E_{\text{cell}}^{\text{EM}}}{\sigma_{\text{noise,cell}}^{\text{EM}}}
     \label{eq:toposigni}
 \end{equation}
 
-The topo clusters are seeded and expanded on the basis of some threshold requirements of $\varsigma_{\text{cell}}^{\text{EM}}$. 
-The calorimeter cells having $\varsigma_{\text{cell}}^{\text{EM}}>4$ are chosen to be the seeds for topoclusters. Then, the 
-neighboruring cells satisfying the requirement of $\varsigma_{\text{cell}}^{\text{EM}}>2$ are added to the seeds and eventually the
-cluster grows.
+The topo clusters are seeded and expanded on the basis of some threshold requirements of 
+$\varsigma_{\text{cell}}^{\text{EM}}$. The calorimeter cells having 
+$\varsigma_{\text{cell}}^{\text{EM}}>4$ are chosen to be the seeds for topoclusters. Then, the 
+neighbouring cells satisfying the requirement of $\varsigma_{\text{cell}}^{\text{EM}}>2$ are added to 
+the seeds. In this way, the cluster is expanded.
 
 \subsection{Particle Flow}
 \label{sec:pflow}
-The momentum and energy measurements from the inner detector and calorimeter,respectively, are prone
-to overlaps of certain events. For instance, an event in which an electron leaves a track in the ID and also
+The momentum and energy measurements from the inner detector and calorimeter, respectively, are prone
+to overlaps of certain events. For instance, an event in which an electron leaves a track in the ID and 
 deposits energy in the calorimeter. If information from these sub detectors is used individually, there is a
-possibility of double counting this event. In order to remove such overlaps and to utilize the sub detectors to
-the best of their potential, Particle Flow has been developed. The idea of particle flow is to reconstruct an
+possibility of double counting this event. In order to remove such overlaps and to utilise the sub detectors to
+the best of their potential, Particle Flow has been developed. The idea of Particle Flow is to reconstruct an
 event by combining measurements from the inner detector and calorimeters. The ID is pileup resilient and
-has a better resolution especially at low pT whereas the calorimeter can detect neutral particles. Particle
-Flow puts both these advantages into yielding more reliable measurements.
+has a better resolution especially at low \pT whereas the calorimeter can detect neutral particles. 
+Particle Flow utilises both of these advantages to produce more reliable measurements.
 
 In the Particle Flow (PFlow) algorithm, one of the inputs is the set of reconstructed tracks that are extrapolated
-in the direction of calorimeter energy deposits. The algorithm evaluates the probablility of the particle
-energy to be depoisted in more than one topocluster. Accordingly it either stores single topocluster energy
+in the direction of calorimeter energy deposits. The algorithm evaluates the probability of the particle
+energy to be deposited in more than one topocluster. Accordingly, it either stores single topocluster energy
 or sums up energy of multiple topoclusters to constitute the full energy profile of the particle that created the
 track. The expected energy deposited by the particle that created the track is subtracted from the matched
 topoclusters. The remaining energy after subtraction is compared to a threshold value. If the energy is below the 
@@ -340,7 +448,7 @@ Under the stand-alone method, track segments are identified from different MS st
 By combining these segments, basic track candidates are constructed. Then a global-$\chi^2$ fit of the 
 muon trajectory through the magnetic filed is performed and based on the fit results, unsuitable hits are
 removed. Moreover, hits that were not considered before are now added and the fit is re-performed. 
-In the ambiguity resolution step, tracks that share a large number of high-quality hits. 
+In the ambiguity resolution step, tracks that share numerous high-quality hits. 
 
 The global reconstruction of muons is performed based on the information from the ID and the MS, along
 with energy loss inside the calorimeters. There are five different strategies leading to different
@@ -363,6 +471,7 @@ muon types:
 
 
 \subsection*{Jets}
+Jets are clusters of multiparticles generated by a quark or a gluon.
 Jet reconstruction inputs are obtained from the Particle Flow algorithm described in \cref{sec:pflow}. The
 matched charged particle tracks and the remaining topoclusters, after the subtraction step, are 
 filtered based on their compatibility with the hard-scatter primary vertex. Charged particle 
@@ -387,7 +496,6 @@ and their compatibility with the primary vertex. Then, it explicitly reconstruct
 Secondly, multivariate classifiers are used to discriminate $b$-jets compared to $c$-jets or other
 light flavour jets~\cite{Aad:2682119}. 
 
-\mynote[inline]{}{Write about btagging working point}
 
 \subsection{Missing Transverse Energy (MET)}
 Reconstruction of particles crossing the detector volume is crucial to understand what particles
