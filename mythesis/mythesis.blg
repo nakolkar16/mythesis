@@ -1,21 +1,21 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'mythesis.blg'
-[40] biber:340> INFO - === Mi Sep 25, 2024, 12:54:51
-[48] Biber.pm:418> INFO - Reading 'mythesis.bcf'
-[83] Biber.pm:972> INFO - Found 19 citekeys in bib section 0
-[89] Biber.pm:4383> INFO - Processing section 0
-[95] Biber.pm:4574> INFO - Looking for bibtex file 'bib/thesis_refs.bib' for section 0
-[97] bibtex.pm:1713> INFO - LaTeX decoding ...
-[125] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/thesis_refs.bib'
-[200] Biber.pm:4574> INFO - Looking for bibtex file 'bib/standard_refs-biber.bib' for section 0
-[201] bibtex.pm:1713> INFO - LaTeX decoding ...
-[214] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/standard_refs-biber.bib'
-[263] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[263] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[263] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
-[263] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-UK'
-[272] bbl.pm:654> INFO - Writing 'mythesis.bbl' with encoding 'UTF-8'
-[296] bbl.pm:757> INFO - Output to mythesis.bbl
-[296] Biber.pm:130> WARN - legacy month field 'feb' in entry 'TGleisberg_2009' is not an integer - this will probably not sort properly.
-[296] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Barillari2012' is not an integer - this will probably not sort properly.
-[296] Biber.pm:132> INFO - WARNINGS: 2
+[42] biber:340> INFO - === Do Sep 26, 2024, 12:03:19
+[51] Biber.pm:418> INFO - Reading 'mythesis.bcf'
+[98] Biber.pm:972> INFO - Found 22 citekeys in bib section 0
+[112] Biber.pm:4383> INFO - Processing section 0
+[121] Biber.pm:4574> INFO - Looking for bibtex file 'bib/thesis_refs.bib' for section 0
+[123] bibtex.pm:1713> INFO - LaTeX decoding ...
+[151] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/thesis_refs.bib'
+[227] Biber.pm:4574> INFO - Looking for bibtex file 'bib/standard_refs-biber.bib' for section 0
+[228] bibtex.pm:1713> INFO - LaTeX decoding ...
+[241] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/standard_refs-biber.bib'
+[293] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[293] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[293] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
+[293] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-UK'
+[302] bbl.pm:654> INFO - Writing 'mythesis.bbl' with encoding 'UTF-8'
+[326] bbl.pm:757> INFO - Output to mythesis.bbl
+[326] Biber.pm:130> WARN - legacy month field 'feb' in entry 'TGleisberg_2009' is not an integer - this will probably not sort properly.
+[326] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Barillari2012' is not an integer - this will probably not sort properly.
+[326] Biber.pm:132> INFO - WARNINGS: 2

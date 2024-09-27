@@ -1,10 +1,16 @@
 % !TEX root = mythesis.tex
 
 %==============================================================================
-\chapter{Signal Extraction and Background Estimation}
+\chapter{Signal Extraction and Background Processes}
 \label{sec:tZq}
 %==============================================================================
-The process of interest for this analysis 
+The chapter provides a detailed description about the \tZq process and its trilepton decay channel
+which is the signal in this analysis. The baseline event selection defined to extract maximum signal is
+given in \cref{sec:evsel}. The different background processes are described in
+\cref{sec:bkg}. In addition, information about Monte Carlo simulated samples for signal and 
+background processes can be found in \cref{sec:MCinfo}. The various sources of systematic uncertainties
+are outlined in \cref{sec:systinfo}. Moreover, a brief explanation of neural networks is also provided 
+at the end. 
 \section{The \tZqsec production}
 Since at the LHC, high energies are attainable by particles, production of heavy particles such as the
 \Ptop-quark and its related processes, become highly probable. For this reason, LHC is called a top 
@@ -96,19 +102,31 @@ the so-called trilepton channel which is described below.
 \section{The \tZqsec Trilepton Channel}
 As the name suggests, the trilepton decay channel of the \tZq production 
 contains final states with three charged leptons, as shown in \cref{fig:tZqtrilep}. The
-\Ptop-quark decays almost exclusively into \Pbottom\PW and the corresponding \PW decays into a charged lepton and
-an associated neutrino. The \PZ-boson decays into opposite sign same flavour lepton pairs and its probability 
-is equal across the three lepton families (\Pelectron,\Pmuon,\Ptauon) due to 
+\Ptop-quark decays almost exclusively into \Pbottom\PW and the corresponding \PW can decay either
+leptonically or hadronically. Approximately in 25\% events, \PW decays into a charged lepton and
+an associated neutrino. The \PZ-boson can decay either into a pair of leptons or into neutrinos (invisible)
+or into hadrons. In approximately 8\% of the produced events, the \PZ boson decays 
+into opposite sign same flavour lepton pairs. Its probability 
+is equal across the three lepton families (\Pelectron,\Pmuon,\Ptauon) owing to 
 lepton universality. This analysis includes \PZ decays resulting into electrons or muons 
 (\Pelectron\APelectron or \Pmuon\APmuon). The tau leptons are considered if they decay into lighter
-leptons (i.e. \Pelectron or \Pmuon).
+leptons (i.e. \Pelectron or \Pmuon). 
 
-\mynote[inline]{}{Do we talk about other decay channels? YES}
+\begin{figure}
+  \centering
+      \includegraphics[width=0.6\textwidth]{tZ_decays.png}
+      \caption{Branching ratios of possible decays of \Ptop and \PZ, along with the fractions representing
+      combination of decays~\cite{irina:2018}}
+         \label{fig:tZqdecays}
+\end{figure}
 
-Selecting the trilepton decay state has a few advantages. The efficiency of reconstructing leptons is 
-higher than that of hadrons. Also, a decay state with three leptons is difficult to replicate by 
-background processes. Even though, the branching ratio of the trilepton channel is relatively small,
-it shows a clean signature. Due to these reasons, the trilepton channel is chosen for studying the 
+The branching fractions of the various possible decays of \Ptop and \PZ is shown in \cref{fig:tZqdecays}.
+The combination of both \Ptop and \PZ decaying into leptons occurs in only 2\% of the produced \tZq events.
+However, selecting the trilepton decay state has its advantages. First and foremost, the efficiency of 
+reconstructing leptons is higher than that of hadrons because of the clean signatures of leptons. 
+In addition, a decay state with three leptons is difficult to replicate by 
+background processes which ensures signal purity. 
+Due to these reasons, the trilepton channel is chosen for studying the 
 \tZq process. From this point onward, this will be referred to as the signal.
 
 \begin{figure}
@@ -119,6 +137,7 @@ it shows a clean signature. Due to these reasons, the trilepton channel is chose
 \end{figure}
 
 \subsection{Event Selection}
+\label{sec:evsel}
 In LHC physics, the outcome of a collision between two incoming particles is called as an "event".
 An important step in an analysis is to reconstruct the final state of interest from the detector data or in other words, find
 possible occurrences of this final state within the collision events. In order to achieve that,
@@ -186,6 +205,7 @@ but in reality there are background processes that mimic the \tZq signature
 and therefore, contaminate the selected signal events. 
 
 \section{Background processes}
+\label{sec:bkg}
 
 The background processes for \tZq process can be classified according to the number of prompt (or real)
 leptons in the final state. A lepton is labelled prompt if it originates from either a \Ptau or a 
@@ -265,6 +285,7 @@ into a lepton, then it can satisfy the signal event selection.
   \end{figure}
 
 \section{Monte-Carlo (MC) simulations}
+\label{sec:MCinfo}
 
 As already discussed before, proton-proton collisions are viewed as collisions between partons. This is 
 not a simple process because multiple interactions can occur within the same event. With this complexity,
@@ -380,6 +401,7 @@ used for different backgrounds is summarised in \cref{tab:bkgmc}.
   \end{table}
 
 \section{Systematic Uncertainties}
+\label{sec:systinfo}
 One of the key advantages of using simulated data is their ability to predict how the observed data may appear. 
 However, it is crucial to assess how dependable both the simulated and the measured data are, which
 is quantified through uncertainties. The proper inclusion of uncertainties is an important part of any analysis.
@@ -416,6 +438,11 @@ in \cref{sec:systdescribe} and \cref{sec:systdescribe2}, respectively.
   \item \textbf{Jet Energy Resolution (JER)}: JER is the detector's ability to distinguish two jets 
   with similar total energy. The uncertainty associated with the differences in JER in case of data and 
   simulation is called JER uncertainty. 
+
+  \item \textbf{Jet-Vertex-Tagger (JVT)}: It is a discriminant in the form of likelihood constructed 
+  using track-based variables, sensitive to the origin of jets. A cut is applied on the JVT factor to
+  reject jets coming from pileup~\cite{ATLAS:2015jhb}. The uncertainty associated with the JVT factor 
+  is one of the systematics.
 
   \item \textbf{Lepton reconstruction}: Scale factors are applied to correct differences between data and
   simulation in case of lepton identification, isolation and trigger efficiencies. The uncertainties
@@ -481,7 +508,7 @@ the uncertainties associated with the modelling of the process is extracted.
   Depending on the generator and parton shower workflow, there might be overlapping phase spaces
   which can cause double-counting of events. To prevent this, a parameter called \textsc{pThard} is defined 
   which refers to the hard scattering transverse momentum scale. This parameter decides the extent of 
-  phase space this vetoed while matching matrix element with the parton shower. 
+  phase space which is vetoed while matching matrix element with the parton shower. 
   The uncertainty on \textsc{pThard} is estimated
   by comparing samples with \textsc{pThard}=1 and \textsc{pThard}=0.
 \end{itemize}
@@ -512,8 +539,13 @@ The total event weight can be written as:
   \item $w_{\text{MC}}$: gives the relative probability of producing that event
   \item $w_\text{pileup}$: to correct the pileup profile of simulated events to match observed data
   \item $w_{\text{lepton}}$: to correct for the differences in lepton isolation and reconstruction between
-  MC and data.
-  \item $w_{\text{JVT}}$: 
+  MC and data
+  \item $w_{\text{JVT}}$: differences in data and MC when applying a cut on the JVT factor are considered
+  by applying this weight
+  \item $w_\text{trigger}$: any inconsistency between data and MC related to trigger efficiencies is
+  corrected with this weight
+  \item $w_\text{\Pbottom-tagging}$: this analysis requires events to contain \Pbottom-jets. This is 
+  ensured by a applying a weight called $w_\text{\Pbottom-tagging}$
 \end{itemize}
 
 
@@ -526,15 +558,15 @@ in three different layers: the input layer, the hidden layer and the output laye
 is given as input to the nodes of the input layer. Processing takes place through the subsequent 
 layers and at the end, the output layer returns the conclusions derived by the network. Connections 
 between nodes of different layers are referred to as the \textit{synapses}. Each connection between 
-nodes of two consecutive layers, has a weight associated to it. 
-% Figure~\ref{fig: 4.8} shows a diagram of a neural network. 
+nodes of two consecutive layers, has a weight associated to it. \Cref{fig:NN} shows a diagram of a neural network. 
 
-% \begin{figure}[htbp]
-%   \centering
-%     \includegraphics[width=0.7\figwidth]{nn.png}
-%   \caption[Neural Network]{Diagram of a neural network including the input, hidden and output layers~\cite{NN}.}
-%   \label{fig: 4.8}
-% \end{figure}
+\begin{figure}[htbp]
+  \centering
+    \includegraphics[width=0.7\figwidth]{NN.png}
+  \caption[Neural Network]{Diagram of a neural network including the input, hidden and output 
+  layers~\cite{NN}}
+  \label{fig:NN}
+\end{figure}
 
 The input received by each node is the sum of weighted output of all nodes of the previous layer. 
 As given in Equation~\ref{eqn:4.2}, $y_j$ is the input to node $j$, $w_{ij}$ is the weight from the 

@@ -375,6 +375,38 @@
       \verb https://doi.org/10.1007/JHEP07(2020)124
       \endverb
     \endentry
+    \entry{irina:2018}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=073e5237f1bf6d7a9b57765e72fb1f31}{%
+           family={Cioara},
+           familyi={C\bibinitperiod},
+           given={Irina\bibnamedelima Antonela},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Bonn}%
+      }
+      \strng{namehash}{073e5237f1bf6d7a9b57765e72fb1f31}
+      \strng{fullhash}{073e5237f1bf6d7a9b57765e72fb1f31}
+      \strng{bibnamehash}{073e5237f1bf6d7a9b57765e72fb1f31}
+      \strng{authorbibnamehash}{073e5237f1bf6d7a9b57765e72fb1f31}
+      \strng{authornamehash}{073e5237f1bf6d7a9b57765e72fb1f31}
+      \strng{authorfullhash}{073e5237f1bf6d7a9b57765e72fb1f31}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{BONN-IR-2018-07}
+      \field{title}{Associated Production of a Top Quark and a Z Boson in pp Collisions at $\sqrt{s} = 13$ TeV Using the ATLAS Detector}
+      \field{type}{PhD Thesis}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://hdl.handle.net/20.500.11811/7636
+      \endverb
+      \verb{url}
+      \verb https://hdl.handle.net/20.500.11811/7636
+      \endverb
+    \endentry
     \entry{mcgen}{article}{}
       \name{author}{1}{}{%
         {{hash=1f7e99224e14002bdface802b6379512}{%
@@ -389,8 +421,8 @@
       \strng{authorbibnamehash}{1f7e99224e14002bdface802b6379512}
       \strng{authornamehash}{1f7e99224e14002bdface802b6379512}
       \strng{authorfullhash}{1f7e99224e14002bdface802b6379512}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{2006 European School of High-Energy Physics, ESHEP 2006}
@@ -414,8 +446,8 @@
       \strng{authorbibnamehash}{4034275bca42b52c1a394d599186c42e}
       \strng{authornamehash}{4034275bca42b52c1a394d599186c42e}
       \strng{authorfullhash}{4034275bca42b52c1a394d599186c42e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nucl. Instrum. Meth. A}
@@ -517,8 +549,8 @@
       \strng{authorbibnamehash}{33f98b8faee3b536691a937f7e982feb}
       \strng{authornamehash}{33f98b8faee3b536691a937f7e982feb}
       \strng{authorfullhash}{ff5ef2dd8b37dbb58ffaf834153ddf09}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The European Physical Journal C}
@@ -562,8 +594,8 @@
       \strng{authorbibnamehash}{41e63ca4196f707e4bd10a62d87f6455}
       \strng{authornamehash}{41e63ca4196f707e4bd10a62d87f6455}
       \strng{authorfullhash}{41e63ca4196f707e4bd10a62d87f6455}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Pythia program is a standard tool for the generation of high-energy collisions, comprising a coherent set of physics models for the evolution from a few-body hard process to a complex multihadronic final state. It contains a library of hard processes and models for initial- and final-state parton showers, multiple parton-parton interactions, beam remnants, string fragmentation and particle decays. It also has a set of utilities and interfaces to external programs. While previous versions were written in Fortran, Pythia 8 represents a complete rewrite in C++. The current release is the first main one after this transition, and does not yet in every respect replace the old code. It does contain some new physics aspects, on the other hand, that should make it an attractive option especially for LHC physics studies. Program summary Program title: Pythia 8.1 Catalogue identifier: ACTU_v3_0 Program summary URL: http://cpc.cs.qub.ac.uk/summaries/ACTU_v3_0.html Program obtainable from: CPC Program Library, Queen's University, Belfast, N. Ireland Licensing provisions: GPL version 2 No. of lines in distributed program, including test data, etc.: 176 981 No. of bytes in distributed program, including test data, etc.: 2 411 876 Distribution format: tar.gz Programming language: C++ Computer: Commodity PCs Operating system: Linux; should also work on other systems RAM: 8 megabytes Classification: 11.2 Does the new version supersede the previous version?: yes, partly Nature of problem: High-energy collisions between elementary particles normally give rise to complex final states, with large multiplicities of hadrons, leptons, photons and neutrinos. The relation between these final states and the underlying physics description is not a simple one, for two main reasons. Firstly, we do not even in principle have a complete understanding of the physics. Secondly, any analytical approach is made intractable by the large multiplicities. Solution method: Complete events are generated by Monte Carlo methods. The complexity is mastered by a subdivision of the full problem into a set of simpler separate tasks. All main aspects of the events are simulated, such as hard-process selection, initial- and final-state radiation, beam remnants, fragmentation, decays, and so on. Therefore events should be directly comparable with experimentally observable ones. The programs can be used to extract physics from comparisons with existing data, or to study physics at future experiments. Reasons for new version: Improved and expanded physics models, transition from Fortran to C++. Summary of revisions: New user interface, transverse-momentum-ordered showers, interleaving with multiple interactions, and much more. Restrictions: Depends on the problem studied. Running time: 10–1000 events per second, depending on process studied. References: [1] T. Sjöstrand, P. Edén, C. Friberg, L. Lönnblad, G. Miu, S. Mrenna, E. Norrbin, Comput. Phys. Comm. 135 (2001) 238.}
@@ -625,8 +657,8 @@
       \strng{authorbibnamehash}{2c279eb0da1777b3e6329041f2f0b4e1}
       \strng{authornamehash}{2c279eb0da1777b3e6329041f2f0b4e1}
       \strng{authorfullhash}{4608473ed7266a7f616e4933ceacedd3}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -905,6 +937,13 @@
       \verb https://dx.doi.org/10.1088/1742-6596/404/1/012012
       \endverb
     \endentry
+    \entry{ATLAS:2015jhb}{article}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{{A new tagger for the charge identification of b-jets}}
+      \field{year}{2015}
+    \endentry
     \entry{twikiPMG}{online}{}
       \name{author}{1}{}{%
         {{hash=0c1a895432b2eabdeb019da1e4bcd30a}{%
@@ -1015,8 +1054,8 @@
       \strng{authorbibnamehash}{e859ab62f4ec869207a4fbf3d9ba3707}
       \strng{authornamehash}{e859ab62f4ec869207a4fbf3d9ba3707}
       \strng{authorfullhash}{e859ab62f4ec869207a4fbf3d9ba3707}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -1068,8 +1107,8 @@
       \strng{authorbibnamehash}{4e324472f80cb48c5ce7ce7bbc609654}
       \strng{authornamehash}{b27c3666a2bf93d1cebd67034f167347}
       \strng{authorfullhash}{4e324472f80cb48c5ce7ce7bbc609654}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of High Energy Physics}
@@ -1188,6 +1227,19 @@
       \endverb
       \verb{url}
       \verb https://scipost.org/10.21468/SciPostPhysCodeb.8
+      \endverb
+    \endentry
+    \entry{NN}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed on: 26.09.2024}
+      \field{title}{{Artificial Neural Network}}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Artificial_neural_network
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Artificial_neural_network
       \endverb
     \endentry
   \enddatalist
