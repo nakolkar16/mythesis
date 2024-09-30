@@ -108,7 +108,8 @@ an associated neutrino. The \PZ-boson can decay either into a pair of leptons or
 or into hadrons. In approximately 8\% of the produced events, the \PZ boson decays 
 into opposite sign same flavour lepton pairs. Its probability 
 is equal across the three lepton families (\Pelectron,\Pmuon,\Ptauon) owing to 
-lepton universality. This analysis includes \PZ decays resulting into electrons or muons 
+lepton flavour universality. It is one of the principles of the SM that the interactions of weak gauge 
+bosons and leptons is the same for all the lepton flavours. This analysis includes \PZ decays resulting into electrons or muons 
 (\Pelectron\APelectron or \Pmuon\APmuon). The tau leptons are considered if they decay into lighter
 leptons (i.e. \Pelectron or \Pmuon). 
 
@@ -136,6 +137,19 @@ Due to these reasons, the trilepton channel is chosen for studying the
          \label{fig:tZqtrilep}
 \end{figure}
 
+The accurate reconstruction of \Ptop and \PZ is essential for the efficient identification of signal. 
+The \PZ boson is reconstructed from Opposite Sign Same Flavour (OSSF) lepton pair. If all three
+leptons have same flavour, the leptons having invariant mass closest to the mass of \PZ, are chosen
+for \PZ reconstruction. 
+
+The lepton failing the criteria for \PZ reconstruction is used to reconstruct the \PW boson along with
+missing transverse energy. Finally, the \Ptop quark is reconstructed from the \PW and the \Pbottom-tagged
+jet having the maximum \pT.
+
+Due to the \Ptop-channel production, one or more jets are produced close to the beam direction. The
+forward-jet is defined as the non \Pbottom-tagged jet yielding the maximum invariant mass with the 
+leading \Pbottom-jet.
+
 \subsection{Event Selection}
 \label{sec:evsel}
 In LHC physics, the outcome of a collision between two incoming particles is called as an "event".
@@ -152,7 +166,7 @@ summarised in \cref{tab:selection:srcr}.
       \Ptau is considered if it decays into leptons. These leptons are 
       sorted by their \pT which is required to be at least 27,15 and 10 GeV, respectively.
       
-      \item At least 1 Opposite Sign Same Flavour (OSSF) lepton pair with a minimum
+      \item At least 1 OSSF lepton pair with a minimum
       difference between its invariant mass ($m_{ll}$) and $m_Z$. This is to identify 
       which out of the selected leptons originate from \PZ.
 
