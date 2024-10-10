@@ -1,20 +1,25 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'mythesis.blg'
-[34] biber:340> INFO - === Mo Sep 30, 2024, 13:56:53
-[41] Biber.pm:418> INFO - Reading 'mythesis.bcf'
-[71] Biber.pm:972> INFO - Found 9 citekeys in bib section 0
-[77] Biber.pm:4383> INFO - Processing section 0
-[82] Biber.pm:4574> INFO - Looking for bibtex file 'bib/thesis_refs.bib' for section 0
-[84] bibtex.pm:1713> INFO - LaTeX decoding ...
-[108] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/thesis_refs.bib'
-[157] Biber.pm:4574> INFO - Looking for bibtex file 'bib/standard_refs-biber.bib' for section 0
-[157] bibtex.pm:1713> INFO - LaTeX decoding ...
-[170] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/standard_refs-biber.bib'
-[184] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[184] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[184] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
-[184] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-UK'
-[189] bbl.pm:654> INFO - Writing 'mythesis.bbl' with encoding 'UTF-8'
-[201] bbl.pm:757> INFO - Output to mythesis.bbl
-[201] Biber.pm:130> WARN - legacy month field 'Oct' in entry 'PhysRevLett.13.508' is not an integer - this will probably not sort properly.
-[202] Biber.pm:132> INFO - WARNINGS: 1
+[36] biber:340> INFO - === Do Okt 10, 2024, 12:34:43
+[44] Biber.pm:418> INFO - Reading 'mythesis.bcf'
+[78] Biber.pm:972> INFO - Found 26 citekeys in bib section 0
+[84] Biber.pm:4383> INFO - Processing section 0
+[90] Biber.pm:4574> INFO - Looking for bibtex file 'bib/thesis_refs.bib' for section 0
+[94] bibtex.pm:1713> INFO - LaTeX decoding ...
+[337] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/thesis_refs.bib'
+[2373] Biber.pm:4574> INFO - Looking for bibtex file 'bib/standard_refs-biber.bib' for section 0
+[2374] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2386] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/standard_refs-biber.bib'
+[2488] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2488] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2488] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
+[2488] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-UK'
+[2546] bbl.pm:654> INFO - Writing 'mythesis.bbl' with encoding 'UTF-8'
+[26429] bbl.pm:757> INFO - Output to mythesis.bbl
+[26429] Biber.pm:130> WARN - legacy month field 'Apr' in entry 'PhysRevLett.74.2626' is not an integer - this will probably not sort properly.
+[26429] Biber.pm:130> WARN - legacy month field 'Apr' in entry 'PhysRevLett.74.2632' is not an integer - this will probably not sort properly.
+[26430] Biber.pm:130> WARN - legacy month field 'jul' in entry 'Gallinaro_2013' is not an integer - this will probably not sort properly.
+[26430] Biber.pm:130> WARN - legacy month field 'may' in entry 'Cristinziani_2017' is not an integer - this will probably not sort properly.
+[26430] Biber.pm:130> WARN - legacy month field 'Oct' in entry 'PhysRevLett.131.181901' is not an integer - this will probably not sort properly.
+[26430] Biber.pm:130> WARN - legacy month field 'Oct' in entry 'PhysRevLett.13.508' is not an integer - this will probably not sort properly.
+[26430] Biber.pm:132> INFO - WARNINGS: 6

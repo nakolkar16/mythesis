@@ -294,13 +294,12 @@ In such cases, the interactions are not between protons but between their consti
 quarks and gluons, collectively known as \textit{partons}. These partons carry a fraction of the total
 momentum of the proton (or a hadron in general). In order to study an interaction, it is important to
 know the effective energy of the interacting partons and their flavour. This information is encoded in 
-the Parton Distribution Functions (PDFs). It describes the probability of finding a parton of 
-certain flavour $i$, carrying a momentum fraction $x_i$ at a certain energy scale.
+the Parton Distribution Functions (PDFs). It provides quantitative information regarding the distribution
+of energy carried by the quarks and gluons inside a proton. A PDF
+describes the probability of finding a parton of certain flavour $i$, carrying a momentum 
+fraction $x_i$ at a certain energy scale. The PDFs are extracted from experimental data. 
 
 \subsection*{Pileup}
-
-IMAGE OF PILEUP PROFILE RUN2
-
 The 
 primary hard scatter collisions, that are of interest, are contaminated by soft interactions 
 called pileup. It is defined by the average number of interactions
@@ -312,10 +311,25 @@ detection of objects under study becomes difficult due to pile-up events. The hi
 luminosity, more the pileup. The object reconstruction algorithms have dedicated procedures 
 to mitigate pileup.
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\figwidth]{mu_2015_2018.pdf}
+    \caption{~\cite{twikipileup}.}%
+    \label{fig:pileup}
+\end{figure}
+
 \subsection*{Luminosity and cross-section ($\sigma$)}
 The quantity that measures the ability of a collider to produce particle interactions is called
 instantaneous luminosity ($\mathcal{L}$). The instantaneous luminosity integrated over the lifetime
-of collider operation is called integrated luminosity ($L$).
+of collider operation is called integrated luminosity ($L$). During the operation of the LHC
+from 2015 to 2018, the delivered integrated luminosity is shown in \cref{fig:lumi}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\figwidth]{intlumivstimeRun2.pdf}
+    \caption{~\cite{twikilumi}.}%
+    \label{fig:lumi}
+\end{figure}
 
 In order to define the event rate for interesting processes, along with luminosity, we require
 another quantity called the cross-section. At the subatomic scale, the particle interactions 
@@ -352,26 +366,185 @@ total events in the distribution. Therefore, differential cross-sections can be 
 theory interpretations.
 
 \section{Top quark physics}
-The top quark was discovered in 1995 at the Tevatron laboratory(?) by the CDF collaboration[CITE].
-It is the heaviest fundamental particle discovered so far with a mass of \SI{173}{\GeV}[CITE PDG] 
-and since it is close to the EW scale, the top quark might play an important role in understanding
-Electroweak Symmetry Breaking (EWSB). Moreover, the fact that $m_t$ is greater than $m_H$ hints whether
-the top quark gets its mass through Higgs mechanism.  
+The electroweak theory states that the left-handed particles forming weak isospin doublets can
+interact weakly. In 1977 the bottom quark was discovered and it led to the prediction of its weak 
+isospin partner, the top quark \Ptop. This prediction was made to keep the electroweak theory internally
+consistent. After puzzling the scientists for around two decades,
+the first observation of the top quark was in 1995 at the Tevatron collider at Fermilab by
+CDF and D0 collaborations~\cite{PhysRevLett.74.2626,PhysRevLett.74.2632}.
+The top quark is the heaviest fundamental particle discovered so far with a mass of 
+\SI{172.57 \pm 0.29}{\GeV}~\cite{ParticleDataGroup:2024cfk}.
 
-The top quark is the weak isospin partner of the bottom quark and thus completes the three 
-generation structure of the SM. Since its discovery, top quark has been a crucial part of
-any physics program at the hadron colliders because of its heavy mass. It decays almost exclusively
-into W and b before hadronisation. This property gives us a unique opportunity to study a "bare"
-quark because some top quark properties are conserved in the decay process and passed on to 
-its decay products.
+The top quark being the weak isospin partner of the bottom quark, completes the three 
+generation structure of the SM. Since its discovery, the top quark has been a crucial part of
+the physics programs at hadron colliders because of its unique properties. The lifetime of the top quark
+is so short that it decays before it can hadronise. This property gives us a unique opportunity 
+to study a "bare" quark because some of its properties are conserved in the decay process and 
+passed on to its decay products. Regarding the decay products, the top quark decays almost exclusively
+into a \PW boson and a \Pbottom quark. 
 
-The LHC is a top factory becuase it can produce abundant top quarks and other related processes.
-Therefore, LHC provides a lot of data which is analysed extensively to understand the top quark and
-its properties. The production of top quarks is mainly through three kinds of processes: Wt-channel,
-t-channel and the s-channel.
+Study of the top quark is interesting due to various reasons. Its large mass suggests strong coupling to
+the Higgs field, therefore studying top quarks can give insights into the Higgs sector. In addition, 
+evidence of new physics can be possibly extracted from top quarks because
+several beyond SM physics models suggest that heavy particles might decay into top quarks~\cite{Gallinaro_2013}.
+
+After the shutdown of the Tevatron, LHC remains the only place to produce top quarks in abundance,
+which is why the LHC is called a top factory. Due to the large center of mass energy, processes
+involving top quarks along with heavy bosons are also possible at the LHC. These processes
+are sensitive to electroweak and strong couplings. Therefore, precise measurements in this field
+can prove as an important test of the SM.
+
+
+\subsection{Production modes}
+The top quark can be produced either as a top-antitop pair in the so-called pair production mode
+or as a single top in association with a light quark or a W-boson. The most dominant mode
+is the pair production mode mediated by the strong force. The single top production proceeds via
+the electroweak interaction as discussed below. Studying the different production channels of the
+\Ptop-quark offers insights into QCD and the electroweak sector. Moreover, measurements of the 
+cross-sections are used to extract important parameters of the SM such as the top quark mass. 
 
 
 
+\subsection*{Pair production}
+At LHC energies, gluons inside protons are prone to numerous self interactions and splitting which in 
+turn produces more and more gluons available for production of heavy particles. 
+The dominant production of top quarks at the LHC is the top-antitop (\ttbar) pair production~\cite{ATLAS:2016zet}. It is
+initiated either by gluon-gluon fusion, which is the dominant channel, or through quark-antiquark annihilation.
+The leading-order Feynman diagrams are shown in \cref{fig:ttbarprod}. The inclusive cross-section
+of the \ttbar production measured by ATLAS and CMS collaborations at $\sqrt{s}$=\qty{13}{\TeV} is
+shown in \cref{fig:ttbar_cs}. The results are found to be in agreement with the SM prediction.
+The measurements of top pair production is useful for studying PDFs, specifically 
+gluon PDFs~\cite{FABBRI201763}.
+
+\begin{figure}[htbp]
+    \centering
+    \begin{tabular}{ccc}
+        \includegraphics[width=.3\textwidth]{gg_ttbar_1-BW.pdf} &
+        \includegraphics[width=.3\textwidth]{gg_ttbar_2-BW.pdf} &
+        \includegraphics[width=.3\textwidth]{qq_ttbar-BW.pdf} \\[1ex]
+    \end{tabular}
+    \caption[Feynman diagrams for $t\Bar{t}$ processes at LO in QCD]{Feynman diagrams for $t\Bar{t}$ processes at LO in QCD. The gluon-gluon fusion
+    process which is the dominant mode is shown in the leftmost diagram. }
+    \label{fig:ttbarprod}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\figwidth]{ttbar_cs.pdf}
+    \caption[Cross-section of the \ttbar process]{Summary of measurements of the \ttbar production
+    cross-sections in different analysis channels by ATLAS and CMS at $\sqrt{s}$=\qty{13}{\GeV}. The 
+    results are compared with NNLO QCD predictions~\cite{ATL-PHYS-PUB-2024-006}.}%
+    \label{fig:ttbar_cs}
+\end{figure}
+
+\subsection*{Single-top production}
+There are three separate processes at LO leading to the production of a single-top quark.
+Based on the virtuality of the exchanged $W$-boson, the possible modes
+are $t$-channel, $s$-channel and associated $Wt$-channel as shown in \cref{fig:topprod}.
+The $t$-channel process is initiated by a \Pbottom-quark and a spectator quark, producing 
+a single top and a light jet. This process has the largest production cross-section at the LHC.
+The $s$-channel is characterised by a quark-antiquark pair interacting to produce
+a single top and a bottom quark. The requirement of an antiquark in the initial state largely
+suppresses this process~\cite{Cristinziani_2017}. In the associated $Wt$-channel,
+a gluon and a bottom quark produces a single top and an on-shell \PW-boson. Its final state is 
+same as the \ttbar process with one less \Pbottom-jet. The associated $Wt$ process is an 
+important background for other top quark and Higgs related measurements~\cite{ATLAS:2024ppp}.
+
+Due to the electroweak
+nature of the single top production, it is sensitive to various parameters such as 
+the $V_{tb}$ element of the CKM matrix and the $Wtb$ coupling~\cite{Andrea:2023yap}. The 
+single top production cross-section measurements by ATLAS and CMS are shown in \cref{fig:singletop_cs}.
+
+\begin{figure}[htbp]
+    \centering
+    \begin{tabular}{ccc}
+      \includegraphics[width=.3\textwidth]{qb-tq.pdf} &
+      \includegraphics[width=.3\textwidth]{gb-tW.pdf} &
+      \includegraphics[width=.3\textwidth]{qq-tb.pdf} \\[1ex]
+    \end{tabular}
+    \caption[Feynman diagrams for single-top production processes at LO in QCD]{Feynman diagrams
+    for single top production processes at LO in QCD. The possible production modes namely
+    $t$-channel (left), associated $Wt$-channel (middle) and $s$-channel (right) are shown. The
+    largest cross-section is of the $t$-channel, followed by the $Wt$-channel. The $s$-channel
+    is highly suppressed.}
+    \label{fig:topprod}
+  \end{figure}
+  
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\figwidth]{singletop_cs.pdf}
+    \caption[Cross-section of the single top production]{Summary plot showing inclusive cross-sections
+    of the single-top production modes measured at different center-of-mass energies by ATLAS
+    and CMS~\cite{ATL-PHYS-PUB-2024-006}.}%
+    \label{fig:singletop_cs}
+\end{figure}
+
+\subsection{Rare associated top quark processes}
+Measurements of rare processes at the LHC are important tests to validate the SM. Therefore,
+physics program at the LHC is heavily involved in precision measurements related to rare processes,
+especially those involving top quarks. 
+The top quark being the heaviest fundamental particle so far, has strong links to the Higgs
+sector and also to potential BSM physics. Moreover, top quark associated processes probe 
+electroweak couplings of the top quark which are fundamental parameters of the SM. 
+Therefore, it is relevant to study rare processes involving top quarks. The production 
+cross-sections of various top quark associated processes are shown in \cref{fig:topX_cs}.
+
+The associated production of a single top with a photon, called \tqgamma production, probes
+the coupling between top and photon. It is studied using the full \SI{13}{\TeV} dataset by ATLAS
+and CMS in the leptonic channel due to the higher sensitivity compared to hadronic channels. The
+measured cross-section is in agreement with the SM prediction~\cite{PhysRevLett.131.181901}.
+
+The evidence for an associated production of a top quark with two heavy bosons (\tWZ) is 
+reported by the CMS collaboration. Studies are performed using the \SI{13}{\TeV} dataset
+in the leptonic channel and the measured cross-section corresponds to a statistical
+significance of 3.4 standard deviations~\cite{CMS:2023krq}. 
+
+The associated process of a top quark and a \PZ boson, called the \tZq production,
+is one of the rare processes at the LHC and it is the main focus of this thesis. This process
+is interesting because it probes two different kinds of couplings through the same interaction.
+Detailed description is given in \cref{sec:tZqdescribe}.The cross-sections of \tZq, \tWZ and 
+\tqgamma, as measured by ATLAS and CMS, are compared in \cref{fig:topX2_cs}. 
+The \tZq process is also useful in
+studying Flavour-Changing-Neutral-Current (FCNC) couplings. The SM forbids 
+interactions of fermions with \PZ boson, where the flavour of the incoming quark is changed. 
+However, some extension models of SM predict otherwise. A dedicated search for FCNC processes involving
+a top quark, an up-type quark and \PZ boson was conducted by ATLAS using the full Run-2 dataset.
+The goal was to look for events corresponding to either (\Pgluon{}\Pq$\rightarrow$\Ptop{}\PZ)
+or events where \Ptop decayed into \PZ (\Ptop $\rightarrow$ \Pq{}\PZ). Despite the efforts, no 
+evidence for FCNC processes was found~\cite{ATLAS:2023qzr}.
+
+One of the rarest and heaviest process at the LHC is the production of four tops (\tttt).
+This process is interesting because it simultaneously probes the coupling of four 
+fermions. In addition, various BSM models predict potential modification in the 
+cross-section, hinting towards new physics. The four tops production was observed 
+at the LHC at 6.1 standard deviation and its
+cross-section, measured by the ATLAS experiment using \lumi at \SI{13}{\TeV} center-of-mass energy,
+is $\qtypmerr{22.5}{6.6}{5.5}{\femto\barn}$~\cite{ATLAS:2023ajo}. It is found to be consistent with the SM prediction.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\figwidth]{topplusX.pdf}
+    \caption[Production 
+    cross-sections of various top quark associated processes]{Different processes involving
+    top quarks are shown in decreasing order of their cross-sections. 
+    A clear difference in the cross-section is visible in the dominant \ttbar process and 
+    the rarest four tops process. The \tZq process falls towards the tail of the plot implying
+    that it is one of the rare processes~\cite{ATL-PHYS-PUB-2024-006}.}%
+    \label{fig:topX_cs}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\figwidth]{topplusX2.pdf}
+    \caption[Production 
+    cross-sections of single top quark associated processes]{Production 
+    cross-sections of single top quark associated processes measured by ATLAS and CMS experiments~\cite{ATL-PHYS-PUB-2024-005}.}%
+    \label{fig:topX2_cs}
+\end{figure}
+
+% close to the Electroweak scale, the top quark might play an important role in understanding
+% Electroweak Symmetry Breaking (EWSB). Moreover, the fact that $m_t$ is greater than $m_H$ hints whether
+% the top quark gets its mass through Higgs mechanism. 
 
 
 
