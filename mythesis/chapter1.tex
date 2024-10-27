@@ -5,13 +5,24 @@
 \label{sec:SM}
 %==============================================================================
 
+This chapter presents an overview of theoretical and experimental concepts widely used in
+particle physics. The Standard Model of particle physics which is by far the best theory explaining
+fundamental particles and their interactions, is described in \cref{sec:SMdes}. Even though the 
+Standard Model describes and predicts most of the phenomena occurring in nature, it still has some drawbacks
+which are discussed in brief. Important concepts required to understand physics manifested 
+at hadron colliders are also discussed. Among the fundamental particles, the top quark is one of 
+main particles studied in this thesis. A detailed description of top quark and its associated
+processes are discussed in the end of this chapter. 
+
+
 \section{The Standard Model (SM)}
+\label{sec:SMdes}
 
 In the 19th century, John Dalton postulated that matter is made up of small indivisible 
 pieces called atoms. Since then, technological advancements and human curiosity have empowered 
 us to explore various phenomena around us in greater detail. Eventually, our understanding of nature 
-evolved, leading to the development of the Standard Model of Particle Physics, which explains the 
-fundamental structure of matter. Consisely speaking, the Standard Model (SM) of particle physics is a 
+evolved, leading to the development of the Standard Model of Particle Physics, that explains the 
+fundamental structure of matter. The Standard Model (SM) of particle physics is a 
 theory that explains almost everything that nature has to offer. It is based on fundamental particles 
 and their interactions being governed by Quantum Field Theories (QFTs). The SM has precisely predicted
 existence of various particles and their properties. Testing the SM and its predictions plays a
@@ -19,10 +30,10 @@ crucial role in deciding the physics program of Particle Physics experiments.
 
 The Standard Model is divided into spin-1 fermions and spin-0 bosons. The fermions are
 further divided into leptons and quarks as shown in \cref{fig:SM}. Another
-classification of fermions is into generations. The first generation constitutes
-\Pup, \Pdown, \Pelectron and \Pnue which forms the surrounding matter. The second
+classification of fermions is into generations. The first generation includes
+\Pup, \Pdown, \Pelectron and \Pnue which constitutes the matter around us. The second
 and third generation particles are high energy \textit{siblings} of the first generation
-particles. These are observed at high energies such as colliders. The SM also includes
+particles. These are observed at high energies such as at colliders. The SM also includes
 anti-particles which are clones of particles with opposite quantum numbers.
 
 
@@ -36,10 +47,10 @@ anti-particles which are clones of particles with opposite quantum numbers.
     \label{fig:SM}
 \end{figure}
 
-These fermions interact with each other via exchanging bosons which are also called 
-\textit{force-carrier} particles. The photon (\Pphoton), which is massless and carries no electric 
-charge, is the messenger of the electromagnetic (EM) force, experienced only by charged particles.
-The underlying QFT is called Quantum Electrodynamices (QED) based on the U(1) symmetry group. The more
+The fermions interact with each other by exchanging bosons which are also called 
+\textit{force-carrier} particles. The photon (\Pphoton), being massless and electrically 
+neutral, is the messenger of the electromagnetic (EM) force, experienced only by charged particles.
+The underlying QFT is called Quantum Electrodynamices (QED) based on the U(1) symmetry group. The
 commonly known electrostatic attraction between charged particles is the low-energy manifestation of QED. Among 
 the SM, all fermions except neutrinos are sensitive to the EM force. The strength of the EM force
 is expressed by its dimensionless coupling constant,
@@ -61,21 +72,21 @@ SM particles, including the neutrinos, are sensitive to the weak force.
 The interaction mediated by \PWpm and \PZ is called charged-current weak interaction and
 neutral-current weak interaction, respectively. The famous Wu experiment~\cite{Wu:1957my} proved that 
 the charged current weak interaction violates parity. The parity violating nature of the weak interaction
-suggests that the interaction vertex must be different from that of QED and QCD. Studies showed that
+suggests that the interaction configuration must be different from that of QED and QCD. Studies showed that
 the weak interaction is described using a $V-A$ vertex and this fact dictates that only left-handed
 chiral particle states and right-handed chiral antiparticle states can participate in 
 charged-current weak interaction. 
 
-The theory unifying QED and the weak interaction is called the Electroweak theory explained in 
+The theory unifying QED and weak interaction is called the Electroweak theory explained in 
 \cref{sec:ewtheory}. The last piece of the SM puzzle, which is the last discovered fundamental particle,
 is the Higgs boson. It is a spin-0 boson, unlike other bosons. All particles acquire their mass 
 through the Higgs mechanism.
 
 \subsection{Feynman diagrams}
 
-There are numerous probable interactions between SM particles and having a tool to visualise them
-would greatly aid in understanding the underlying physics. In Particle Physics, a tool called Feynman
-diagrams is used for this purpose. 
+As predicted by the SM, there are different possible ways through which two particles can interact.
+Having a tool to visualise these interactions would greatly aid in understanding the 
+underlying physics. In Particle Physics, a tool called Feynman diagrams is used for this purpose. 
 
 These diagrams are symbolic representations of particle interactions. They make use of straight lines 
 with arrows to show incoming and outgoing particles and anti-particles. Wavy lines are used to show
@@ -83,33 +94,43 @@ the boson exchanged between them. It also has a hypothetical time axis which dem
 evolution of the process with time. The Feynman diagrams are just a pictorial representation and have no 
 physical meaning. 
 
-Consider an example of electron-position scattering (also known as Bhabha scattering). In the Feynman diagram,
-shown in \cref{fig:bhabha}, let's suppose a horizontal time axis. The diagram reads as following:
-an electron and positron enter, a photon is exchanged between them and the two particles exit. The point of
-interaction between two particles is called a \textit{vertex}.
-It is important to note the direction of arrows in particle lines. The arrow directions are opposite 
-for particles and antiparticles. 
+For a better understanding of Feynman diagrams, consider an example of Bhabha scattering. 
+There are two possible Feynman diagrams for this process 
+as shown in \cref{fig:bhabha}. The left diagram represents electron-positron scattering and 
+reads as following: an electron and positron enter, a photon is exchanged between them and the two particles exit.
+This configuration is called a $t$-channel diagram. The right diagram, called an $s$-channel
+diagram, is obtained by twisting the $t$-channel diagram. It represents electron-positron annihilation
+where an electron-positron annihilates into a photon which in turn produces an electron-positron pair. 
+The point of interaction between two particles is called a \textit{vertex}. The time axis is horizontal from left to
+right. It is vital to note the direction of arrows in particle lines. The arrow directions 
+for particles and antiparticles are opposite to each other.
 In the shown diagram, the incoming electron points in the forward direction, denoting the 
 evolution of the interaction with time, whereas the incoming positron points in the backward direction.
-It can be seen that the arrow directions together represent the continuous current flow. 
+Following the arrow directions illustrates a continuous current flow. 
 
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.6\figwidth]{bhabha-tikz.pdf}
-    \caption[Sketch of the ATLAS calorimeters]{A Feynman diagram showing the Bhabha scattering}%
+    \begin{tabular}{cc}
+        \includegraphics[width=.4\textwidth]{bhabha-tikz.pdf} &
+        \includegraphics[width=.4\textwidth]{bhabha-tikz-sch.pdf} \\[1ex]
+    \end{tabular}
+    \caption{The $t$-channel (left) and $s$-channel (right) Feynman diagrams showing Bhabha scattering }
     \label{fig:bhabha}
 \end{figure}
+
 
 The quantitative analysis for a process includes two important steps: accessing the Feynman diagrams to
 compute the amplitude ($\mathcal{M}$) and together with the phase space, calculating quantities such as 
 decay rate, cross-section and differential cross-section. The Feynman diagrams are 
 analysed through a set of rules called Feynman rules. It is important to note that
 for each process, there are infinite possible Feynman diagrams which require to be summed to get the 
-accurate final process description. The diagram shown in \cref{fig:bhabha} is a basic diagram with particles 
-entering and exiting, called real particles with specific masses. A
-process can also have intermediate stages where off-shell intermediate particles
-with varying masses, called \textit{virtual} particles are produced. Presence of intermediate states lead to 
+accurate final process description. The diagrams shown in \cref{fig:bhabha} 
+are examples in which participating particles are known real particles because they 
+have definite masses. A
+process can also have intermediate stages where temporary particles are produced which are not
+observed, but simply represent the nature of interaction. Such \textit{virtual} particles can have varying masses.
+Presence of intermediate states lead to 
 more vertices inside a diagram and therefore give rise to a plethora of Feynman diagrams for a certain 
 process. 
 
@@ -117,15 +138,16 @@ In the context of Feynman calculus, each vertex within a diagram contributes a f
 coupling constant of the interaction. Hence, the actual process can be quantitatively described in terms
 of expansion with respect to the coupling constant. For the expansion to converge, the coupling constant
 needs to be small. The most basic diagram with the lowest order expansion
-is called "tree-level" or "leading-order (LO)" diagram. The diagram corresponding to the next order
-of expansion is called next-to-leading-order (NLO). Higher order diagrams with more vertices 
-contribute less owing to the small couping constant. 
+is called a "tree-level" or a "leading-order (LO)" diagram. The diagram corresponding to the next order
+of expansion is called a next-to-leading-order (NLO) diagram. Higher order diagrams with more vertices 
+contribute less owing to the small coupling constant. 
 
 
 \subsection{The Strong Force}
 Electrons and nucleus inside an atom are held together by the electromagnetic force. The same 
-force also exists between protons inside the nucleus causing repulsion. However, there exists a force
-which is strong enough to overcome repulsion and keep the nucleus together. It is called the strong force or 
+force also exists between protons inside the nucleus causing repulsion which can destabilise the 
+nucleus. However, there exists a force
+which is strong enough to overcome the repulsion and keep the nucleus together. It is called the strong force or 
 the strong nuclear force. The QFT describing the strong force is called Quantum Chromodynamics (QCD) and the
 underlying symmetry group is SU(3) described by $3 \times 3$ matrices. The eight generators of the SU(3) group
 give rise to eight gluons which are the strong force mediators. The structure of the SU(3) group demands that 
@@ -140,26 +162,28 @@ gluons as well. As a result of this self-interaction, no coloured object can be 
 nature. Due to this so-called colour confinement, quarks cannot exist independently but instead are found in
 colour-neutral states called \textit{hadrons}. For instance, if two quarks are pulled away from each other, a gluon field is 
 created between them which is proportional to the separation. The gluon fields is so strong that at some point,
-the energy in this field is sufficient to produce new quarks and antiquarks that form colourless bound states.
+the energy in this field is sufficient to produce new quarks and antiquarks that form colourless bound states
+with the original quarks and antiquarks.
 This process is called hadronisation. Due to colour confinement, only certain configurations for hadrons
-are permitted. The possible combinations discovered so far can be categorised into mesons (\Pquark\APquark),
-baryons (\Pquark\Pquark\Pquark) and antibaryons (\APquark\APquark\APquark).
+are permitted. The possible combinations discovered so far can be categorised into mesons (\Pquark{}\APquark),
+baryons (\Pquark{}\Pquark{}\Pquark) and antibaryons (\APquark{}\APquark{}\APquark).
 
-The value of the strong coupling constant, $\alpha_S$, is relatively larger than the coupling 
+The value of the strong coupling constant, $\alpha_S$, is relatively larger compared to the coupling 
 constant of QED. As a consequence, contribution of higher order Feynman diagrams
-increases and it becomes difficult to implement perturbation theory for QCD calculations. One of the
+increases making calculations difficult. One of the
 great discoveries in QCD is that the strong coupling constant is in fact not a "constant" but instead the
 value is dependent on the energy scale of the interaction~\cite{Deur:2016tte}. The running of $\alpha_S$ means that at low
 energies, the force between the quarks is stronger (larger $\alpha_S$) whereas at higher energies, the 
-force becomes weak (smaller $\alpha_S$). The running of $\alpha_S$ allows us to apply perturbation theory
-at high energies and this property is called asymptotic freedom. 
+force becomes weak (smaller $\alpha_S$). The running of $\alpha_S$ allows us to apply 
+perturbation theory for calculations
+at high energies. This property of QCD is called asymptotic freedom. 
 
 \subsection{The Electroweak theory}
 \label{sec:ewtheory}
 In the 1960s, physicists were trying to formulate a gauge theory for weak interactions
 similar to QED. A theory can be a gauge theory if it has an underlying mathematical symmetry
 and it is renormalisable. A quantum field theory is renormalisable if the divergences can be absorbed
-by implementing finite number of parameters, such as, coupling constant. Glashow,
+by implementing finite number of parameters, such as, a coupling constant. Glashow,
 Salam and Weinberg discovered such a gauge theory by unifying electromagnetic force and 
 the weak force.
 
@@ -179,9 +203,9 @@ particles are singlets ($\Plepton_R$).
     \Plepton_L = \begin{pmatrix} \Pnue \\ \Pelectron \end{pmatrix}_L , \begin{pmatrix} \Pnum \\ \Pmuon \end{pmatrix}_L , \begin{pmatrix} \Pnut \\ \Ptau \end{pmatrix}_L 
 \end{align}
 
-The Lagrangian of the EW model introduces three bosons $\PW_\mu^{(1,2,3)}$ corresponding
-to $SU(2)$ and one $B_\mu$ corresponding to $U(1)$. Th experimentally observed $\PWpm$
-are combination of $\PW_\mu^{(1)}$ and $\PW_\mu^{(2)}$ whereas photon ($A$) and the Z-boson are linear
+The EW model introduces three bosons $\PW_\mu^{(1,2,3)}$ corresponding
+to $SU(2)$ and one $B_\mu$ corresponding to $U(1)$. The experimentally observed $\PWpm$
+are combinations of $\PW_\mu^{(1)}$ and $\PW_\mu^{(2)}$ whereas photon ($A$) and the Z-boson are linear
 combinations of $\PW_\mu^{(3)}$ and $B_\mu$ based on the weak mixing angle ($\theta_W$)
 as given below:
 
@@ -216,10 +240,11 @@ The values of the CKM matrix elements can be found in \cite{pdg2024}. The diagon
 of the matrix is close to unity, suggesting that the weak interaction is stronger within
 the same generation of quarks. 
 
-The experiments at the Gargamelle bubble chamber in 1973 hinted the evidence of a neutral
+Validation of the EW theory was obtained through experimental observations. The experiments at the 
+Gargamelle bubble chamber in 1973 hinted the evidence of a neutral
 massive boson responsible for the observed neutrino interactions~\cite{HASERT1973138}. In 1983, the \PZ-boson
-was directly discovered at the Super-Proton Synchrotron at CERN. The electroweak theory
-was verified by this pathbreaking discovery. The properties of the \PZ-boson were
+was directly discovered at the Super-Proton Synchrotron at CERN and this discovery verified
+the electroweak theory. The properties of the \PZ-boson were extensively
 studied at the Large Electron-Positron (LEP) collider at CERN. The discovery of \PZ and \PW 
 bosons are among the crucial tests of the Standard Model. 
 
@@ -234,7 +259,7 @@ spontaneously breaking SM symmetries by introducing a new field called the Higgs
 interaction of particles with this field determines how massive the particles will be. Higgs mechanism
 implies the existence of a scalar particle, the SM Higgs boson. In a landmark discovery, the Higgs 
 boson was independently discovered by ATLAS and CMS in 2012~\cite{ATLAS:2012yve,CMS:2012qbp}. Since then,
-the Higgs boson studies are an important part of the LHC physics program. 
+the Higgs boson studies are an important part of major collider physics programs. 
 
 \section{Limitations of the SM}
 The Standard Model is a highly successful theory that has been tested at various collider experiments 
@@ -252,6 +277,10 @@ its enormous success, there are still some drawbacks of the SM. They are summari
 \end{itemize}
 
 \section{Physics at the hadron colliders}
+Colliders are a great place to test the SM and also search for new particles. At hadron colliders,
+hadrons are accelerated to high energies in order to collide them. The 
+outcomes of these collisions are analysed and compared with theoretical predictions. Some quantities
+regarding collider physics are discussed in the following section.  
 
 % \subsection*{Natural units}
 
@@ -263,6 +292,16 @@ In a collision between two particles the total center-of-mass energy is expresse
 where $E$ and $p$ are energy and momentum of the two initial state particles. If two colliding beams 
 of the same particle type have the same energy, then the center-of-mass energy is 
 $\sqrt{s}$ = $2E_{beam}$, neglecting the masses of particles. 
+
+\subsection*{Transverse momentum}
+The axis along which the colliding particles are boosted is referred to as the beam axis or 
+longitudinal axis. The sum of momentum components along the transverse axis (perpendicular 
+to the beam axis), is called transverse momentum,
+\begin{equation}
+    \pT = \sqrt{p_x^2 + p_y^2}.
+\end{equation}
+where beam is along the \textit{z}-axis. 
+
 
 \subsection*{Decay rate and branching ratio}
 
@@ -289,32 +328,39 @@ ratio (BR). The branching ratio of a decay mode $i$ is defined as
 
 
 \subsection*{Parton Distribution Functions (PDFs)}
-Protons at the LHC collide at high energies giving rise to deep inelastic interactions called hard processes.
-In such cases, the interactions are not between protons but between their constituents which are
+Hadron collisions at high energies give rise to deep inelastic interactions called hard processes.
+In such cases, the interactions are not between two hadrons but between their constituents which are
 quarks and gluons, collectively known as \textit{partons}. These partons carry a fraction of the total
-momentum of the proton (or a hadron in general). In order to study an interaction, it is important to
+momentum of the hadron. In order to study an interaction, it is important to
 know the effective energy of the interacting partons and their flavour. This information is encoded in 
 the Parton Distribution Functions (PDFs). It provides quantitative information regarding the distribution
-of energy carried by the quarks and gluons inside a proton. A PDF
+of energy carried by the quarks and gluons inside a hadron. A PDF
 describes the probability of finding a parton of certain flavour $i$, carrying a momentum 
 fraction $x_i$ at a certain energy scale. The PDFs are extracted from experimental data. 
 
 \subsection*{Pileup}
-The 
-primary hard scatter collisions, that are of interest, are contaminated by soft interactions 
-called pileup. It is defined by the average number of interactions
-recorded per bunch crossing. Sources of pileup are categorized into in-time and out-of-time pileup. In-time pile up is due to collisions
+The colliding particles are divided into bunches before collisions. Each bunch will give rise to
+multiple interactions, some of them would be hard interactions resulting from maximum momentum transfer, while
+others would be soft interactions with minimum momentum transfer. 
+The primary hard scatter collisions, that are usually the main focus of analyses, are 
+contaminated by soft interactions. It is called pileup, defined by the average number of interactions
+recorded per bunch crossing. Sources of pileup are categorised into in-time and out-of-time pileup. In-time pile up is due to collisions
 occurring in the same bunch-crossing and out-of-time pile-up is contributed by the collisions from previous
-or later bunches. Some of the sub-detectors have sensitivity windows longer than the interval between
-bunch crossings. This eventually affects the recorded number of interactions per bunch. The accurate
+or later bunches. 
+
+Some of the sub-detectors have sensitivity windows longer than the interval between
+bunch crossings, this directly affects the recorded number of interactions per bunch. The accurate
 detection of objects under study becomes difficult due to pile-up events. The higher the 
 luminosity, more the pileup. The object reconstruction algorithms have dedicated procedures 
-to mitigate pileup.
+to mitigate pileup in order to accurately reconstruct the interactions of interest. \Cref{fig:pileup}
+shows average number of interactions per bunch crossing with respect to the recorded luminosity
+during 2015 to 2018 for the Large Hadron Collider (LHC) at CERN.
 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.8\figwidth]{mu_2015_2018.pdf}
-    \caption{~\cite{twikipileup}.}%
+    \caption{Distribution showing average number of interactions versus luminosity per bunch crossing for the
+    2015 to 2018 collision data at \SI{13}{\TeV} center-of-mass energy~\cite{twikipileup}.}%
     \label{fig:pileup}
 \end{figure}
 
@@ -327,7 +373,8 @@ from 2015 to 2018, the delivered integrated luminosity is shown in \cref{fig:lum
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.8\figwidth]{intlumivstimeRun2.pdf}
-    \caption{~\cite{twikilumi}.}%
+    \caption{Total integrated luminosity delivered by LHC shown in green and that recorded by
+    the ATLAS experiment shown in yellow. The data corresponds to the year 2015 to 2018~\cite{twikilumi}.}%
     \label{fig:lumi}
 \end{figure}
 
@@ -335,16 +382,16 @@ In order to define the event rate for interesting processes, along with luminosi
 another quantity called the cross-section. At the subatomic scale, the particle interactions 
 are governed by the laws of quantum physics. Therefore, a theory can predict 
 the \textit{probablility} of certain outcomes of collisions. The probability of a certain
-process to occur is called its cross-section ($\sigma$). Finally, the number of event rate of
+process to occur is called its cross-section ($\sigma$). Finally, the event rate of
 specific interactions is defined as the product of integrated luminosity and the cross-section (\cref{eq:lumi}).
 \begin{equation}
     R = \sigma \cdot \int_{dt} \mathcal{L}(t)
     \label{eq:lumi}
 \end{equation}
 
-For a particle collider, beam energies and the luminosity are two important figures of merit. 
+For a particle collider, beam energies and luminosity are two important figures of merit. 
 High energy allows the production of new heavy particles and high luminosity allows more flux 
-of particles contributing to high number of collisions.
+of particles contributing to large number of collisions.
 
 \subsection*{Differential cross-section}
 Differential cross-section is a type of cross-section which gives the probability of an interaction
