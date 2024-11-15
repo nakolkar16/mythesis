@@ -49,20 +49,41 @@ These models are characterised by a set of parameters. The possibilities of diff
 given a mathematical model, is described by probabilities which is a key concept in statistics.
 Another important concept which connects observations to parameters, is the likelihood.
 Likelihood is a measure of how likely a set of parameters can describe the actual observed data. 
-Here, the observed data are fixed, while the parameters are unknown, making this approach 
-conceptually opposite to the definition of probabilities. 
+% Here, the observed data are fixed, while the parameters are unknown, making this approach 
+% conceptually opposite to the definition of probabilities. 
 
-A likelihood function for independent observations
-${x_1,x_2,...,x_n}$ and parameter $\theta$ can be expressed as a product of probabilities as follows:
+Consider a random variable $x$ distributed according to a probability distribution function $f(x;\theta)$
+where $f(x;\theta)$ represents our assumed hypothesis. Now suppose the functional form of $f(x;\theta)$ 
+is known, however, some parameters are unknown. Suppose a measurement is performed yielding $n$ independent
+values, denoted by ${x_1,x_2,...,x_n}$.  The probability of observing this particular set of values 
+is given by the product of the individual probabilities for each value, as given in \cref{eqn:prob}. 
 
 \begin{equation}
-    L(\theta) = L(\theta | x_1,x_2,...,x_n) = \prod_{i=1}^{n} P (x_i,\theta)
+    P (x_1,x_2,...,x_n,\theta) = \prod_{i=1}^{n} f (x_i,\theta)dx_i
+    \label{eqn:prob}
 \end{equation}
 
-We try to find the value of $\theta$ that makes the probability of the actual observed outcomes as 
-large as possible. In other words, we search for parameter values that maximise the likelihood function 
-and therefore, this is called the method of maximum likelihood. In practice, it is easier to 
-maximise the logarithm of the likelihood which is the sum of probabilities.
+If the assumed hypothesis is correct, the probability of observing the data should to be high. 
+This concept leads to the \textit{likelihood function} $L(\theta)$, which is defined as:
+
+\begin{equation}
+    L (\theta) = L(\theta | x_1,x_2,...,x_n) = \prod_{i=1}^{n} f (x_i,\theta)dx_i
+    \label{eqn:likeli}
+\end{equation}
+
+
+Here, $L(\theta)$ measures how likely it is to observe the set ${x_1,x_2,...,x_n}$, given the 
+parameter $\theta$. Unlike a standard probability function, the likelihood function treats the 
+data as fixed and considers $\theta$ as the variable.
+
+The objective of maximum likelihood estimation is to find the value of 
+$\theta$ that makes the observed data most probable. In other words, we search for the parameter 
+values that maximize the likelihood function, a process referred to as the method of maximum 
+likelihood or maximum likelihood fitting. In practice, it is often more convenient to maximize the 
+logarithm of the likelihood function, known as the log-likelihood. This transformation simplifies the 
+product of probabilities in the likelihood function into a sum, which is mathematically easier to 
+handle while preserving the location of the maximum.
+\mynote[inline]{}{explain profile-likelihood}
 
 The method of maximum likelihood depends on the observed data. The efficiency of parameter determination
 will depend on the extent of reliability on observed data. In particle physics, this fact imposes a 
@@ -71,14 +92,33 @@ and efficient, there are some limitations that lead to distortion of observation
 mathematical techniques to remove the distortions caused by detectors. These techniques fall under the
 category of \textit{unfolding}.  
 
-\section{Unfolding}
+\section{Basic concept of unfolding}
 
-In any experiment, the accuracy of measurement highly depends on performance of the apparatus 
-being used. In particle physics, an ideal detector provides the original and complete information 
-of collisions without any loss or distortion of information. However, in reality, the data received 
+In any experiment, the accuracy of measurement depends heavily on the performance of the apparatus 
+used. In particle physics, an ideal detector would capture the original and complete information 
+of collisions without any loss or distortion, accurately preserving the true shape
+of distributions for any physical observable. However, in reality, the data received 
 from a detector is distorted due to effects such as limited acceptance and 
-finite resolution of the detector. Unfolding is a technique to estimate the original fine structure
-of data devoid of any detector effects.
+finite resolution of the detector. These distortions may lead to incorrect inferences and
+therefore, need to be removed.
+
+Unfolding is a mathematical technique used to remove distortions and estimate the original
+fine structure of detector data. This technique is also called desmearing or deconvolution.
+In unfolding, the goal is to estimate the true distribution from the observed distribution, 
+using a response matrix. The response matrix is a mathematical construct that 
+characterises the smearing effects introduced by the detector. An illustration visualising 
+unfolding is shown in \cref{fig:unf_graphic}.
+
+Unfolding is essential in various contexts. For instance, it enables results to be 
+combined or compared with those from other experiments that may have different 
+levels of smearing. Additionally, it is not always practical to present results alongside 
+their response matrices. Unfolding becomes crucial when comparing experimental 
+results directly to theoretical predictions without accounting for experimental 
+distortions. Furthermore, non-distorted data is needed when fitting specific parameters to 
+data for tuning Monte Carlo simulations~\cite{Lyons:2011cli}.
+
+
+\section{Unfolding methodology}
 
 There are certain conventions regarding the entities used in unfolding problems within the particle physics 
 community. The distribution of a physical observable obtained from data recorded by the detector is called detector-level 
@@ -186,4 +226,76 @@ acting on the measured data, assumes its statistical fluctuations are the residu
 structure and restores it. In this way, statistical fluctuations are amplified in the unfolded
 distribution~\cite{inverse} which is undesirable.
 
-In order to overcome the limitations of matrix inversion, various unfolding methods are developed.
+In order to overcome the limitations of matrix inversion, alternate unfolding methods are used
+in high energy physics. Some of the methods are summarised in~\cite{refId0}.
+In this thesis, the iterative Bayesian unfolding (IBU) and profile-likelihood unfolding (PLU)
+are discussed.
+
+
+
+\section{Iterative Bayesian unfolding (IBU)}
+
+D'Agostini~\cite{DAGOSTINI1995487} proposed a method called iterative Bayesian unfolding (IBU) 
+which makes use of Bayes' theorem. To describe this method, consider true events as 
+\textit{causes} ($C_i, i=1,2,...,n_C$) and reconstructed events as 
+\textit{effects} ($E_j, j=1,2,...,n_j$). The conditional probability that a cause $C_i$ gave 
+rise to effect $E_j$, denoted by $P(C_i|E_j)$, is given by Bayes' theorem:
+
+\begin{equation}
+    P(C_i|E_j) = \frac{P(E_j|C_i)P(C_i)}{P(E_j)} 
+    \label{eqn:5.14}
+\end{equation}
+where, $P(E_j|C_i)$ can be interpreted as probability of reconstructed event given true 
+event which is the element $M_{ij}$ of the migration matrix. Consequently, $P(C_i|E_j)$ can 
+be identified as the unfolding matrix. One can determine the number of events ($\hat{n}$) 
+due to cause $C_i$ as
+
+\begin{equation}
+    \hat{n}(C_i) = \frac{1}{\hat{\epsilon_i}}\sum_{j=1}^{n_E} \hat{n}(E_j) P(C_i|E_j).
+    \label{eqn:5.15}
+\end{equation}
+
+It is important to note that the total number of events due to all causes and all 
+effects are equal because only migration effects are considered so far. By dividing both 
+the sides of Equation~\ref{eqn:5.15} by total number of events, we obtain
+
+\begin{equation}
+     P(C_i) = \frac{1}{\hat{\epsilon_i}}\sum_{j=1}^{n_E}P(E_j) P(C_i|E_j).
+     \label{eqn:5.16}
+\end{equation}
+Here, $P(C_i)$ is the unfolded distribution. This technique is implemented in the 
+\texttt{RooUnfold}~\cite{roounfold} software package. The steps performed in iterative Bayesian 
+unfolding to find $P(C_i)$, are shown in Figure~\ref{fig:5.3} and explained below:
+\begin{itemize}
+    \item An initial guess $P_0(C_i)$ is made and inserted into Equation~\ref{eqn:5.16}. $P(E_j)$ is obtained from MC reconstructed distribution. The solution provides $P(C_i|E_j)$ which is the unfolding matrix.
+    \item The obtained $P(C_i|E_j)$ is used in Bayes' theorem (Equation~\ref{eqn:5.14}) to get a value of $P(C_i)$ which is different from the initial guess.
+    \item This process is repeated for number of iterations specified by user. 
+\end{itemize}
+
+
+\begin{figure}
+    \centering
+    \begin{tikzpicture}[node distance=2cm]
+    \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black]
+    \node (start) [startstop] {Initial guess $P_0(C_i)$};
+    \tikzstyle{io} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black]
+    \node (in1) [io, below of=start] {$P(C_i) = \frac{1}{\hat{\epsilon_i}}\sum_{j=1}^{n_E} P(E_j) P(C_i|E_j)$}; 
+    \tikzstyle{process} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered,text width=6 cm, draw=black]
+    \node (pro1) [process, below of=in1] {$P(C_i|E_j)\propto P(E_j|C_i) P(C_i)$ by Bayes Theorem};
+    \tikzstyle{decision} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black]
+    \node (dec1) [decision, right of=pro1, xshift=4 cm] {Get $P(C_i)$};
+    \draw [->] (start) -- (in1);
+    \draw [->] (in1) -- node[anchor=east] {\textcolor{black}{get $P(C_i|E_j)$}} (pro1);
+    \draw[->] (pro1) -- (dec1);
+    \draw [->] (dec1) |-  (in1);
+    
+    \end{tikzpicture}
+    \caption{Flow chart showing steps followed in iterative Bayesian unfolding }
+    \label{fig:5.3}
+    \end{figure}
+
+\section{Profile-likelihood fitting and unfolding}
+
+Profile-likelihood unfolding (PLU) is a method where the unfolding problem is translated into a 
+likelihood maximisation problem. In PLU, a profile-likelihood fit is performed to estimate the 
+underlying parameters which are then used to estimate the true distribution. 

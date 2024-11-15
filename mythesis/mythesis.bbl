@@ -71,12 +71,47 @@
       \strng{authorbibnamehash}{8b26df068fe369bd104362f5d5531b44}
       \strng{authornamehash}{8b26df068fe369bd104362f5d5531b44}
       \strng{authorfullhash}{8b26df068fe369bd104362f5d5531b44}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Statistics for Nuclear and Particle Physicists}
       \field{year}{1986}
+    \endentry
+    \entry{Lyons:2011cli}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=8b26df068fe369bd104362f5d5531b44}{%
+           family={Lyons},
+           familyi={L\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{8b26df068fe369bd104362f5d5531b44}
+      \strng{fullhash}{8b26df068fe369bd104362f5d5531b44}
+      \strng{bibnamehash}{8b26df068fe369bd104362f5d5531b44}
+      \strng{authorbibnamehash}{8b26df068fe369bd104362f5d5531b44}
+      \strng{authornamehash}{8b26df068fe369bd104362f5d5531b44}
+      \strng{authorfullhash}{8b26df068fe369bd104362f5d5531b44}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{PHYSTAT 2011}}
+      \field{title}{{Unfolding: Introduction}}
+      \field{year}{2011}
+      \field{pages}{225\bibrangedash 228}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.5170/CERN-2011-006.225
+      \endverb
     \endentry
     \entry{cowan}{book}{}
       \name{author}{1}{}{%
@@ -95,8 +130,8 @@
       \strng{authorbibnamehash}{0c76394213de77276be48170d6745d59}
       \strng{authornamehash}{0c76394213de77276be48170d6745d59}
       \strng{authorfullhash}{0c76394213de77276be48170d6745d59}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{A survey of unfolding methods for particle physics}
@@ -114,8 +149,8 @@
       \strng{authorbibnamehash}{6aab5e96dfb1392473f6356e33283cba}
       \strng{authornamehash}{6aab5e96dfb1392473f6356e33283cba}
       \strng{authorfullhash}{6aab5e96dfb1392473f6356e33283cba}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{EPJ Web of Conferences}
@@ -132,6 +167,86 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1051/epjconf/20135503002
+      \endverb
+    \endentry
+    \entry{refId0}{article}{}
+      \name{author}{1}{}{%
+        {{hash=09521ed8c0d053908d4642761cc12a64}{%
+           family={{Schmitt, Stefan}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{09521ed8c0d053908d4642761cc12a64}
+      \strng{fullhash}{09521ed8c0d053908d4642761cc12a64}
+      \strng{bibnamehash}{09521ed8c0d053908d4642761cc12a64}
+      \strng{authorbibnamehash}{09521ed8c0d053908d4642761cc12a64}
+      \strng{authornamehash}{09521ed8c0d053908d4642761cc12a64}
+      \strng{authorfullhash}{09521ed8c0d053908d4642761cc12a64}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EPJ Web Conf.}
+      \field{title}{Data Unfolding Methods in High Energy Physics}
+      \field{volume}{137}
+      \field{year}{2017}
+      \field{pages}{11008}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1051/epjconf/201713711008
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1051/epjconf/201713711008
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1051/epjconf/201713711008
+      \endverb
+    \endentry
+    \entry{DAGOSTINI1995487}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5ca40ff68a612fb3a22de034da05e342}{%
+           family={D'Agostini},
+           familyi={D\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ca40ff68a612fb3a22de034da05e342}
+      \strng{fullhash}{5ca40ff68a612fb3a22de034da05e342}
+      \strng{bibnamehash}{5ca40ff68a612fb3a22de034da05e342}
+      \strng{authorbibnamehash}{5ca40ff68a612fb3a22de034da05e342}
+      \strng{authornamehash}{5ca40ff68a612fb3a22de034da05e342}
+      \strng{authorfullhash}{5ca40ff68a612fb3a22de034da05e342}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0168-9002}
+      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+      \field{number}{2}
+      \field{title}{A multidimensional unfolding method based on Bayes' theorem}
+      \field{volume}{362}
+      \field{year}{1995}
+      \field{pages}{487\bibrangedash 498}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0168-9002(95)00274-X
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/016890029500274X
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/016890029500274X
+      \endverb
+    \endentry
+    \entry{roounfold}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{RooUnfold}
+      \verb{urlraw}
+      \verb https://gitlab.cern.ch/RooUnfold/RooUnfold
+      \endverb
+      \verb{url}
+      \verb https://gitlab.cern.ch/RooUnfold/RooUnfold
       \endverb
     \endentry
   \enddatalist

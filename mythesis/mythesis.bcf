@@ -2350,12 +2350,20 @@
   <bcf:section number="0">
     <bcf:citekey order="1">2015arXiv150400945P</bcf:citekey>
     <bcf:citekey order="2">Lyons_1986</bcf:citekey>
-    <bcf:citekey order="3">cowan</bcf:citekey>
-    <bcf:citekey order="4">inverse</bcf:citekey>
-    <bcf:citekey order="5">2015arXiv150400945P</bcf:citekey>
-    <bcf:citekey order="6">Lyons_1986</bcf:citekey>
-    <bcf:citekey order="7">cowan</bcf:citekey>
-    <bcf:citekey order="8">inverse</bcf:citekey>
+    <bcf:citekey order="3">Lyons:2011cli</bcf:citekey>
+    <bcf:citekey order="4">cowan</bcf:citekey>
+    <bcf:citekey order="5">inverse</bcf:citekey>
+    <bcf:citekey order="6">refId0</bcf:citekey>
+    <bcf:citekey order="7">DAGOSTINI1995487</bcf:citekey>
+    <bcf:citekey order="8">roounfold</bcf:citekey>
+    <bcf:citekey order="9">2015arXiv150400945P</bcf:citekey>
+    <bcf:citekey order="10">Lyons_1986</bcf:citekey>
+    <bcf:citekey order="11">Lyons:2011cli</bcf:citekey>
+    <bcf:citekey order="12">cowan</bcf:citekey>
+    <bcf:citekey order="13">inverse</bcf:citekey>
+    <bcf:citekey order="14">refId0</bcf:citekey>
+    <bcf:citekey order="15">DAGOSTINI1995487</bcf:citekey>
+    <bcf:citekey order="16">roounfold</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

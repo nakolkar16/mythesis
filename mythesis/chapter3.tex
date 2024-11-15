@@ -299,18 +299,33 @@ into a lepton, then it can satisfy the signal event selection.
   \label{fig:fakefeyn}
   \end{figure}
 
-\section{Monte-Carlo (MC) simulations}
+\section{Monte Carlo simulations and event generation}
 \label{sec:MCinfo}
 
-As already discussed before, proton-proton collisions are viewed as collisions between partons. This is 
-not a simple process because multiple interactions can occur within the same event. With this complexity,
-it becomes difficult to study the interaction of interest and more importantly the task of 
-segregating signal from background becomes more complex. Here is where, Monte Carlo
-generators come to the rescue. Monte Carlo generators are software that simulate collision events and 
-try to provide a detailed description of the possible final states. In addition, these generators, also called
-event generators, can also simulate detector response. 
-In practice, the generators use pseudo-random numbers to reproduce the quantum mechanical probabilities of different outcomes
-for a collision event~\cite{mcgen}.  
+Monte Carlo simulations are a crucial part of this analysis, as they are used to interpret the detector data.. 
+As already discussed before, proton-proton collisions are viewed as collisions between partons.
+Given the number of incoming protons, fully understanding the collisions is complex. Moreover,
+the randomness associated with it makes it difficult to use deterministic methods. Here is where, 
+Monte Carlo (MC) simulations come to the rescue. MC simulation is a computational technique
+to model a complex system using random numbers and underlying probability distribution functions.
+In general, MC simulations use random numbers to sample from the underlying probability distribution
+functions and then average the result of several iterations of sampling.  
+
+In high energy physics, MC simulations are performed by MC generators which are also called event
+generators. An event consists of a number of outgoing particles produced in accordance with 
+conservation laws. However, quantum processes are inherently random and therefore, the outgoing 
+particles vary from event to event. The task of an event generator is to generate random sequences 
+of events based on given probability distribution functions. This task is not trivial because the 
+structure of an event in hadron collisions is complex. Information about scattering, decays, 
+radiations is required in order to accurately model an event. 
+There is no comprehensive theory that can completely predict the properties of events. Thus, MC 
+generators draw on theoretical models, with the Standard Model as their foundation, while also 
+incorporating aspects derived from experimental data. In analyses, it is advised to test more 
+than one generator because the extent of event modeling might be different for different generators. 
+
+The resulting information from an event generator consists of four-momenta of stable particles, 
+known as final state particles. Another use-case of MC generators is detector simulation where 
+the evolution of the final state particles when they travel through the detector is simulated~\cite{mcgen}.  
 
 The simulated data provided by these generators can be thought of as a "digital twin"
 of the actual observed data. It can be used to predict any experimental observable or a combination of observables.
@@ -339,6 +354,13 @@ evolves. The steps are briefly summarised below:
   new hadrons due to QCD colour confinement (hadronisation). If these hadrons are unstable, they can also
   decay into lighter particles. The MC chain also includes these calculations.
 \end{itemize}
+
+The MC chain results in a set of events with well-defined and stable final state particles along
+with their kinematic distributions. At this stage, the simulated data is referred to as the 
+\textit{truth-level} data. The next step is detector simulation where the interplay between the
+detector material and final state particles is simulated. 
+
+\mynote[inline]{}{Write details about detector response}
 
 After all the MC events are generated, the interactions of the particles with the detector material is
 simulated using the \textsc{GEANT4} software toolkit~\cite{GEANT4:2002zbu}.
@@ -530,18 +552,24 @@ the uncertainties associated with the modelling of the process is extracted.
 \label{sec:systdescribe2}
 
 \section{Event weights}
-The events generated from the Monte Carlo simulation are unweighted, which means that each event 
-represents an equal share of the total cross-section. However, for obtaining a correct distribution
-of an observable, each raw event is required to be weighted. Generally, these weights are provided by the
-MC generator.
 
-The nominal event weight ($w_{\text{MC}}$) is the measure of the relative probability of an event 
-within a sample. Along with the nominal weight, there are other weights representing parameter or
-setting variations associated with systematic uncertainty estimation. Consider a systematic which 
+The collision events generated from the MC simulations must be reweighted in order to reproduce
+data-taking conditions. The probability of
+an event, relative to the sum of probabilities for the sample, is given by its MC event weight ($w_{\text{MC}}$).
+The MC event weights are important because the sum of these weights will determine the 
+correct number of events for that sample. 
+
+% The events generated from the Monte Carlo simulation are unweighted, which means that each event 
+% represents an equal share of the total cross-section. However, for obtaining a correct distribution
+% of an observable, each raw event is required to be weighted. Generally, these weights are provided by the
+% MC generator.
+
+In addition, a number of correction factors are applied in order to match the data-taking conditions
+as well as correcting differences in efficiencies of identifying physics objects. Some weights also correspond to a 
+systematic variation. Consider a systematic which 
 requires a parameter to be varied. Now, producing the entire event sample with the varied 
-parameter is computation intensive. Instead, a corresponding weight is included in the event 
-generation~\cite{10.21468/SciPostPhysCodeb.8}. The total sum of these weights give the 
-corrected number of events for that sample. 
+parameter is computationally intensive. Instead, a corresponding weight is included in the event 
+generation~\cite{10.21468/SciPostPhysCodeb.8}.
 
 The total event weight can be written as:
 
@@ -551,7 +579,7 @@ The total event weight can be written as:
 
 
 \begin{itemize}
-  \item $w_{\text{MC}}$: gives the relative probability of producing that event
+  \item $w_{\text{MC}}$: gives the relative probability of producing that event in that sample
   \item $w_\text{pileup}$: to correct the pileup profile of simulated events to match observed data
   \item $w_{\text{lepton}}$: to correct for the differences in lepton isolation and reconstruction between
   MC and data

@@ -7,9 +7,12 @@
 \babel@toc {UKenglish}{}\relax 
 \contentsline {chapter}{\numberline {1}Statistical Methods and Analysis Setup}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Statistical Inference}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Unfolding}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Basic concept of unfolding}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Unfolding methodology}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Iterative Bayesian unfolding (IBU)}{5}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Profile-likelihood fitting and unfolding}{6}{section.1.5}%
 \contentsline {chapter}{\numberline {A}Useful information}{3}{appendix.A}%
-\contentsline {chapter}{\nonumberline Bibliography}{5}{chapter*.6}%
-\contentsline {chapter}{\nonumberline List of Figures}{7}{chapter*.7}%
-\contentsline {chapter}{\nonumberline List of Tables}{9}{chapter*.8}%
+\contentsline {chapter}{\nonumberline Bibliography}{5}{chapter*.8}%
+\contentsline {chapter}{\nonumberline List of Figures}{7}{chapter*.9}%
+\contentsline {chapter}{\nonumberline List of Tables}{9}{chapter*.10}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
