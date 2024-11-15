@@ -43,7 +43,7 @@ method of maximum likelihood are mainly used for parameter estimation. In this t
 method is used which is discussed in the next section. 
 
 \subsection*{Method of maximum likelihood}
-
+\label{sec:maxlike}
 Statistical models are mathematical expressions that relate observations to underlying theories.
 These models are characterised by a set of parameters. The possibilities of different outcomes, 
 given a mathematical model, is described by probabilities which is a key concept in statistics.
@@ -76,16 +76,40 @@ Here, $L(\theta)$ measures how likely it is to observe the set ${x_1,x_2,...,x_n
 parameter $\theta$. Unlike a standard probability function, the likelihood function treats the 
 data as fixed and considers $\theta$ as the variable.
 
-The objective of maximum likelihood estimation is to find the value of 
+The objective of maximum likelihood estimation is to estimate the value of 
 $\theta$ that makes the observed data most probable. In other words, we search for the parameter 
 values that maximize the likelihood function, a process referred to as the method of maximum 
 likelihood or maximum likelihood fitting. In practice, it is often more convenient to maximize the 
 logarithm of the likelihood function, known as the log-likelihood. This transformation simplifies the 
 product of probabilities in the likelihood function into a sum, which is mathematically easier to 
 handle while preserving the location of the maximum.
-\mynote[inline]{}{explain profile-likelihood}
 
-The method of maximum likelihood depends on the observed data. The efficiency of parameter determination
+\section{Profile likelihood}
+
+Profile likelihood approach is built upon the likelihood function described in \cref{sec:maxlike}.
+In complex problems such as in high energy physics, the statistical models present many parameters
+that directly or indirectly affect the measurement. Out of those, at least one parameter is central to the 
+underlying hypothesis, such as the signal strength, which should be estimated. This parameter is called parameter of interest (POI).
+Furthermore, there are additional parameters that influence the measurement but don't necessarily
+need to be estimated, for instance, systematic uncertainties. These are called nuisance 
+parameters (NP). Including all these parameters,
+the likelihood function in \cref{eqn:likeli} can be written as a function of 
+POI ($\mu$) and NP vector ($\sigma$) as,
+
+\begin{equation}
+    L (\theta) = L(x;\mu,\sigma)
+\end{equation}
+
+In reality, there are hundreds of NPs affecting the measurement and in such cases it becomes difficult to
+solve a multidimensional likelihood function. A simpler way is to use a profile likelihood function
+which is based on the likelihood function but focuses on the POI while considering the effects of
+the NPs. The profile likelihood function maximises the likelihood over all NPs for each fixed value 
+of the POI. By doing this, the NPs are replaced with their corresponding maximum likelihood
+estimators $\hat{\sigma}$ and the likelihood becomes a function of $\mu$. The process of 
+using fixed values of $\sigma$ for a given $\mu$ is called "profiling" out the NPs. This reduces 
+the dimensionality of the likelihood. This procedure of estimating the POIs is called profile likelihood fitting.
+
+The process of maximising the likelihood depends on the observed data. The efficiency of parameter determination
 will depend on the extent of reliability on observed data. In particle physics, this fact imposes a 
 certain level of expectations from particle detectors. Even though our detectors are well-developed
 and efficient, there are some limitations that lead to distortion of observations. Physicists often use
@@ -119,6 +143,7 @@ data for tuning Monte Carlo simulations~\cite{Lyons:2011cli}.
 
 
 \section{Unfolding methodology}
+\label{sec:unfmethod}
 
 There are certain conventions regarding the entities used in unfolding problems within the particle physics 
 community. The distribution of a physical observable obtained from data recorded by the detector is called detector-level 
@@ -294,8 +319,25 @@ unfolding to find $P(C_i)$, are shown in Figure~\ref{fig:5.3} and explained belo
     \label{fig:5.3}
     \end{figure}
 
-\section{Profile-likelihood fitting and unfolding}
+\section{Profile likelihood unfolding}
+Profile likelihood unfolding (PLU) is a method in which the unfolding problem is translated into a 
+profile likelihood fitting problem. In PLU, a profile likelihood fit is performed to estimate the 
+POI which are then utilised to estimate the true distribution. As already discussed in \cref{sec:unfmethod},
+unfolding related quantities are defined per-bin. It implies that profile likelihood estimators
+are also required to be per-bin. In PLU, 
 
-Profile-likelihood unfolding (PLU) is a method where the unfolding problem is translated into a 
-likelihood maximisation problem. In PLU, a profile-likelihood fit is performed to estimate the 
-underlying parameters which are then used to estimate the true distribution. 
+% One can construct a profile likelihood ratio as shown in \cref{eqn:likeliratio}. The numerator 
+% is obtained by fixing a value for $\mu$ and finding the conditional-maximum likelihood estimator
+% $\hat{\hat{\theta}}$ whereas the denominator is a global likelihood value obtained 
+% from ML estimators $\hat{\mu}$ and $\hat{\theta}$. It is important to note that $\lambda(\mu)$
+% is a function of the POI, however, its definition takes into account $\theta$. 
+
+
+% \begin{equation}
+%     \lambda (\mu) = \frac{L(x;\mu,\hat{\hat{\theta}})}{L(x;\hat{\mu},\hat{\theta})}
+%     \label{eqn:likeliratio}
+% \end{equation}
+
+
+
+example of mu..signal strength NPs systematic uncertainties ... histfactory?
