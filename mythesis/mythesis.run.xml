@@ -86,6 +86,13 @@
     <requires type="editable">
       <file>bib/thesis_refs.bib</file>
       <file>bib/standard_refs-biber.bib</file>
+      <file>bib/ATLAS-errata.bib</file>
+      <file>bib/ATLAS-SUSY.bib</file>
+      <file>bib/ATLAS-useful.bib</file>
+      <file>bib/ATLAS.bib</file>
+      <file>bib/CMS.bib</file>
+      <file>bib/ConfNotes.bib</file>
+      <file>bib/PubNotes.bib</file>
     </requires>
   </external>
 </requests>

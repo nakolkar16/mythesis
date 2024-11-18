@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.6.18)  15 NOV 2024 19:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.6.18)  18 NOV 2024 18:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1434,50 +1434,50 @@ Package babel Info: Importing basic data for ngerman
 ))
 Package babel Info: Hyphen rules for 'ngerman' set to \l@english
 (babel)             (\language0). Reported on input line 26.
- (./thesis_acknowledge.aux) (./chapter4.aux) (./thesis_appendix.aux))
+ (./thesis_acknowledge.aux) (./chapter1.aux) (./thesis_appendix.aux))
 \openout1 = `mythesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 141.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 141.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 147.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 147.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 141.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 141.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 147.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 147.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 141.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 141.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 147.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 147.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 141.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 141.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 147.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 147.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-Package scrbase Info: activating UKenglish \contentsname on input line 141.
-Package scrbase Info: activating UKenglish \listfigurename on input line 141.
-Package scrbase Info: activating UKenglish \listtablename on input line 141.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+Package scrbase Info: activating UKenglish \contentsname on input line 147.
+Package scrbase Info: activating UKenglish \listfigurename on input line 147.
+Package scrbase Info: activating UKenglish \listtablename on input line 147.
 \c@mv@tabular=\count487
 \c@mv@boldtabular=\count488
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1510,20 +1510,20 @@ Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Package chemgreek Info: Activating mapping `newtx' on line 141.
+Package chemgreek Info: Activating mapping `newtx' on line 147.
 
-LaTeX Info: Redefining \microtypecontext on input line 141.
-Package microtype Info: Applying patch `item' on input line 141.
-Package microtype Info: Applying patch `toc' on input line 141.
-Package microtype Info: Applying patch `eqnum' on input line 141.
-Package microtype Info: Applying patch `footnote' on input line 141.
+LaTeX Info: Redefining \microtypecontext on input line 147.
+Package microtype Info: Applying patch `item' on input line 147.
+Package microtype Info: Applying patch `toc' on input line 147.
+Package microtype Info: Applying patch `eqnum' on input line 147.
+Package microtype Info: Applying patch `footnote' on input line 147.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 141.
+LaTeX Info: Redefining \showhyphens on input line 147.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1546,7 +1546,7 @@ Package scrdate Info: \dateUSenglish not defined.
 (scrdate)             \todaysname probably cannot use \dayname@USenglish.
 Package scrdate Info: \dateusenglish not defined.
 (scrdate)             \todaysname probably cannot use \dayname@usenglish.
-Package hyperref Info: Link coloring ON on input line 141.
+Package hyperref Info: Link coloring ON on input line 147.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1556,9 +1556,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count495
 )
-LaTeX Info: Redefining \ref on input line 141.
-LaTeX Info: Redefining \pageref on input line 141.
-LaTeX Info: Redefining \nameref on input line 141.
+LaTeX Info: Redefining \ref on input line 147.
+LaTeX Info: Redefining \pageref on input line 147.
+LaTeX Info: Redefining \nameref on input line 147.
 Package biblatex Info: Trying to load language 'UKenglish'...
 Package biblatex Info: ... file 'UKenglish.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/UKenglish.lbx
@@ -1599,52 +1599,52 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'mythesis.bbl' found.
  (./mythesis.bbl)
-Package biblatex Info: Reference section=0 on input line 141.
-Package biblatex Info: Reference segment=0 on input line 141.
+Package biblatex Info: Reference section=0 on input line 147.
+Package biblatex Info: Reference segment=0 on input line 147.
 
 ubonn-thesis: thesis dedication not defined
 (./cover/PhD_Submit_Title.tex)
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 144.
+(Font)              scaled to size 10.95pt on input line 150.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 144.
-LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 144.
+(Font)              scaled to size 20.74pt on input line 150.
+LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 150.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 144.
+(Font)              scaled to size 20.74pt on input line 150.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 16.1pt on input line 144.
+(Font)              scaled to size 16.1pt on input line 150.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 11.4pt on input line 144.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 144.
+(Font)              scaled to size 11.4pt on input line 150.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 150.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 144.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 150.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 144.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 150.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 144.
+(Font)              scaled to size 10.95pt on input line 150.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 144.
+(Font)              scaled to size 8.0pt on input line 150.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 144.
+(Font)              scaled to size 6.1pt on input line 150.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 144.
-Package cleveref Info: loaded `ngerman' language definitions on input line 144.
+(Font)              scaled to size 14.4pt on input line 150.
+Package cleveref Info: loaded `ngerman' language definitions on input line 150.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 144.
+(Font)              scaled to size 14.4pt on input line 150.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.5pt on input line 144.
+(Font)              scaled to size 10.5pt on input line 150.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.9pt on input line 144.
+(Font)              scaled to size 7.9pt on input line 150.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -1654,8 +1654,8 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 
 
 ]
-Package cleveref Info: loaded `ngerman' language definitions on input line 144.
-Package cleveref Info: loaded `ngerman' language definitions on input line 144.
+Package cleveref Info: loaded `ngerman' language definitions on input line 150.
+Package cleveref Info: loaded `ngerman' language definitions on input line 150.
  [2
 
 ]
@@ -1665,21 +1665,21 @@ Document mythesis, Info: Draft/submission version of a PhDthesis
 
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 153.
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 159.
  (/usr/share/texmf/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 10.29301pt on input line 153.
+(Font)              scaled to size 10.29301pt on input line 159.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `qhv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.29301pt on input line 153.
+(Font)              scaled to size 10.29301pt on input line 159.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 19.49565pt on input line 153.
-Package tocbasic Info: character protrusion at toc deactivated on input line 153.
+(Font)              scaled to size 19.49565pt on input line 159.
+Package tocbasic Info: character protrusion at toc deactivated on input line 159.
  (./mythesis.toc
 Package cleveref Info: loaded `ngerman' language definitions on input line 2.
 Package cleveref Info: loaded `ngerman' language definitions on input line 4.
@@ -1705,62 +1705,155 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 
 
 ]
-\openout2 = `chapter4.aux'.
+\openout2 = `chapter1.aux'.
 
- (./chapter4.tex
+ (./chapter1.tex
 chapter 1.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 13.53603pt on input line 4.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 23.38725pt on input line 4.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 11.28003pt on input line 45.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 34.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 8.0pt on input line 34.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 6.1pt on input line 34.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 35.
+<figs//SM.png, id=75, 1027.84pt x 983.675pt>
+File: figs//SM.png Graphic file (type png)
+<use figs//SM.png>
+Package pdftex.def Info: figs//SM.png  used on input line 42.
+(pdftex.def)             Requested size: 384.96944pt x 368.42693pt.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 46.
 [1
 
 
 
-]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 67.
- [2] [3]
-<figs//unfolding_graphic.jpg, id=100, 1445.4pt x 581.92406pt>
-File: figs//unfolding_graphic.jpg Graphic file (type jpg)
-<use figs//unfolding_graphic.jpg>
-Package pdftex.def Info: figs//unfolding_graphic.jpg  used on input line 161.
-(pdftex.def)             Requested size: 437.46118pt x 176.12358pt.
+] [2 <./figs//SM.png>]
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 11.28003pt on input line 85.
+ [3]
+<figs/Feymandiag//bhabha-tikz.pdf, id=105, 125.23587pt x 107.10013pt>
+File: figs/Feymandiag//bhabha-tikz.pdf Graphic file (type pdf)
+<use figs/Feymandiag//bhabha-tikz.pdf>
+Package pdftex.def Info: figs/Feymandiag//bhabha-tikz.pdf  used on input line 115.
+(pdftex.def)             Requested size: 174.9818pt x 149.64334pt.
+<figs/Feymandiag//bhabha-tikz-sch.pdf, id=106, 167.91533pt x 99.98654pt>
+File: figs/Feymandiag//bhabha-tikz-sch.pdf Graphic file (type pdf)
+<use figs/Feymandiag//bhabha-tikz-sch.pdf>
+Package pdftex.def Info: figs/Feymandiag//bhabha-tikz-sch.pdf  used on input line 116.
+(pdftex.def)             Requested size: 174.9818pt x 104.19865pt.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 118.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 118.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.5pt on input line 118.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.0pt on input line 118.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 7.3pt on input line 118.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 5.5pt on input line 118.
+ [4 <./figs/Feymandiag//bhabha-tikz.pdf> <./figs/Feymandiag//bhabha-tikz-sch.pdf>] [5]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 167.
+(Font)              scaled to size 8.0pt on input line 215.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 183.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 183.
- [4 <./figs//unfolding_graphic.jpg>]
-<figs//recotruth.jpg, id=113, 610.53094pt x 406.51875pt>
-File: figs//recotruth.jpg Graphic file (type jpg)
-<use figs//recotruth.jpg>
-Package pdftex.def Info: figs//recotruth.jpg  used on input line 226.
-(pdftex.def)             Requested size: 262.47937pt x 174.77484pt.
- [5 <./figs//recotruth.jpg>]
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 292.
- (/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtt.fd
-File: t1ntxtt.fd 2012/04/20 v3.1
-)
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.95pt on input line 292.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `ntxtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 295.
+(Font)              scaled to size 6.1pt on input line 215.
+ [6]
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 270.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 295.
- [6]) [7]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+(Font)              scaled to size 10.95pt on input line 270.
+ [7] [8]
+<figs//mu_2015_2018.pdf, id=197, 569.12625pt x 408.52625pt>
+File: figs//mu_2015_2018.pdf Graphic file (type pdf)
+<use figs//mu_2015_2018.pdf>
+Package pdftex.def Info: figs//mu_2015_2018.pdf  used on input line 361.
+(pdftex.def)             Requested size: 279.97728pt x 200.97751pt.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 367.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.8pt on input line 367.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 6.6pt on input line 367.
+<figs//intlumivstimeRun2.pdf, id=201, 569.12625pt x 408.52625pt>
+File: figs//intlumivstimeRun2.pdf Graphic file (type pdf)
+<use figs//intlumivstimeRun2.pdf>
+Package pdftex.def Info: figs//intlumivstimeRun2.pdf  used on input line 375.
+(pdftex.def)             Requested size: 279.97728pt x 200.97751pt.
+ [9 <./figs//mu_2015_2018.pdf, page is rotated 90 degrees>] [10 <./figs//intlumivstimeRun2.pdf, page is rotated 90 degrees>]
+<figs/Feymandiag//gg_ttbar_1-BW.pdf, id=316, 181.65968pt x 129.8953pt>
+File: figs/Feymandiag//gg_ttbar_1-BW.pdf Graphic file (type pdf)
+<use figs/Feymandiag//gg_ttbar_1-BW.pdf>
+Package pdftex.def Info: figs/Feymandiag//gg_ttbar_1-BW.pdf  used on input line 469.
+(pdftex.def)             Requested size: 131.23969pt x 93.84363pt.
+<figs/Feymandiag//gg_ttbar_2-BW.pdf, id=317, 124.75409pt x 101.443pt>
+File: figs/Feymandiag//gg_ttbar_2-BW.pdf Graphic file (type pdf)
+<use figs/Feymandiag//gg_ttbar_2-BW.pdf>
+Package pdftex.def Info: figs/Feymandiag//gg_ttbar_2-BW.pdf  used on input line 470.
+(pdftex.def)             Requested size: 131.23969pt x 106.7195pt.
+<figs/Feymandiag//qq_ttbar-BW.pdf, id=318, 181.86244pt x 129.8953pt>
+File: figs/Feymandiag//qq_ttbar-BW.pdf Graphic file (type pdf)
+<use figs/Feymandiag//qq_ttbar-BW.pdf>
+Package pdftex.def Info: figs/Feymandiag//qq_ttbar-BW.pdf  used on input line 471.
+(pdftex.def)             Requested size: 131.23969pt x 93.73859pt.
+<figs//ttbar_cs.pdf, id=319, 569.12625pt x 627.34375pt>
+File: figs//ttbar_cs.pdf Graphic file (type pdf)
+<use figs//ttbar_cs.pdf>
+Package pdftex.def Info: figs//ttbar_cs.pdf  used on input line 480.
+(pdftex.def)             Requested size: 279.97728pt x 308.6264pt.
+ [11 <./figs/Feymandiag//gg_ttbar_1-BW.pdf> <./figs/Feymandiag//gg_ttbar_2-BW.pdf> <./figs/Feymandiag//qq_ttbar-BW.pdf>]
+<figs/Feymandiag//qb-tq.pdf, id=355, 114.87517pt x 107.34103pt>
+File: figs/Feymandiag//qb-tq.pdf Graphic file (type pdf)
+<use figs/Feymandiag//qb-tq.pdf>
+Package pdftex.def Info: figs/Feymandiag//qb-tq.pdf  used on input line 508.
+(pdftex.def)             Requested size: 131.23969pt x 122.64847pt.
+<figs/Feymandiag//gb-tW.pdf, id=356, 187.37001pt x 129.78989pt>
+File: figs/Feymandiag//gb-tW.pdf Graphic file (type pdf)
+<use figs/Feymandiag//gb-tW.pdf>
+Package pdftex.def Info: figs/Feymandiag//gb-tW.pdf  used on input line 509.
+(pdftex.def)             Requested size: 131.23969pt x 90.91368pt.
+<figs/Feymandiag//qq-tb.pdf, id=357, 184.36378pt x 131.03654pt>
+File: figs/Feymandiag//qq-tb.pdf Graphic file (type pdf)
+<use figs/Feymandiag//qq-tb.pdf>
+Package pdftex.def Info: figs/Feymandiag//qq-tb.pdf  used on input line 510.
+(pdftex.def)             Requested size: 131.23969pt x 93.28052pt.
+<figs//singletop_cs.pdf, id=358, 569.12625pt x 360.34625pt>
+File: figs//singletop_cs.pdf Graphic file (type pdf)
+<use figs//singletop_cs.pdf>
+Package pdftex.def Info: figs//singletop_cs.pdf  used on input line 522.
+(pdftex.def)             Requested size: 279.97728pt x 177.275pt.
+ [12 <./figs//ttbar_cs.pdf>]
+
+LaTeX Warning: Reference `sec:tZqdescribe' on page 1 undefined on input line 552.
+
+[13 <./figs/Feymandiag//qb-tq.pdf> <./figs/Feymandiag//gb-tW.pdf> <./figs/Feymandiag//qq-tb.pdf> <./figs//singletop_cs.pdf, page is rotated 90 degrees>]
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 568.
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+<figs//topplusX.pdf, id=501, 819.83891pt x 614.97957pt>
+File: figs//topplusX.pdf Graphic file (type pdf)
+<use figs//topplusX.pdf>
+Package pdftex.def Info: figs//topplusX.pdf  used on input line 573.
+(pdftex.def)             Requested size: 349.97028pt x 262.52176pt.
+<figs//topplusX2.pdf, id=504, 569.12625pt x 264.99pt>
+File: figs//topplusX2.pdf Graphic file (type pdf)
+<use figs//topplusX2.pdf>
+Package pdftex.def Info: figs//topplusX2.pdf  used on input line 585.
+(pdftex.def)             Requested size: 279.97728pt x 130.36378pt.
+) [14 <./figs//topplusX.pdf>] [15 <./figs//topplusX2.pdf, page is rotated 90 degrees>]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.188 \printbibliography[heading=bibintoc]
+l.194 \printbibliography[heading=bibintoc]
                                            [4
 
 
@@ -1770,23 +1863,46 @@ l.188 \printbibliography[heading=bibintoc]
 ]
 chapter without number
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 188.
+(Font)              scaled to size 10.95pt on input line 194.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/ntxtlf/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 194.
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 10.95pt on input line 194.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ntxtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.204 \backmatter
-                  [5]pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
+l.194 \printbibliography[heading=bibintoc]
+                                           [5]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 8.0pt on input line 194.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 6.1pt on input line 194.
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.204 \backmatter
-                  [6
+l.194 \printbibliography[heading=bibintoc]
+                                           [6]pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.210 \backmatter
+                  [7]pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.210 \backmatter
+                  [8
 
 
 ]
-Package tocbasic Info: character protrusion at lof deactivated on input line 206.
+Package tocbasic Info: character protrusion at lof deactivated on input line 212.
  (./mythesis.lof
 Package cleveref Info: loaded `ngerman' language definitions on input line 2.
 Package cleveref Info: loaded `ngerman' language definitions on input line 4.
@@ -1795,18 +1911,22 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 6.
 \tf@lof=\write7
 \openout7 = `mythesis.lof'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.207 \listoftables
-                    [7
+l.213 \listoftables
+                    [9
 
 
-] [8
+]pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.213 \listoftables
+                    [10
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 207.
+Package tocbasic Info: character protrusion at lot deactivated on input line 213.
  (./mythesis.lot
 Package cleveref Info: loaded `ngerman' language definitions on input line 2.
 Package cleveref Info: loaded `ngerman' language definitions on input line 4.
@@ -1815,11 +1935,15 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 6.
 \tf@lot=\write8
 \openout8 = `mythesis.lot'.
 
- [9] (./mythesis.aux
+pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.228 \end{document}
+                     [11] (./mythesis.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 26.
 Package cleveref Info: loaded `ngerman' language definitions on input line 29.
 Package cleveref Info: loaded `ngerman' language definitions on input line 31.
- (./thesis_acknowledge.aux) (./chapter4.aux) (./thesis_appendix.aux))
+ (./thesis_acknowledge.aux) (./chapter1.aux) (./thesis_appendix.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1831,20 +1955,20 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51761 strings out of 480171
- 1038476 string characters out of 5894489
- 1943666 words of memory out of 5000000
- 68643 multiletter control sequences out of 15000+600000
- 587006 words of font info for 277 fonts, out of 8000000 for 9000
+ 52980 strings out of 480171
+ 1070183 string characters out of 5894489
+ 2954475 words of memory out of 5000000
+ 69638 multiletter control sequences out of 15000+600000
+ 634408 words of font info for 428 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
  122i,20n,147p,10634b,4023s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{appendix.A} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on mythesis.pdf (20 pages, 328310 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc} </home/nilima/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk>{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txbsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on mythesis.pdf (30 pages, 808991 bytes).
 PDF statistics:
- 314 PDF objects out of 1000 (max. 8388607)
- 259 compressed objects within 3 object streams
- 54 named destinations out of 1000 (max. 500000)
- 72295 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 900 PDF objects out of 1000 (max. 8388607)
+ 653 compressed objects within 7 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 118472 words of extra memory for PDF output out of 128383 (max. 10000000)
 

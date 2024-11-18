@@ -2346,24 +2346,75 @@
   <bcf:bibdata section="0">
     <bcf:datasource type="file" datatype="bibtex" glob="false">bib/thesis_refs.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">bib/standard_refs-biber.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bib/ATLAS-errata.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bib/ATLAS-SUSY.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bib/ATLAS-useful.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bib/ATLAS.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bib/CMS.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bib/ConfNotes.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bib/PubNotes.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">2015arXiv150400945P</bcf:citekey>
-    <bcf:citekey order="2">Lyons_1986</bcf:citekey>
-    <bcf:citekey order="3">Lyons:2011cli</bcf:citekey>
-    <bcf:citekey order="4">cowan</bcf:citekey>
-    <bcf:citekey order="5">inverse</bcf:citekey>
-    <bcf:citekey order="6">refId0</bcf:citekey>
-    <bcf:citekey order="7">DAGOSTINI1995487</bcf:citekey>
-    <bcf:citekey order="8">roounfold</bcf:citekey>
-    <bcf:citekey order="9">2015arXiv150400945P</bcf:citekey>
-    <bcf:citekey order="10">Lyons_1986</bcf:citekey>
-    <bcf:citekey order="11">Lyons:2011cli</bcf:citekey>
-    <bcf:citekey order="12">cowan</bcf:citekey>
-    <bcf:citekey order="13">inverse</bcf:citekey>
-    <bcf:citekey order="14">refId0</bcf:citekey>
-    <bcf:citekey order="15">DAGOSTINI1995487</bcf:citekey>
-    <bcf:citekey order="16">roounfold</bcf:citekey>
+    <bcf:citekey order="1">SM</bcf:citekey>
+    <bcf:citekey order="2">SM</bcf:citekey>
+    <bcf:citekey order="3">Wu:1957my</bcf:citekey>
+    <bcf:citekey order="4">Deur:2016tte</bcf:citekey>
+    <bcf:citekey order="5">Navas:2024zbs</bcf:citekey>
+    <bcf:citekey order="6">HASERT1973138</bcf:citekey>
+    <bcf:citekey order="7">Brout-Englert-Higgs:1998492</bcf:citekey>
+    <bcf:citekey order="8">PhysRevLett.13.508</bcf:citekey>
+    <bcf:citekey order="9">HIGG-2012-27</bcf:citekey>
+    <bcf:citekey order="9">CMS-HIG-12-028</bcf:citekey>
+    <bcf:citekey order="10">twikipileup</bcf:citekey>
+    <bcf:citekey order="11">twikipileup</bcf:citekey>
+    <bcf:citekey order="12">twikilumi</bcf:citekey>
+    <bcf:citekey order="13">twikilumi</bcf:citekey>
+    <bcf:citekey order="14">PhysRevLett.74.2626</bcf:citekey>
+    <bcf:citekey order="14">PhysRevLett.74.2632</bcf:citekey>
+    <bcf:citekey order="15">Navas:2024zbs</bcf:citekey>
+    <bcf:citekey order="16">Gallinaro_2013</bcf:citekey>
+    <bcf:citekey order="17">TOPQ-2015-09</bcf:citekey>
+    <bcf:citekey order="18">FABBRI201763</bcf:citekey>
+    <bcf:citekey order="19">ATL-PHYS-PUB-2024-006</bcf:citekey>
+    <bcf:citekey order="20">ATL-PHYS-PUB-2024-006</bcf:citekey>
+    <bcf:citekey order="21">Cristinziani_2017</bcf:citekey>
+    <bcf:citekey order="22">TOPQ-2024-07</bcf:citekey>
+    <bcf:citekey order="23">Andrea:2023yap</bcf:citekey>
+    <bcf:citekey order="24">ATL-PHYS-PUB-2024-006</bcf:citekey>
+    <bcf:citekey order="25">ATL-PHYS-PUB-2024-006</bcf:citekey>
+    <bcf:citekey order="26">PhysRevLett.131.181901</bcf:citekey>
+    <bcf:citekey order="27">CMS:2023krq</bcf:citekey>
+    <bcf:citekey order="28">TOPQ-2019-06</bcf:citekey>
+    <bcf:citekey order="29">TOPQ-2021-08</bcf:citekey>
+    <bcf:citekey order="30">ATL-PHYS-PUB-2024-006</bcf:citekey>
+    <bcf:citekey order="31">ATL-PHYS-PUB-2024-006</bcf:citekey>
+    <bcf:citekey order="32">ATL-PHYS-PUB-2024-005</bcf:citekey>
+    <bcf:citekey order="33">ATL-PHYS-PUB-2024-005</bcf:citekey>
+    <bcf:citekey order="36">SM</bcf:citekey>
+    <bcf:citekey order="37">Wu:1957my</bcf:citekey>
+    <bcf:citekey order="38">Deur:2016tte</bcf:citekey>
+    <bcf:citekey order="39">Navas:2024zbs</bcf:citekey>
+    <bcf:citekey order="40">HASERT1973138</bcf:citekey>
+    <bcf:citekey order="41">Brout-Englert-Higgs:1998492</bcf:citekey>
+    <bcf:citekey order="42">PhysRevLett.13.508</bcf:citekey>
+    <bcf:citekey order="43">HIGG-2012-27</bcf:citekey>
+    <bcf:citekey order="44">CMS-HIG-12-028</bcf:citekey>
+    <bcf:citekey order="45">twikipileup</bcf:citekey>
+    <bcf:citekey order="46">twikilumi</bcf:citekey>
+    <bcf:citekey order="47">PhysRevLett.74.2626</bcf:citekey>
+    <bcf:citekey order="48">PhysRevLett.74.2632</bcf:citekey>
+    <bcf:citekey order="49">Gallinaro_2013</bcf:citekey>
+    <bcf:citekey order="50">TOPQ-2015-09</bcf:citekey>
+    <bcf:citekey order="51">FABBRI201763</bcf:citekey>
+    <bcf:citekey order="52">ATL-PHYS-PUB-2024-006</bcf:citekey>
+    <bcf:citekey order="53">Cristinziani_2017</bcf:citekey>
+    <bcf:citekey order="54">TOPQ-2024-07</bcf:citekey>
+    <bcf:citekey order="55">Andrea:2023yap</bcf:citekey>
+    <bcf:citekey order="56">PhysRevLett.131.181901</bcf:citekey>
+    <bcf:citekey order="57">CMS:2023krq</bcf:citekey>
+    <bcf:citekey order="58">TOPQ-2019-06</bcf:citekey>
+    <bcf:citekey order="59">TOPQ-2021-08</bcf:citekey>
+    <bcf:citekey order="60">ATL-PHYS-PUB-2024-005</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
