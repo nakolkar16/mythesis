@@ -89,7 +89,7 @@ it can provide a solid basis to study similar processes such as the $tHq$ proces
 The theoretical cross-section based on SM prediction is calculated at NLO in QCD
 for a dilepton mass more than $\qty{30}{\GeV}$, is $\qtypmerr{102}{5}{2}{\femto\barn}$. The \tZq
 process was observed by ATLAS and CMS during the Run-2 of the LHC.
-The cross-section, measured by the ATLAS collaboration, is $\qtyerrs{97}{13}{7}{\femto\barn}$~\cite{Aad2020} which
+The cross-section, measured by the ATLAS collaboration, is $\qtyerrs{97}{13}{7}{\femto\barn}$~\cite{TOPQ-2018-01} which
 is consistent with the SM expectation. 
 
 In order to study this process, one has to note 
@@ -363,11 +363,11 @@ detector material and final state particles is simulated.
 \mynote[inline]{}{Write details about detector response}
 
 After all the MC events are generated, the interactions of the particles with the detector material is
-simulated using the \textsc{GEANT4} software toolkit~\cite{GEANT4:2002zbu}.
+simulated using the \textsc{GEANT4} software toolkit~\cite{Agostinelli:2002hh}.
 Finally, the simulated data is ready for comparison with the observed detector data. The workflow of 
 the MC chain is illustrated in \cref{fig:MCchain}.
-Among the various available MC generators, \textsc{Herwig}~\cite{Bellm2016} and 
-\textsc{Pythia}~\cite{SJOSTRAND2008852} are two of the most commonly used ones.
+Among the various available MC generators, \textsc{Herwig}~\cite{Bellm:2015jjp} and 
+\textsc{Pythia}~\cite{Sjostrand:2007gs} are two of the most commonly used ones.
 
 \begin{figure}
   \centering
@@ -396,7 +396,7 @@ The \Ptop-quark is decayed at LO using \textsc{MADSPIN}.
 
 \subsection{Background samples}
 For the background processes, different versions of \textsc{MadGraph5\_aMC@NLO}~\cite{Alwall:2014hca}, 
-\textsc{Sherpa}~\cite{TGleisberg_2009} or \textsc{Powheg}~\cite{Banfi:2023mhz} generators are used to
+\textsc{Sherpa}~\cite{Gleisberg:2008ta} or \textsc{Powheg}~\cite{Banfi:2023mhz} generators are used to
 calculate the matrix element and cross-sections combined with the \textsc{NNPDFx.xNLO} PDF set.
 The PS and hadronisation is modeled with \textsc{Pythia} for the nominal background samples
 and \textsc{Herwig} for the alternate sample generation. The alternate samples are required
@@ -478,7 +478,7 @@ in \cref{sec:systdescribe} and \cref{sec:systdescribe2}, respectively.
 
   \item \textbf{Jet-Vertex-Tagger (JVT)}: It is a discriminant in the form of likelihood constructed 
   using track-based variables, sensitive to the origin of jets. A cut is applied on the JVT factor to
-  reject jets coming from pileup~\cite{ATLAS:2015jhb}. The uncertainty associated with the JVT factor 
+  reject jets coming from pileup~\cite{ATL-PHYS-PUB-2015-040}. The uncertainty associated with the JVT factor 
   is one of the systematics.
 
   \item \textbf{Lepton reconstruction}: Scale factors are applied to correct differences between data and
@@ -534,7 +534,7 @@ the uncertainties associated with the modelling of the process is extracted.
   momenta after emission or splitting, in order to conserve the total momentum. The recoil scheme used
   for the \diboson samples is described in~\cite{Schumann:2007mg}. The uncertainty on the associated parameter CSSKIN is 
   also considered for the \diboson process. Finally, approximate NLO EW corrections are included as weights using
-  the electroweak virtual approximation as described in~\cite{Kallweit2015}. 
+  the electroweak virtual approximation as described in~\cite{Kallweit:2014xda}. 
 
   \item \textbf{Matching and ISR}: The \ttbar background is being modelled using \textsc{Powheg}
   generator in which a parameter called $h_{\text{damp}}$ is the damping factor that controls the radiation

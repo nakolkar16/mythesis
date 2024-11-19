@@ -1,51 +1,42 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'mythesis.blg'
-[30] biber:340> INFO - === Mo Nov 18, 2024, 18:14:57
-[36] Biber.pm:418> INFO - Reading 'mythesis.bcf'
-[64] Biber.pm:972> INFO - Found 25 citekeys in bib section 0
-[70] Biber.pm:4383> INFO - Processing section 0
-[75] Biber.pm:4574> INFO - Looking for bibtex file 'bib/thesis_refs.bib' for section 0
-[79] bibtex.pm:1713> INFO - LaTeX decoding ...
-[303] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/thesis_refs.bib'
-[2165] Biber.pm:4574> INFO - Looking for bibtex file 'bib/standard_refs-biber.bib' for section 0
-[2166] bibtex.pm:1713> INFO - LaTeX decoding ...
-[2179] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/standard_refs-biber.bib'
-[2182] Biber.pm:4574> INFO - Looking for bibtex file 'bib/ATLAS-errata.bib' for section 0
-[2183] bibtex.pm:1713> INFO - LaTeX decoding ...
-[2206] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/ATLAS-errata.bib'
-[2207] Biber.pm:4574> INFO - Looking for bibtex file 'bib/ATLAS-SUSY.bib' for section 0
-[2209] bibtex.pm:1713> INFO - LaTeX decoding ...
-[2253] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/ATLAS-SUSY.bib'
-[2256] Biber.pm:4574> INFO - Looking for bibtex file 'bib/ATLAS-useful.bib' for section 0
-[2260] bibtex.pm:1713> INFO - LaTeX decoding ...
-[2356] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/ATLAS-useful.bib'
-[2364] Biber.pm:4574> INFO - Looking for bibtex file 'bib/ATLAS.bib' for section 0
-[2391] bibtex.pm:1713> INFO - LaTeX decoding ...
-[3160] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/ATLAS.bib'
-[3205] Biber.pm:4574> INFO - Looking for bibtex file 'bib/CMS.bib' for section 0
-[3229] bibtex.pm:1713> INFO - LaTeX decoding ...
-[3985] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/CMS.bib'
-[4022] Biber.pm:4574> INFO - Looking for bibtex file 'bib/ConfNotes.bib' for section 0
-[4039] bibtex.pm:1713> INFO - LaTeX decoding ...
-[4438] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/ConfNotes.bib'
-[4471] Biber.pm:4574> INFO - Looking for bibtex file 'bib/PubNotes.bib' for section 0
-[4476] bibtex.pm:1713> INFO - LaTeX decoding ...
-[4594] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/PubNotes.bib'
-[4705] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4705] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4706] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
-[4706] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-UK'
-[4765] bbl.pm:654> INFO - Writing 'mythesis.bbl' with encoding 'UTF-8'
-[28392] bbl.pm:757> INFO - Output to mythesis.bbl
-[28392] Biber.pm:130> WARN - legacy month field 'Apr' in entry 'PhysRevLett.74.2626' is not an integer - this will probably not sort properly.
-[28392] Biber.pm:130> WARN - legacy month field 'Apr' in entry 'PhysRevLett.74.2632' is not an integer - this will probably not sort properly.
-[28392] Biber.pm:130> WARN - legacy month field 'jul' in entry 'Gallinaro_2013' is not an integer - this will probably not sort properly.
-[28392] Biber.pm:130> WARN - legacy month field 'may' in entry 'Cristinziani_2017' is not an integer - this will probably not sort properly.
-[28392] Biber.pm:130> WARN - legacy month field 'Oct' in entry 'PhysRevLett.131.181901' is not an integer - this will probably not sort properly.
-[28392] Biber.pm:130> WARN - legacy month field 'Oct' in entry 'PhysRevLett.13.508' is not an integer - this will probably not sort properly.
-[28392] Biber.pm:130> WARN - Duplicate entry key: 'Cacciari:2008gp' in file 'bib/ATLAS-useful.bib', skipping ...
-[28392] Biber.pm:130> WARN - Duplicate entry key: 'Alwall:2014hca' in file 'bib/ATLAS-useful.bib', skipping ...
-[28392] Biber.pm:130> WARN - Duplicate entry key: 'Schumann:2007mg' in file 'bib/ATLAS-useful.bib', skipping ...
-[28392] Biber.pm:130> WARN - Duplicate entry key: 'ATLAS-CONF-2011-008' in file 'bib/ConfNotes.bib', skipping ...
-[28392] Biber.pm:130> WARN - Duplicate entry key: 'ATL-PHYS-PUB-2014-021' in file 'bib/PubNotes.bib', skipping ...
-[28392] Biber.pm:132> INFO - WARNINGS: 11
+[43] biber:340> INFO - === Di Nov 19, 2024, 15:27:22
+[51] Biber.pm:418> INFO - Reading 'mythesis.bcf'
+[82] Biber.pm:972> INFO - Found 20 citekeys in bib section 0
+[88] Biber.pm:4383> INFO - Processing section 0
+[94] Biber.pm:4574> INFO - Looking for bibtex file 'bib/thesis_refs.bib' for section 0
+[98] bibtex.pm:1713> INFO - LaTeX decoding ...
+[340] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/thesis_refs.bib'
+[374] Biber.pm:4574> INFO - Looking for bibtex file 'bib/standard_refs-biber.bib' for section 0
+[375] bibtex.pm:1713> INFO - LaTeX decoding ...
+[387] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/standard_refs-biber.bib'
+[397] Biber.pm:4574> INFO - Looking for bibtex file 'bib/ATLAS-errata.bib' for section 0
+[399] bibtex.pm:1713> INFO - LaTeX decoding ...
+[422] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/ATLAS-errata.bib'
+[423] Biber.pm:4574> INFO - Looking for bibtex file 'bib/ATLAS-SUSY.bib' for section 0
+[425] bibtex.pm:1713> INFO - LaTeX decoding ...
+[468] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/ATLAS-SUSY.bib'
+[470] Biber.pm:4574> INFO - Looking for bibtex file 'bib/ATLAS-useful.bib' for section 0
+[474] bibtex.pm:1713> INFO - LaTeX decoding ...
+[566] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/ATLAS-useful.bib'
+[594] Biber.pm:4574> INFO - Looking for bibtex file 'bib/ATLAS.bib' for section 0
+[619] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1381] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/ATLAS.bib'
+[1419] Biber.pm:4574> INFO - Looking for bibtex file 'bib/CMS.bib' for section 0
+[1444] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2182] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/CMS.bib'
+[2217] Biber.pm:4574> INFO - Looking for bibtex file 'bib/ConfNotes.bib' for section 0
+[2234] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2620] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/ConfNotes.bib'
+[2651] Biber.pm:4574> INFO - Looking for bibtex file 'bib/PubNotes.bib' for section 0
+[2656] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2773] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/PubNotes.bib'
+[2796] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2796] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2796] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
+[2796] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-UK'
+[2803] bbl.pm:654> INFO - Writing 'mythesis.bbl' with encoding 'UTF-8'
+[2810] bbl.pm:757> INFO - Output to mythesis.bbl
+[2810] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Barillari2012' is not an integer - this will probably not sort properly.
+[2810] Biber.pm:130> WARN - Duplicate entry key: 'ATLAS-CONF-2011-008' in file 'bib/ConfNotes.bib', skipping ...
+[2810] Biber.pm:132> INFO - WARNINGS: 2

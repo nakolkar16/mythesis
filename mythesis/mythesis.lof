@@ -6,16 +6,14 @@
 \babel@toc {ngerman}{}\relax 
 \babel@toc {UKenglish}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Standard Model of Particle Physics}}{2}{figure.caption.3}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces The $t$-channel (left) and $s$-channel (right) Feynman diagrams showing Bhabha scattering \relax }}{4}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Distribution showing average number of interactions versus luminosity per bunch crossing for the 2015 to 2018 collision data at \SI {13}{\TeV } center-of-mass energy~\blx@tocontentsinit {0}\cite {twikipileup}.\relax }}{9}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Total integrated luminosity delivered by LHC shown in green and that recorded by the ATLAS experiment shown in yellow. The data corresponds to the year 2015 to 2018~\blx@tocontentsinit {0}\cite {twikilumi}.\relax }}{10}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Feynman diagrams for $t\bar {t}$ processes at LO in QCD}}{11}{figure.caption.15}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Cross-section of the \Pqt {}\Paqt process}}{12}{figure.caption.16}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Feynman diagrams for single-top production processes at LO in QCD}}{13}{figure.caption.18}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Cross-section of the single top production}}{13}{figure.caption.19}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Production cross-sections of various top quark associated processes}}{14}{figure.caption.20}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Production cross-sections of single top quark associated processes}}{15}{figure.caption.21}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Feynman diagrams at LO for the \Pqt {}\PZ {}\Pq -production}}{2}{figure.caption.3}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Branching ratios of possible decays of \Ptop and \PZ , along with the fractions representing combination of decays~\blx@tocontentsinit {0}\cite {irina:2018}\relax }}{3}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces The \Pqt {}\PZ {}\Pq trilepton final state\relax }}{3}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Feynman diagrams for diboson\xspace backgrounds}}{5}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Feynman diagrams for the \Pqt {}\Paqt {}\PZ background\relax }}{6}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Feynman diagrams for non-prompt lepton backgrounds}}{6}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces An illustration of the steps involved in a Monte Carlo chain~\blx@tocontentsinit {0}\cite {Plehn:2022ftl}\relax }}{8}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Neural Network}}{13}{figure.caption.18}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
