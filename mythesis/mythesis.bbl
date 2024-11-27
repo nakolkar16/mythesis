@@ -320,6 +320,106 @@
       \verb https://trexfitter-docs.web.cern.ch/trexfitter-docs/
       \endverb
     \endentry
+    \entry{RooStats}{article}{}
+      \name{author}{9}{}{%
+        {{hash=dfe125d735574cd61730fa1c742228d9}{%
+           family={Moneta},
+           familyi={M\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=75036c38fa9df734b321d1941ad4748b}{%
+           family={Belasco},
+           familyi={B\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e648d22f0b36be4e1f3616f0ff583528}{%
+           family={Cranmer},
+           familyi={C\bibinitperiod},
+           given={Kyle\bibnamedelima S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=e8f1aef1d7cf2a180632aaeddfaf09ed}{%
+           family={Kreiss},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3f93e33637a1c6ce559157f9cb3d56ff}{%
+           family={Lazzaro},
+           familyi={L\bibinitperiod},
+           given={Alfio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=82ac78fc8363ec85803d1741c3c8ac9b}{%
+           family={Piparo},
+           familyi={P\bibinitperiod},
+           given={Danilo},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ec42506c7fcea6c6f5e8ce40ce8d2a8b}{%
+           family={Schott},
+           familyi={S\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6e4f34520746a9d33933bb20a5e6c0e4}{%
+           family={Verkerke},
+           familyi={V\bibinitperiod},
+           given={Wouter},
+           giveni={W\bibinitperiod}}}%
+        {{hash=daeba191ee0c74f3f0ce770598a0be80}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{860c9406eeda511bda887ba9b604fd3d}
+      \strng{fullhash}{81a11e5a660efb60b5c3219485b005d2}
+      \strng{bibnamehash}{860c9406eeda511bda887ba9b604fd3d}
+      \strng{authorbibnamehash}{860c9406eeda511bda887ba9b604fd3d}
+      \strng{authornamehash}{860c9406eeda511bda887ba9b604fd3d}
+      \strng{authorfullhash}{81a11e5a660efb60b5c3219485b005d2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.data-an}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{PoS}
+      \field{title}{{The RooStats Project}}
+      \verb{doi}
+      \verb 10.22323/1.093.0057
+      \endverb
+      \verb{eprint}
+      \verb 1009.1003
+      \endverb
+    \endentry
+    \entry{RooFit}{booklet}{}
+      \name{author}{2}{}{%
+        {{hash=6e4f34520746a9d33933bb20a5e6c0e4}{%
+           family={Verkerke},
+           familyi={V\bibinitperiod},
+           given={Wouter},
+           giveni={W\bibinitperiod}}}%
+        {{hash=ffa78409e541debebb70bff80ee06bf3}{%
+           family={Kirkby},
+           familyi={K\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c194b91bb888b284b482eeaf6a9f4e79}
+      \strng{fullhash}{c194b91bb888b284b482eeaf6a9f4e79}
+      \strng{bibnamehash}{c194b91bb888b284b482eeaf6a9f4e79}
+      \strng{authorbibnamehash}{c194b91bb888b284b482eeaf6a9f4e79}
+      \strng{authornamehash}{c194b91bb888b284b482eeaf6a9f4e79}
+      \strng{authorfullhash}{c194b91bb888b284b482eeaf6a9f4e79}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.data-an}
+      \field{eprinttype}{arXiv}
+      \field{title}{{The RooFit toolkit for data modeling}}
+      \field{year}{2003}
+      \verb{eprint}
+      \verb physics/0306116
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

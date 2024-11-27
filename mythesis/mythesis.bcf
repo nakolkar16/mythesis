@@ -2365,16 +2365,20 @@
     <bcf:citekey order="8">roounfold</bcf:citekey>
     <bcf:citekey order="9">Cranmer:1456844</bcf:citekey>
     <bcf:citekey order="10">trex</bcf:citekey>
-    <bcf:citekey order="11">2015arXiv150400945P</bcf:citekey>
-    <bcf:citekey order="12">Lyons_1986</bcf:citekey>
-    <bcf:citekey order="13">Lyons:2011cli</bcf:citekey>
-    <bcf:citekey order="14">cowan</bcf:citekey>
-    <bcf:citekey order="15">inverse</bcf:citekey>
-    <bcf:citekey order="16">refId0</bcf:citekey>
-    <bcf:citekey order="17">DAGOSTINI1995487</bcf:citekey>
-    <bcf:citekey order="18">roounfold</bcf:citekey>
-    <bcf:citekey order="19">Cranmer:1456844</bcf:citekey>
-    <bcf:citekey order="20">trex</bcf:citekey>
+    <bcf:citekey order="11">RooStats</bcf:citekey>
+    <bcf:citekey order="12">RooFit</bcf:citekey>
+    <bcf:citekey order="13">2015arXiv150400945P</bcf:citekey>
+    <bcf:citekey order="14">Lyons_1986</bcf:citekey>
+    <bcf:citekey order="15">Lyons:2011cli</bcf:citekey>
+    <bcf:citekey order="16">cowan</bcf:citekey>
+    <bcf:citekey order="17">inverse</bcf:citekey>
+    <bcf:citekey order="18">refId0</bcf:citekey>
+    <bcf:citekey order="19">DAGOSTINI1995487</bcf:citekey>
+    <bcf:citekey order="20">roounfold</bcf:citekey>
+    <bcf:citekey order="21">Cranmer:1456844</bcf:citekey>
+    <bcf:citekey order="22">trex</bcf:citekey>
+    <bcf:citekey order="23">RooStats</bcf:citekey>
+    <bcf:citekey order="24">RooFit</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

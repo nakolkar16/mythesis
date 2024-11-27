@@ -317,7 +317,9 @@ of the POI. By doing this, the NPs are replaced with their corresponding maximum
 estimators $\hat{\sigma}$ and the likelihood becomes a function of $\mu$. The process of 
 using fixed values of $\sigma$ for a given $\mu$ is called "profiling" out the NPs. This reduces 
 the dimensionality of the likelihood. This procedure of estimating the POIs is called profile likelihood fitting.
-    
+
+\subsection*{Formulation}
+
 The first step to profile likelihood fitting is to construct a mathematical
 model that embodies the observed data along with predicted 
 values of model parameters. In high-energy physics analyses, the observed data is 
@@ -336,7 +338,7 @@ from histograms based on \texttt{ROOT}. A typical likelihood function for binned
 distributions can be written as follows:
 
 \begin{equation}
-    \mathcal{L}(\vec{\mu},\vec{\sigma} ; \vec{n},\vec{a}) = \prod_{i=1}^{\text{total bins}} P(n_i|\mu S_i(\sigma)+B_i(\sigma)) \cdot \prod_{i}^{\text{total bins}} G(a_i|\sigma_i)
+    \mathcal{L}(\mu,\vec{\sigma} ; \vec{n},\vec{a}) = \prod_{i=1}^{\text{total bins}} P(n_i|\mu S_i(\sigma)+B_i(\sigma)) \cdot \prod_{i}^{\text{total bins}} G(a_i|\sigma_i)
 \end{equation}
 
 For bin $i$, the conditional probability of observing $n_i$ events under the 
@@ -366,20 +368,92 @@ The up(down) variation histograms are filled with predicted events for NP value 
 Now, to get the predicted events for all possible values of the NP, interpolation
 and extrapolation is used. 
 
+\subsection*{Implementation}
+
 In this analysis, a software framework called \texttt{TRExFitter}~\cite{trex} is 
-used to perform profile likelihood fitting. \texttt{TRExFitter} expects 
-histograms as inputs and creates statistical models based on \texttt{HistFactory}.
-The likelihood maximisation and parameter estimation is done 
-using \texttt{RooStats} and \texttt{RooFit}. 
+used to perform profile likelihood fitting. \texttt{TRExFitter} builds binned template 
+likelihood functions and performs statistical analysis using tools such as \texttt{HistFactory},
+\texttt{RooStats}~\cite{RooStats} and \texttt{RooFit}~\cite{RooFit}.
 
-The observed and simulated data is categorised into \textit{regions} and \textit{samples}.
-A region refers to a subset of the data defined by its specific event selection while
-sample is associated with the corresponding scattering process. The regions must be 
-disjoint from each other.  
+The input to \texttt{TRExFitter} consists of template histograms, which are organised 
+into two main categories:
 
-\mynote[inline]{}{output, regions, samples}
+\begin{itemize}
+    \item \textbf{Regions}: A region refers to a subset of the data defined by a set of
+    specific event selection. For instance, a region can be defined by selecting events passing
+    a certain neural network cut. The selection criteria for regions should be decided in such a 
+    way that the regions are disjoint from one other. This avoids double counting of events. The 
+    fitting is performed in each region.
+
+    \item \textbf{Samples}: A sample corresponds to a specific process such as a signal process
+    or a background process. Each sample is represented by a template histogram describing the 
+    expected distribution of events for that process in a given region. 
+
+\end{itemize}
+
+The output of the fitting process includes the following:
+
+\begin{itemize}
+\item Best-fit values of the POI and the NPs which maximise the likelihood function.
+\item Best-fit values of the normalisation factors. These factors are used to adjust or scale
+signal and background contributions such that it aligns with the observed data.
+\item Uncertainties on the best-fit values quantifying the precision of the fit. \texttt{TRExFitter}
+uses a tool called \texttt{MINOS}(CITE) to compute the uncertainties.
+\item A covariance matrix quantifying the correlation between all parameters.
+\end{itemize}
 
 \section{Profile likelihood unfolding (PLU)}
 PLU is a method in which the unfolding problem is translated into a 
-profile likelihood fitting problem which is described in detail in \cref{sec:plf}.  
+profile likelihood fitting problem as described in \cref{sec:plf}.   
+The modified likelihood function used for unfolding is defined in
+\cref{eqn:plulikeli}.
 
+\begin{equation}
+    \mathcal{L}(\vec{\mu},\vec{\sigma} ; \vec{n},\vec{a}) = \prod_{i=1}^{\text{total bins}} P(n_i|\vec{\mu} \vec{S_i}(\sigma)+B_i(\sigma)) \cdot \prod_{i}^{\text{total bins}} G(a_i|\sigma_i)
+    \label{eqn:plulikeli}
+\end{equation}
+
+The main difference is that instead of having one parameter of interest 
+representing overall normalisation of signal events, there is a normalisation vector
+with dimensions equal to number of bins in the truth histogram (truth-level bins).  
+In PLU, each truth-level bin 
+is multiplied by the response matrix resulting into sub-histograms per truth-level bin. 
+In unfolding terminology, this is known as
+\textit{folding} the truth-level bins. Each sub-histogram or folded truth bin 
+is assigned a normalisation factor or scale factor which is a free parameter. The
+sum of these sub-histograms represent the total signal contribution. Finally, a 
+profile likelihood fit of the reconstructed-level distribution is 
+performed on the sum of the sub-histograms yielding best fit values
+of the normalisation factors. It is important to note that
+fitting the normalisation of the sub-histograms is equivalent
+to fitting the normalisation of the truth-level bins, which is the 
+desired unfolded result. In this analysis, the normalisation factors are 
+interpreted as differential cross-section. 
+
+For a kinematic variable $X$ in bin $i$, a differential cross-section can be calculated by 
+dividing the unfolded yields by bin width $\Delta X$ and luminosity $\mathcal{L}$ as 
+presented in Equation~\ref{eqn:5.7}.
+
+\begin{equation}
+    \frac{d\sigma_{\text{PLU}}}{d X^i} = \frac{1}{\mathcal{L} \cdot \Delta X^i} N_{\text{unf}}^i
+    \label{eqn:5.7}
+\end{equation}
+where unfolded bin contents $N_{\text{unf}}$ are calculated by scaling the truth-level bins with
+the best fit values of the normalisation factors. 
+
+\mynote[inline]{}{normalised differential cross-section}
+
+Systematic uncertainties are handled in the same way as in a standard profile likelihood fit.
+Additionally, for unfolding purpose, PLU requires a response matrix for each systematic 
+variation. Instead of a response matrix, one can also provide migration matrix, acceptance
+and efficiency.
+
+There are some advantages of using profile likelihood unfolding compared to other unfolding methods.
+Mainly, PLU does not involve any matrix inversion, hence, the chance of amplifying statistical
+fluctuations is minimum. Since the \texttt{TREXfitter} framework is optimised for handling
+systematic uncertainties, it is quite easy to utilise it for unfolding as well. 
+The formalism also allows adding free-floating normalisation factors for 
+specific backgrounds that can be constrained by adding control regions in the fit.
+The \tZq analysis also includes measurement of inclusive cross-section which is also 
+done using the \texttt{TREXfitter} framework. Therefore, using PLU for differential
+measurement allows to have a common statistical framework for the complete analysis.

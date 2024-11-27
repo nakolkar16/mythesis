@@ -13,7 +13,7 @@
 \contentsline {section}{\numberline {1.5}Profile likelihood fitting}{6}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Profile likelihood unfolding (PLU)}{8}{section.1.6}%
 \contentsline {chapter}{\numberline {A}Useful information}{3}{appendix.A}%
-\contentsline {chapter}{\nonumberline Bibliography}{5}{chapter*.8}%
-\contentsline {chapter}{\nonumberline List of Figures}{7}{chapter*.9}%
-\contentsline {chapter}{\nonumberline List of Tables}{9}{chapter*.10}%
+\contentsline {chapter}{\nonumberline Bibliography}{5}{chapter*.10}%
+\contentsline {chapter}{\nonumberline List of Figures}{7}{chapter*.11}%
+\contentsline {chapter}{\nonumberline List of Tables}{9}{chapter*.12}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
